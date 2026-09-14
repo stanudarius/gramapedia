@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f4ee"/>
+  <circle cx="1010" cy="135" r="265" fill="#e8e5f5"/>
+  <circle cx="1080" cy="550" r="120" fill="#e4de78"/>
+  <rect x="680" y="105" width="330" height="190" rx="0" fill="#513958" transform="rotate(-6 680 105)"/>
+  <text x="720" y="155" fill="#e4de78" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="4">DILEMĂ</text>
+  <text x="720" y="220" fill="#f7f4ee" font-family="Georgia,serif" font-size="42">de asemenea</text>
+  <text x="720" y="265" fill="#f7f4ee" font-family="Georgia,serif" font-size="42">sau deasemenea?</text>
+  <rect x="810" y="320" width="300" height="165" fill="#fffdf9" stroke="#513958" stroke-width="2" transform="rotate(-3 810 320)"/>
+  <text x="845" y="365" fill="#b94f3d" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="3">REGULĂ</text>
+  <text x="845" y="430" fill="#513958" font-family="Georgia,serif" font-size="42">de asemenea</text>
+  <text x="80" y="105" fill="#b94f3d" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="4">CLUB DE GRAMATICĂ · DIN 2022</text>
+  <text x="80" y="235" fill="#20211e" font-family="Georgia,serif" font-size="112">Limbă.</text>
+  <text x="80" y="335" fill="#513958" font-family="Georgia,serif" font-size="112" font-style="italic">Logică.</text>
+  <text x="80" y="435" fill="#20211e" font-family="Georgia,serif" font-size="112">Claritate.</text>
+  <text x="82" y="530" fill="#6e6a63" font-family="Arial,Helvetica,sans-serif" font-size="22">GRAMAPEDIA · COLEGIUL NAȚIONAL «GHEORGHE LAZĂR»</text>
+</svg>
