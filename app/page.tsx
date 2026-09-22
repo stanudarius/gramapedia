@@ -20,14 +20,20 @@ import { SectionHeading } from "@/components/section-heading";
 import { SiteHeader } from "@/components/site-header";
 import { Highlighter } from "@/components/ui/highlighter";
 import { TextAnimate } from "@/components/ui/text-animate";
-import { audiences, learningSteps, reasons } from "@/lib/site-data";
+import { audiences, learningSteps, reasons, grammarTrails } from "@/lib/site-data";
 import { siteConfig } from "@/lib/site-config";
+import { getDilemmas, getCompetitions } from "@/lib/content";
 
 const processIcons = [CalendarDays, Sparkles, FileText];
 const reasonIcons = [BookOpen, Lightbulb, MessageCircle];
 
 export default function HomePage() {
   const currentYear = new Date().getFullYear();
+  const dilemmas = getDilemmas();
+  const competitions = getCompetitions();
+  const hydratedTrails = grammarTrails.map((trail) =>
+    trail.id === "seria-completa" ? { ...trail, caseIds: dilemmas.map((d) => d.id) } : trail
+  );
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -204,11 +210,11 @@ export default function HomePage() {
                 <span>alege un caz<br />și urmărește firul</span>
               </div>
             </div>
-            <DilemmaLab />
+            <DilemmaLab grammarCases={dilemmas} grammarTrails={hydratedTrails} />
           </div>
         </section>
 
-        <ContestSection />
+        <ContestSection contestEditions={competitions} totalDilemmas={dilemmas.length} />
 
         <section className="audience section-shell" aria-labelledby="audience-title">
           <div className="shell">

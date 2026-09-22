@@ -1,13 +1,15 @@
 import { ArrowRight, Route } from "lucide-react";
-import { grammarTrails } from "@/lib/site-data";
 import { useGrammarProgressMap } from "@/hooks/use-grammar-progress";
+
+import type { GrammarTrail } from "@/lib/site-data";
 
 type GrammarTrailsProps = {
   activeTrailId: string | null;
+  grammarTrails: GrammarTrail[];
   onSelect: (trailId: string | null) => void;
 };
 
-export function GrammarTrails({ activeTrailId, onSelect }: GrammarTrailsProps) {
+export function GrammarTrails({ activeTrailId, grammarTrails, onSelect }: GrammarTrailsProps) {
   const { progressMap } = useGrammarProgressMap();
   const completeTrail = grammarTrails.find((trail) => trail.id === "seria-completa");
 

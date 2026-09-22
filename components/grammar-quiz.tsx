@@ -148,7 +148,7 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
               aria-checked={isSelected}
               onClick={() => selectChoice(choice)}
             >
-              <span className="grammar-quiz__choice-index">0{index + 1}</span>
+              <span className="grammar-quiz__choice-index">{formatCounter(index + 1)}</span>
               <span>{choice}</span>
               {selectedChoice && isAnswer ? <Check size={17} aria-hidden="true" /> : null}
               {isSelected && !isCorrect ? <X size={17} aria-hidden="true" /> : null}

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent, type MouseEvent, type PointerEvent } from "react";
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Bookmark, Check, ListChecks, MessageCircle, Search, Shuffle, X } from "lucide-react";
-import { grammarCases, grammarTrails } from "@/lib/site-data";
+import type { GrammarCase, GrammarTrail } from "@/lib/site-data";
 import { GrammarQuiz } from "@/components/grammar-quiz";
 import { GrammarTrails } from "@/components/grammar-trails";
 import { GrammarTutor } from "@/components/grammar-tutor";
@@ -10,9 +10,13 @@ import { useSavedGrammarCases } from "@/hooks/use-saved-grammar-cases";
 import { Marquee } from "@/components/ui/marquee";
 import { ShimmerButton } from "@/components/ui/shimmer-button";
 
-const grammarCategories = ["Toate", ...new Set(grammarCases.map((item) => item.category))];
+interface DilemmaLabProps {
+  grammarCases: GrammarCase[];
+  grammarTrails: GrammarTrail[];
+}
 
-export function DilemmaLab() {
+export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
+  const grammarCategories = useMemo(() => ["Toate", ...new Set(grammarCases.map((item) => item.category))], [grammarCases]);
   const scrollRef = useRef<HTMLDivElement>(null);
   const cardRefs = useRef<Array<HTMLElement | null>>([]);
   const lastTouchTapRef = useRef<{ id: string; timestamp: number } | null>(null);
@@ -30,7 +34,7 @@ export function DilemmaLab() {
     const normalizedQuery = searchQuery.trim().toLocaleLowerCase("ro");
 
     return grammarCases.filter((item) => {
-      const belongsToTrail = !activeTrail || activeTrail.caseIds.includes(item.id);
+      const belongsToTrail = !activeTrail || activeTrail.id === "seria-completa" || activeTrail.caseIds.includes(item.id);
       const belongsToCategory = selectedCategory === "Toate" || item.category === selectedCategory;
       const searchableText = [item.prompt, item.answer, item.rule, item.category, ...item.examples]
         .join(" ")
@@ -39,7 +43,7 @@ export function DilemmaLab() {
 
       return belongsToTrail && belongsToCategory && matchesSearch;
     });
-  }, [activeTrail, searchQuery, selectedCategory]);
+  }, [activeTrail, searchQuery, selectedCategory, grammarCases]);
   const visibleCases = showSavedOnly ? filteredTrailCases.filter((item) => savedIdSet.has(item.id)) : filteredTrailCases;
   const visibleCaseCount = visibleCases.length;
   const displayedActiveIndex = Math.min(activeIndex, Math.max(visibleCaseCount - 1, 0));
@@ -195,7 +199,7 @@ export function DilemmaLab() {
         {!isFocusedMode && visibleCaseCount > 0 ? (
           <>
             <span className="grammar-scroll__position" aria-live="polite">
-              0{displayedActiveIndex + 1} / 0{visibleCaseCount}
+              {String(displayedActiveIndex + 1).padStart(2, "0")} / {String(visibleCaseCount).padStart(2, "0")}
             </span>
             <div
               className="grammar-scroll__progress"
@@ -403,7 +407,7 @@ export function DilemmaLab() {
           </div>
 
           <div className="grammar-marquee" aria-label="Exemple de dileme gramaticale">
-            <Marquee pauseOnHover repeat={2} className="[--duration:42s]">
+            <Marquee pauseOnHover repeat={2} className="[--duration:72s]">
               {grammarCases.map((item) => (
                 <span className="grammar-marquee__item" key={item.id}>{item.prompt}</span>
               ))}
@@ -412,7 +416,7 @@ export function DilemmaLab() {
         </>
       )}
 
-      <GrammarTrails activeTrailId={activeTrailId} onSelect={selectTrail} />
+      <GrammarTrails activeTrailId={activeTrailId} grammarTrails={grammarTrails} onSelect={selectTrail} />
     </div>
   );
 }

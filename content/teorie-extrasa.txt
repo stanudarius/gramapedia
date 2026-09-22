@@ -1,0 +1,2876 @@
+GRAMATICA LIMBII ROMÂNE PENTRU ADMITEREA ÎN STRUCTURILE MAI
+Profesor coordonator: MIHAI RADU
+
+FONETICĂ
+=disciplina care se ocupă cu studiul sunetelor limbii din punct de vedere acustic și
+articulatoriu;
+SUNETUL= senzație auditivă produsă de o vibrație acustică;
+
+LITERA= corespondentul în scris al unui sunet (semn grafic);
+-totalitatea literelor așezate într-o anumită ordine formează alfabetul; alfabetul limbii
+române are 31 de litere și 34 de sunete;
+CLASIFICAREA SUNETELOR:
+a. Consoane =22
+b. Vocale= 7: a, e, i, o, u, ă, î, â;
+c. Semivocale: e, i, o, u, y;
+În limba română nu avem litere speciale pentru semivocale. Aceleași litere notează atât
+vocale(v), cât și semivocale(sv).
+Ex: pe-re (e=vocală)
+ve-nea (e=vocală, a=vocală, e=semivocală)
+-accentul în limba română cade doar pe vocale;
+-numărul de vocale dintr-un cuvânt este același cu numărul de silabe, deci nu vor exista
+2 vocale în aceeași silabă;
+ACCENTUL
+=intensitatea mai mare cu care se pronunță o silabă, mai precis, vocala din silabă;
+-accentul nu este fix, poate cădea pe difetite silabe (pai-spre-ze-ce, u-zi-nă, în-flă-că-rat);
+-unele cuvinte se accentuează în două feluri, dar au sensuri diferite:
+o Director/ director
+o Companie/ companie
+o Domino/ domino
+o Vestibul/ vestibul
+-nu se accentuează articolele, prepozițiile, formele scurte de pronume personal sau
+reflexiv;
+!!OBS!!Accentul poate schimba:
+1. Timpul verbului:
+ El adună./ El adună.
+ El admiră./ El admiră.
+2. Persoana+ timpul verbului:
+ Tu auzi./ El auzi.
+ Tu ieși./ El ieși.
+3. Categoria gramaticală
+ Veselă/ veselă
+ Bară/ bară
+ Altoi/ altoi
+4. Sensul cuvântului
+ Țarină/ Țarină
+ Torturi/ torturi
+ Modele/ modele
+ Curele/ curele
+
+ Gamele/ gamele
+ U mbrele/ umbrele
+!!OBS!! Se accentuează pe prima silabă următoarele:
+ Doctoriță  Ferfeniță  Bivoliță
+ Lapoviță  Prepeliță  Checheriță/ chicheriță
+ Șliboviță  Gărgăriță  Măgăriță
+OMOFONELE
+=cuvinte care se pronunță la fel, dar se scriu diferit, unele cu cratimă, altele fără;
+ Neam/ ne-am  Ia/ i-a
+ Tei/ te-i  Cele/ ce le
+ Săi/ să-i  Cândva/ când va
+ Mei/ me-i  Oricând/ ori când
+OMOGRAFELE
+=cuvinte care se scriu la fel, la care schimbând accentul pe o altă vocală, se poate
+schimna sensul/ categoria gramaticală;
+ Masă/ masă
+ Casă/ casă
+ Haină/ haină
+GRUPURILE DE SUNETE
+1. DIFTONGUL
+=grupul de două sunete, format dintr-o vocală și o semivocală ( sau sv+v);
+a) Diftongi ascendenți/ urcători= sv+v (soa-re, ploa-ie)
+b) Diftongi descendenți/ coborâtori= v+sv (mai-că)
+-diftongul poate apărea și din pronunțarea într-o silabă a două cuvinte diferite legate prin
+cratimă (să-i, i-am);
+2. TRIFTONGUL
+=grupul de trei sunete format dintr-o vocală și dou semivocale pronunțate într-o silabă;
+a) Triftongi ascendenți= sv+sv+v (a-ri-pioa-ră)
+b) Triftongi centrați= sv+v+sv (le-oai-că)
+-triftongii pot apărea și din 2 cuvinte diferite pronunțate într-o silabă (mi-ai);
+3. HIATUL
+=grupul de două vocale care trec în silabe diferite;
+a) Cu vocale identice
+a-a: con-tra-ar-gu-ment u-u: a-t-ul, va-cu-um, a-si-du-u
+e-e: a-le-e, li-ce-e, fe-e-ri-e o-o: al-co-ol, co-o-pe-ra-tiv
+i-i: fi-in-ță (!!DAR: fii-că =diftong)
+b) Cu vocale diferite
+u-e: a-flu-ent, con-flu-en-ță, si-lu-e-tă i-e: ro-chi-e, a-no-ma-li-e
+o-e: bo-em, po-et, co-e-rent e-a: a-li-ne-at, bo-re-al
+o-a: cro-at, co-a, pro-to-zo-a-re a-e: a-er, fa-e-ton, ma-es-tru
+
+-există și hiatul sintactic, în fonetica sintactică (pe unde, de acolo);
+CORESPONDENȚA ÎNTRE SUNET ȘI LITERĂ
+-în general, există corespondență între sunet și literă, adică unui sunet îi corespunde o
+literă; (carte- 5 litere,5 sunete)
+Există, însă, și neconcordanțe:
+1. e, i, o, u, y –vocale/ semivocale
+-în limba română semivocalele nu sunt redate prin litere speciale, deci cele menționate
+pot fi atât vocale, cât și semivocale;
+2. v –poate fi redat prin v (vin)
+-poate fi redat prin w (watt)
+3. i –poate nota:
+a. vocală : vi-ne d. i scurt/ asilabic/ afoniza t: meri,
+b. semivocală : boi brazi
+c. literă ajutătoare : meci
+4. e –poate nota:
+a. vocală : re-ce d. e=ie : ieu, iel, iei, iele, ieste, ie,
+b. semivocală : deal ieram, ierați
+c. semivocala i : iea e. literă ajutătoare : ghea-ță
+5. x –redă 2 sunete (cs/ gz)
+a. cs : box, fix, sfinx
+b. gz : a examina, exact, a exala, a exalta, a exaspera, a executa, exemplu,
+exotic
+6. sunetul c
+c –car
+q –Quasar, Qatar
+k –kaki, Kalium
+7. grupuri de litere:
+c+i=ci, c+e=ce
+c+h+e=che, c+h+i=chi
+g+e=ge, g+i=gi
+g+h+e=ghe, g+h+i=ghi
+8. sunetul î
+î –la începutul/ finalul cuvântului (începe, hotărî)
+â –în centrul cuvântului (grâu)
+9. o –poate nota:
+a. vocală : dorm
+b. semivocală : soa-re
+c. în cuvintele care încep cu silaba OA, sau care conțin silaba OA în poziție
+mediană, o are valoarea semivocalei u: oa-re, oa-meni, mi-oa-ră, oa-lă, oa-ie
+GRUPURI DE LITERE
+
+=ce/ ci/ ge/ gi/ che/ chi/ ghe/ ghi
+-i din grupurile ci, gi, ghi, chi, la final de cuvânt, dacă nu sunt accentuate, este literă
+ajutătoare, fără valoare fonetică (maci= 4 litere, 3 sunete/ unghi= 5 litere, 3 sunete);
+-dacă i din aceste grupuri de litere este accentuat, atunci este vocală (munci= 5 litere, 5
+sunete/ zbu-ghi= 6 litere, 5 sunete);
+-în cuvintele terminate în ce/ ge/ che/ ghe, e de la sfârșit este vocală (ta-ce, u-re-che);
+!!OBS!!
+1.  Substantivele și adjectivele terminate în 2 i la Nominativ-Acuzativ dormează la
+sfârșit DIFTONG DESCENDENT
+ Co-pii  Pro-prii
+ Fru-mo-șii  Mun-ții
+ Î-nal-ții
+La fel se comportă și verbele de conjugarea IV, la persoana I sg, perfect simplu,
+care formează DIFTONG DESCENDENT
+ Ve-nii  So-sii
+ Fu-gii
+2.  Substantivele feminine   terminate în  2 i la Genitiv-Dativ  formează la sfârșit
+DIFTONG ASCENDENT
+ fe-me-ii  plo-ii
+ o-ii  che-ii
+vă-ii
+
+3.  Substantivele și adjectivele  terminate în 3 i au la sfârșit DIFTONG ASCENDENT
+ co-pi-ii  a-u-ri-ii
+ vi-zi-ti-ii  co-po-ii
+ia-ur-gi-ii
+
+!!DAR: verbele de conjugarea IV care se termină în 2 i la infinitiv (a se sfii, a-i prii, a
+înmii) la persoana I, perfect simplu formează DIFTONG DESCENDENT
+ În-mi-ii
+Pri-ii
+
+SCRIERE CORECTĂ
+1) Se scrie S și se pronunță S
+| o Disertație | o Trăsni   | o Snop     |
+| ------------ | ---------- | ---------- |
+| o Sesiune    | o Trăsnet  | o Smochine |
+| o Disident   | o Trăsnaie | o Smântână |
+| o Disidență  | o Premisă  | o Smarald  |
+| o Grimasă    | o Smalț    | o Schismă  |
+2) Se scrie Z și se pronunță Z
+| o Zmeu   | o Izmă   | o Cazma |
+| -------- | -------- | ------- |
+| Zmeură   | Izlaz    | Pizmă   |
+| o        | o        | o       |
+| o Gleznă | o Caznă  |         |
+| Cizmă    | Bezmetic |         |
+| o        | o        |         |
+3) Pluralul unor cuvinte terminate în X
+
+Ortodox: masc, pl= ortodocși/ fem, Mixt: micști/ mixte
+o o
+pl= ortodoxe o Perplex: perplecși/ perplexe
+o Complex: masc, pl=complecși/ fem, Fix:ficși/ fixe
+o
+pl=complexe o Limax: limacși
+o Convex: convecși/ convexe Fox: focși
+o
+Lax: lacși/ laxe
+o o Sfinx: sfincși
+o Prolix: prolicși/ prolixe
+4) Se scriu cu ESC la inițială
+| o Escadron  | o Eschivă  | o Escrocherie |
+| ----------- | ---------- | ------------- |
+| o Escadrilă | o Escapadă | o A escalada  |
+| o Escadră   | o Escroc   |               |
+5) Se scriu cu ȘT la inițială
+| Stachetă  | Ștanță    | Ștampilă |
+| --------- | --------- | -------- |
+| o         | o         | o        |
+| o Ștafetă | o Știf    | o Ștrand |
+| Ștangă    | Ștaif     |          |
+| o         | o         |          |
+| o Ștecăr  | o Ștrudel |          |
+6) Se scriu cu SP la inițială
+| o Spalieri | o Spion | o Strangula |
+| ---------- | ------- | ----------- |
+| o Spirt    | o Spiță |             |
+7) Se scriu cu ȘP la inițială
+| o Șpaclu | o Șpiț | o Șpalț |
+| -------- | ------ | ------- |
+8) Sunt corecte:
+| o El șade     | o Deșartă  | o Șagă      |
+| ------------- | ---------- | ----------- |
+| o El se așază | o Deșală   | o Înșeuează |
+| o Se înșală   | o Săluț    |             |
+| o Deșeua      | o Șănțuleț |             |
+9) Se scrie I și se pronunță I (la inițială)
+| o A infiltra   | o Incarna     | o A inhala             |
+| -------------- | ------------- | ---------------------- |
+| o A intona     | o A incrimina | o A insufla            |
+| o A implica    | o A incrusta  | o A investi/ a învesti |
+| o Indemnizație | o Inculpat    | o A insera/ a însera   |
+10)Se scrie E și se pronunță E (la inițială)
+| Ecran     | Examen    | Epocă     |
+| --------- | --------- | --------- |
+| o         | o         | o         |
+| o Erbivor | o Erbicid | o Evident |
+| A ezita   | Erou      |           |
+| o         | o         |           |
+11)Se scrie O și se pronunță O
+| o Articol    | o Pericol   | o Secol   |
+| ------------ | ----------- | --------- |
+| o Matricolaă | o Spectacol | o Adaos   |
+| Ridicol      | Miracol     | Batjocori |
+| o            | o           | o         |
+
+o 1A2u)riSceu lscrie U și se pronunțăo U Daună o Vehicul
+o Ventricul o Plapumă o Marmură
+o Tentacul o Fasciculă o Repaus
+SEMNE DE ORTOGRAFIE ȘI DE PUNCTUAȚIE
+A) ORTOGRAFIE
+1. Cratima
+-unește într-o silabă două cuvinte sau sfârșitul unui cuvânt cu începutul altuia (să-i spui,
+i-am dat, ne-am dus, cine-a venit);
+-cratima este semn de punctuație în 3 situații:
+a. în unele repetiții (pornește încet-încet)
+b. în structura numeralelor aproximative (șapte-opt elevi)
+c. când exprimă limita unei distanțe în spațiu sau timp ( Fălticeni-Rădășeni/ 8-16)
+2. Apostrofu l
+-se folosește când înlocuiește accidental o literă, o silabă sau un număr dintr-o cifră
+(domnu’ Trandafir, las’ că știu, ’neața, s-a născut în ’41);
+!!este numai semn de ortografie!!
+3. Punctul din abreviere
+ CFR/ C.F.R.  h.e.n.= înaintea erei noastre
+ I.S.J.  dr.
+ M.A.I.  Dvs./ dv./ d-voastră
+ a.c.= anul curent  Etc.
+ î. Hr.
+4. Bara oblică
+-este semn de ortografie doar în 5 situații:
+a. m/s d. c/val =contravaloare
+b. km/h e. m/n= motonavă
+c. g/mol
+-în toate celelalte situații, bara oblică este semn de punctuație (în texte juridice: Legea
+550/2020, în noaptea 6/7, relația profesor/elevi)
+5. Linia de pauză
+-leagă un cuvânt simplu de unul compus sau două compuse într-o structură complexă;
+ Războiul româno-ruso-turc
+ Vântul bate din direcția nord-est-sud-est
+6. Blank-ul (pauza albă)
+-unii lingviști consideră blank-ul ca semn de ortografie numai în scrierea omofonelor fără
+cratimă;
+
+ Ne-am dus/ e neam cu mine  Cândva/ când va
+ Cele/ ce le  Oricine/ ori cine
+ Oricare/ ori care  Odată/ o dată
+!!OBS!! 7.XII.2021- punctul e semn de ortografie
+B) PUNCTUAȚIE
+1. Ghilimele - se numără o singură dată
+2. Punctu l- la sfârșitul unei comunicări
+3. Linioarele de pauză - țin locul virgulelor/ încadrează o construcție incidentă/ se
+numără de două ori
+4. Virgula
+5. Punctul și virgula
+6. Punctele de suspensie
+7. Semnul întrebări i
+8. Semnul exclamări i
+9. Parantezele - se numără o singură dată
+!!OBS!! Virgula este considerată semn de ortografie în unele locuțiuni adverbiale cu
+structură identică:
+ Cu chiu, cu vai
+ De bine, de rău
+ De voie, de nevoie
+Virgula este considerată semn de ortografie după unele interjecții care se repetă:
+ Boc, boc, boc  Ham, ham  Trosc, pleosc
+ Cioc, cioc  Doar, doar  Încet, încetișor
+REGULI DE DESPĂRȚIRE ÎN SILABE
+1. DUPĂ PRONUNȚARE (=silabație fonetică)
+-se ține cont de numărul de consoane situate între vocale;
+REGULA 1: când avem o consoană între două vocale, consoana trece în silaba
+următoare (ca-să, ma-re, pa-tă)
+EXCEPȚIE:-în locul unei vocale putem avea diftong/ triftong (floa-re, vo-ioa-să)
+REGULA 2: două consoane între 2 vocale, ruptura se face între consoane (car-te, mun-
+te, mun-că)
+EXCEPȚIE:-când a doua consoană este R sau L precedată de una din
+următoarele: B, C, D, F, G, H, P, T, V, ambele consoane trec în silaba următoare (a-tlet,
+si-hlă, gre-blă, li-tru, pe-hli-van, si-glă, a-flu-ent, co-vrig)
+REGULA 3: când avem trei sau mai multe consoane se despart astfel:
+-o consoană + 2 consoane
+-o consoană + 3 consoane (pen-tru, mon-stru)
+EXCEPȚIE : -când avem grupurile de consoane CT, CȚ, PT, PȚ, CȘ, TM, TF, DV
+precedate de una din consoanele L, M, N, R, S, T se despart: 2 consoane + o consoană
+ Sanc-tu-ar  Sanc-ti-ta-te  Sanc-ți-u-ne
+
+|     | Jonc-ți-u-ne |     | Somp-tu-os        |     | Horn-blen-dă |
+| --- | ------------ | --- | ----------------- | --- | ------------ |
+|     |             |     |                  |     |             |
+|     |  Ast-ma-tic |     |  Re-demp-ți-u-ne |     |  Tun-sten   |
+|     |  Jert-fă    |     |  Linc-șii        |     |              |
+|     |  Jert-fi-re |     |  Sand-vici       |     |              |
+REGULA 4= regula hiatului: în limba română nu avem 2 vocale în aceeași silabă
+|     |  i-de-e       |     |  a-flu-ent |     |  con-ti-nu-u |
+| --- | -------------- | --- | ----------- | --- | ------------- |
+|     |  zo-o-lo-gi-e |     |  fa-ie-ton |     |               |
+|     | cro-at         |     | ști-in-ță   |     |               |
+|     |               |     |            |     |               |
+2.  DUPĂ STRUCTURĂ (=silabație morfologică)
+ De-spre/ des-pre  Sub-li-ni-a/ su-bli-ni-a
+Drept-unghi/ drep-tunghi In-e-gal/ i-ne-gal
+ 
+ Rom-ar-ta/ ro-mar-ta  Dez-ar-ma/ de-zar-ma
+ Port-mo-neu  Ne-spri-ji-nit/ nes-pri-ji-nit
+ Pro-no-sport/ pro-nos-port  Stâlp-nic
+!!OBS!! Nu se despart la capăt de rând:
+Prenumele de nume/ numele de prenume
+Abrevierile
+Nu coincide cratima cu liniuța de despărțire în silabe
+Structuri de tipul: zece kilometri, zece metri, zece decimetri
+Numeralul ordinal: al doilea
+Articolul din lege: Art.3 din Legea 360/2004
+!!OBS!! Se despart corect:
+|    | Ais-berg       |    | ga-i-ță            |    | lin-gvist            |
+| --- | -------------- | --- | ------------------ | --- | -------------------- |
+|    | a-u-tum-nal    |    | ra-di-o            |    | în-să-i-la           |
+|     | ma-u-so-leu    |     | pia-țe-tă          |     | di-a-con             |
+|    |                |    |                    |    |                      |
+|    | aus-cul-ta     |    | fisc-co            |    | pi-e-ton             |
+|    | piu-ne-ză      |    | î-na-poi/ în-a-poi |    | ghi-oc               |
+|    | ho-lo-caust    |    | a-ghio-tant        |    | u-crai-nean          |
+|     | ma-chi-aj      |     | Li-vi-u            |     | lăn-ci-er            |
+|    |                |    |                    |    |                      |
+|    | pau-per        |    | Cor-ne-li-u        |    | ghei-zer             |
+|    | toa-le-tă      |    | Ge-or-gi-a-na      |    | co-niac              |
+|    | le-an-dru      |    | fii-că             |    | be-a-ti-tu-di-ne     |
+|     | coa-for        |     | a-cua-re-lă        |     | ci-a-nu-ră           |
+|    |                |    |                    |    |                      |
+|    | pas-teu-ri-za  |    | plu-to-ni-er       |    | ge-nun-chi-e-ră      |
+|    | ca-noin        |    | fo-i-le-ton        |    | gua-șă               |
+|     | i-lu-zi-o-nist |     | su-biect           |     | în-jun-ghia          |
+|    |                |    |                    |    |                      |
+|     | trau-mă        |     | su-biec-ti-vă      |     | fol-clor/ folc-lor   |
+|    |                |    |                    |    |                      |
+|    | trai-ler       |    | an-es-te-zi-e      |    | mon-o-clu/ mo-no-clu |
+|    | con-ce-si-o-na |    | sang-vin           |    | po-di-um             |
+
+| o-iș-te               | și-fo-ni-er      | cro-at          |
+| --------------------- | ---------------- | --------------- |
+|                      |                 |                |
+|  man-o-pe-ră/ ma-no- |  băr-bi-e-ri    |  o-ca-zi-o-nal |
+| pe-ră                 |  in-fa-i-li-bil |  fo-i-taj      |
+|  ge-o-gra-fi-e       |  pro-to-zo-a-re |  trun-chi-a    |
+func-ți-o-nar
+
+VOCABULAR
+
+Vocabular= totalitatea cuvintelor unei limbi folosite din trecut până în zilele noastre.
+Vocabularul are două mari părți:
+1. VOCABULARUL FUNDAMENTAL (de bază)
+-cuprinde cca. 10% din totalul vocabularului;
+-este compus din cele mai importante cuvinte pentru comunicarea zilnică/
+cunoscute de toți vorbitorii;
+-cuvintele din V.B. numesc noțiuni fundamentale; sunt cele mai vechi în limbă
+(moștenite din latină); au capacitatea să formeze derivate/ compuse; multe sunt
+polisemantice;
+-fac parte din V.B. cuvinte ce denumesc:
+ Părți ale corpului omenesc  Zilele săptămânii
+ Acțiuni ce pornesc de la om  Lunile anului
+ Alimente  Părți ale zilei
+ Arbori, fructe, flori, semințe  Prepoziții, conjuncții
+ Animale domestice  Pronumele
+ Gradele de rudenie  Numerale până la 10
+ Anotimpurile  Culori autohtone
+2. MASA VOCABULARULUI
+-cuprinde cca. 90% din totalul cuvintelor (140 000 de cuvinte);
+-fac parte din masa vocabularului:
+ Arhaisme
+ Regionalisme
+ Neologisme/ cuvinte științifice
+ Argouri
+ Jargoane
+ARHAISME
+
+=cuvinte/ expresii/ construcții ieșite din uz;
+ Arh. Lexicale (armaș, pârcălab, logofăt, jitnicer, hatman, spătar, ienicer,
+spahii, comis, paharnic, sâneață)
+ Arh. Fonetice (forme vechi ale unor cuvinte care azi se folosesc cu altă
+formă: hiclean-viclean, a îmbla-a umbla, samă-seamă, pre-pe, părău-
+pârâu, părete-perete, a derege-a drege)
+ Arh. Morfologice (plurale diferite față de cele actuale: diamanturi, mânuri,
+ruinuri, inime, complimenturi, lunge, palaturi, carii/ carele-*care*)
+Arh. Sintactice (Gazeta de Transilvania, domn Moldovei)
+
+ Arh. Semantice (moșie=țară, prost=simplu, a certa=a pedepsi, a săruta=a
+saluta, carte=scrisoare, mândru=înțelept, limbă=popor, rost=gură).
+REGIONALISME
+=cuvinte folosite intr-o anumită regiune/ localitate;
+ Reg. Lexicale  (harbuz, păpușoi, copaie, crumpli=cartofi, lepedeu=cearceaf,
+ai=usturoi, culeșer, bumb=nasture, omăt, tină=noroi, pătlăgele, cucuruz, barabuli)
+ Reg. Fonetice (chiatră, chișior, copchilă, gioc, șinși)
+ Reg. Morfologice (o fost, o văzut, oi merge, am să merg, îi, îs)
+ Reg. Sintactice (dezacord între subiect și predicat la persoana a III-a: ea este
+deștepți)
+ELEMENTE DE JARGON
+=cuvinte din alte limbi folosite de unii vorbitori pentru a impresiona;
+| Bonjour    | Monșer    | Bip       |
+| ---------- | --------- | --------- |
+|           |          |          |
+|  Madam    |  Musiu   |  Bye-bye |
+|  Bonsoar  |  Helo    |  weekend |
+|  Ceao     |  Darling |           |
+| Arivederci | OK        |           |
+|           |          |           |
+ELEMENTE DE ARGOU
+=cuvinte folosite la început de răufăcători, delincvenți; limbaj codat;
+|  gagiu  |  pârnaie     |  baftă        |
+| -------- | ------------- | -------------- |
+| gagică   | nașpa         | a face o foiță |
+|         |              |               |
+|  mișto  |  a da țeapă  |  profu        |
+|  a hali |  a face șmen |  info         |
+|  haios  |  drupă       |  mate         |
+| șase     | abureală      | curcan/ gabor  |
+|         |              |               |
+OMONIME
+=cuvinte identice ca formă, cu sensuri diferite;
+
+!!OBS!! Există și omonime gramaticale în afara celor lexicale, când o singură formă a
+cuvântului exprimă sensuri gramaticale diferite, în contexte diferite.
+1.  O  fată învață. (articol nehotărât)
+2.  O  fată și doi băieți învață. (numeral)
+3.  O  fată scrie, alta desenează. (adjectiv pronominal nehotarăt).
+4. Eu merg./ Ei merg.
+Omonimele lexicale sunt de trei feluri:
+TOTALE – au singularul și pluralul la fel, dar sensuri diferite;
+| o Ban         | o Lamă  | o Copcă  |
+| ------------- | ------- | -------- |
+| o Arie        | o Banc  | o Leu    |
+| o Bancă       | o Atlas | o Război |
+| o Broască     | o Bilă  | o Pană   |
+| o Carieră     | o Lac   | o Sitar  |
+| o Constituție | o Bursă | o Șut    |
+| o Hală        | o Casă  | o Top    |
+PARȚIALE – au singularul la fel, plurale diferite și sensuri diferite;
+o Bandă- benzi/ bande o Cot- coți/ coate/ coturi
+o Taler- talere/ taleri o Sol- soli/ soluri
+o Brac- bracuri/braci o Colț- colțuri/ colți
+o Car- cari/caruri o Elan- elani/ elanuri
+o Bob- bobi/ boburi
+LEXICO-GRAMATICALE – aparțin la părți de vorbire diferite;
+| o Cer    | o De    | o Tors    |
+| -------- | ------- | --------- |
+| o Vânătă | o Lin   | o Buf     |
+| o Car    | o Roșie | o General |
+| o Da     | o Mare  | o Hap     |
+| o Au     | o Vie   | o Mai     |
+| o Smirnă | o Dar   |           |
+!!OBS!!  Câteva omonime sunt și polisemantice. Omonimele se pot confunda cu
+polisemanticele.
+Cuvintele polisemantice= pornesc de la un cuvânt de bază, au forme identice, dar
+capătă sensuri diferite în contexte diferite. Între omonime nu există legătură de sens.
+Cuv. Polisemantice sunt cele mai vechi în limbă; intră în expresii și
+locuțiuni; aparțin vocabularului fundamental. (limbă, a scoate, stea, a aduce, a
+ridica, a fi-pred., a ține, a lua, față, vatră, a face, a veni, școală, a trece).
+PARONIME
+
+=cuvinte aproape identice ca formă, cu sensuri diferite;
+ Adagiu-adagio  Atlas-atlaz
+ Prepoziție-propoziție  Complement-compliment
+ Familial-familiar  Spețe-speze
+ Carbonier-carbonifer  Solidar-solitar
+ Aliniat-alineat  Emigra-imigra
+ Anual-anuar  Eminent-iminent
+ Apropia- apropria  Enerva-inerva
+ÎMBOGĂȚIREA VOCABULARULUI
+-se realizează pe două căi:
+ EXTERNĂ- împrumuturi din alte limbi
+ INTERNĂ- derivare/ compunere/ conversiune
+DERIVAREA
+=procedeu de îmbogățire a vocabularului cu ajutorul sufixelor și prefixelor;
+SUFIXUL=sunetul/ grupul de sunete care se atașează la sfârșitul unui cuvânt de bază
+pentru a forma cuvinte noi;
+PREFIXUL= sunetul/ grupul de sunete care se atașează la începutul unui cuvânt de bază
+pentru a forma cuvinte noi;
+!Singurul prefix care se leagă prin cratimă de cuv. de bază este ex- (ex-director).
+!!Dacă la cuvântul de bază se adaugă și sufixe și prefixe avem derivare
+PARASINTETICĂ.
+RĂDĂCINA= partea comuna dintr-o familie de cuvinte (cea mai scurtă)
+-verde: verzișori, verdeață, neînverzit –rădăcina= -verd-
+DERIVARE PROGRESIVĂ= prin adăugarea sufixelor și prefixelor;
+DERIVARE REGRESIVĂ= se ia de la sfârșitul cuvântului un afix, de cele mai multe ori se
+pierde o silabă;
+a) Mandarină- mandarin
+Curmală -curmal
+Smochină- smochin
+Dudă- dud
+b) Neurologie-neurolog
+Chirurgie-chirurg
+Stomatologie-stomatolog
+Oftalmologie-oftalmolog
+c) Unele subst. neutre se obțin din verbe (a blestema-blestem)
+d) Unele subst. feminine obținute din verbe de conjugarea IV (a păzi-pază, a
+bârfi-bârfă, a clipi-clipă)
+e) Neologisme prin derivare regresivă:
+
+ a condensa- condens
+ a deranja-deranj
+ a balansa-balans
+ a avânta-avânt
+ a dejuna-dejun
+CLASIFICAREA SUFIXELOR
+1. după partea de vorbire pe care o formează
+a) SUFIXE SUBSTANTIVALE
+o Cronică – cronicar o A alerga – alergare
+o A ameți – amețeală o Dulce – dulceață
+o Alb – albeață o A jura - jurământ
+o A făgădui – făgăduință
+b) SUFIXE ADJECTIVALE
+o Aură – auriu
+o Plumb – plumburiu
+o Argint – argintiu
+o Fum – fumuriu
+o Tânăr – tineresc
+c) SUFIXE VERBALE
+o A behăi o A izvorî
+o A brăzda o A înfrunzi
+o A bubui o A teroriza
+o A beșica o A picura
+o A aerisi
+d) SUFIXE ADVERBIALE
+o –ește: prostește, șoimește;
+o –iș: curmeziș, pitiș, pieptiș, pieziș;
+o –âș: chiorâș, chiondorâș, târâș;
+o –mente: socialmente, moralmente, completamente, realmente, actualmente;
+e) SUFIXE PRONOMINALE
+o Atâta – atâtica
+o Matale – mătălică / mătăluță
+o Nimica - nimicuța
+f) SUFIXE INTERJECȚIONALE
+o Bonjour - bonjourică
+g) SUFIXUL *-IME* formează numerale fracționare
+h) SUFIXE MOȚIONALE (masculin – feminin)
+o Profesor – profesoară o Clujean – clujeancă
+o Preot – preoteasă o Elev – elevă
+
+Bunic – bunică Broască – broscoi
+o o
+o Șarpe – șerpoaică o Cioară – cioroi
+Tigru – tigroaică Rață – rățoi
+o o
+o Gâscă – gâscan o Vrabie – vrăbioi
+Curcă – curcan Vulpe - vulpoi
+o o
+2. din punct de vedere semantic (=după sens)
+DIMINUTIVALE= denumesc obiecte mai mici decât obiectul de bază
+
+| o Pătuț    | o Bunicuță       | o Prostuț    |
+| ---------- | ---------------- | ------------ |
+| o Scăunel  | o Băiețel        | o Încetișor  |
+| o Fetiță   | o Frumușel/ -ică | o Depărtișor |
+| o Albinuță | o Înăltuț        | o Repejor    |
+ AUGMENTATIVE= denumesc obiecte mai mari decît cuvântul de bază
+| o Căsoaie | o Băiețandru | o Prostoi |
+| --------- | ------------ | --------- |
+| Măturoi   | Iepuroi      | Buboi     |
+| o         | o            | o         |
+| o Cămeșoi | o Cățelandru | o Lungan  |
+| Fetișcană | Băietan      |           |
+| o         | o            |           |
+ COLECTIVE
+–ime: studențime, școlărime, preoțime, mulțime, tinerime, bătrânime
+o
+o –et: tineret, nucet, făget, brădet, afinet
+–iș: pietriș, prundiș, stufăriș, tufiș
+o
+o –iște: porumbiște, iniște, jariște
+–ăraie/ -ăraie: colbăraie/ colbărie, apăraie/ apărie, argintărie
+o
+ DE INSTRUMENT
+o Balansor
+o Tocător
+o storcător
+ DE AGENT= arată îndeletnicirea/ profesia
+| o Strungă – strungar | o Grădinar  | o Scriitor |
+| -------------------- | ----------- | ---------- |
+| Zid – zidar          | Geamgiu     | dirijor    |
+| o                    | o           | o          |
+| o Croitor            | o Macaragiu |            |
+| Fotbalist            | Miner       |            |
+| o                    | o           |            |
+ CARE FORMEAZĂ NUME DE LOCUITORI
+o Sătmărean o Târgumureșean
+o Pășcănean o Clujean
+o Băcăuan o Peru – peruan/ peruvian
+o Dornean o Cairo – cairot
+o Severinean o Giurgiu – giurgiuvean
+o Sinăian o Madrid – madrilen
+o Buzoian o Monaco – monagasc
+
+o Coasta de Fildeș – ivorian o Moscova – moscovit
+o Florența – florentin o Paris – parizian
+o Napoli – napolitan o Timiș – timișean
+o Madagascar – malgaș o Piatra-Neamț – pietrean
+o Tokyo – tokiot o Târgu-Neamț – nemțean
+o Sofia – sofiot
+CLASIFICAREA PREFIXELOR
+a. PREFIXE VECHI
+ În-: încăpător, înapoi  Ne-: neom
+ Des-: desface  Răz-: răzbate
+ Stră-: străvechi  Arhi-: arhiplin
+b. PREFIXE NEOLOGICE
+ A-: apolitic  In-: incert
+ Ante-: antebelic  Inter-: interfață
+ Con-: confrate  I-: ilegal
+ Im-: impar
+c. PREFIXE NEGATIVE
+ Ne-: nefolositor
+ In-: incolor
+ I-: ilicit
+d. CARE EXPRIMA REPETIȚIA
+ Răs-: răsface, răstălmăci
+ Răz-: răzgândi, răzbate
+ Re-: rescrie, reface, reforma
+e. CU SENS DE SUPERLATIV
+ Stră-: străvechi
+ Supra-:supradimensionat
+ Hiper-: hipercorect
+ Ultra-: ultramaraton
+ Extra-: extraordinar
+ Arhi-: arhicunoscut
+ Prea-: preafrumoasă
+!!OBS!! un singur prefix se atașează prin cratimă: ex-director
+DUBLA ȘI TRIPLA PREFIXARE
+ Neînfrunzit
+ Reîmpădurit
+ Nereîncărcat
+PREFIXOIDE ȘI SUFIXOIDE (compunere savantă)
+=false prefixe și false sufixe; ele formează compuse, nu derivate.
+-provin din lb. Greacă sau Latină, unde au sens deplin;
+
+ Tele- (la distanță): telecomandă  Bi- (doi): binoclu
+ Hidro- (apă): hdrocentrală  Geo- (pământ): geologie
+ Aero- (aer): aerodrom  Anti-
+COMPUNEREA
+=procedeu intern de formare a cuvintelor care constă în îmbinarea a 2/3 cuvinte pentru a
+forma cuvinte noi;
+A. PRIN SUDARE/ CONTOPIRE
+ Dreptunghi  Valvârtej  Iacătă
+ Botgros  Binecuvântat  Doisprezece
+ Lungmetraj  Oricum  A binevoi
+ Triplusalt  Fiecare  A telefona
+ Câmpulung  Niciunul
+B. PRIN ALĂTURARE
+ Floarea-soarelui  Baia Mare
+ Gura-leului  Vatra Dornei
+ Bloc-turn  Gura Humorului
+ După-amiază  De la
+ Făt-Frumos  De pe
+C. PRIN ABREVIERE
+ Literală: CFR, IPJ, CAS, ONU, AF, UNESCO
+ Din inițiale: TARON, AGERPRES
+ Din fragmente de cuvinte: APROZAR, PLAFAR, AVIASAN, AGROMEC
+!!OBS!! Nu prezintă compuse doar articolul. Cele mai multe compuse le au substantivul,
+adjectivul, adverbul , numeralul și interjecția.
+Compusele cu:
+ DUPĂ: după-amiază (dar: după prânz nu e compus)
+ POST: postbelic, postliceal, postuniversitar, post-mortem, post-partum,
+post-restant, post-scriptum, post-post-scriptum
+ PRIM: prim-solist, prim-balerin, prim-ministru, prim-procuror, prim-secretar
+(dar: prim amorez, prim ajutor, prim rang)
+ NON: nonvaloare, nonsens, nonprofit (dar: non-stop, non-eu, non-a)
+ ASTĂ: astă-noapte, astă-vară (dar: de astă dată)
+ APĂ: apă-neagră= glaucom, apă-albă=cataractă, apă-grea=produs chimic
+(dar: apă plată/ oxigenată/ acră/ regală)
+ NOU: nou-născut/ nou-născuți, nou-sosiți (dar: rochie nou-nouță/ rochii
+noi-nouțe)
+CONVERSIUNEA
+
+=procedeu intern de îmbogățire a vocabularului care constă în trecerea unui cuvânt de la
+o parte de vorbire la alta;eu
+Ex: băiat frumos(adj.) – vorbește frumos(adv.)
+Conversiunea se realizează prin trei căi:
+ Cu ajutorul desinențelor
+ Prin determinare
+ Prin distribuție
+I.Cu ajutorul desinențelor ( -ă, -e, -i, -uri)
+ Cafea aburind (vb. Gerunziu) –cafea aburindă/ cafele aburinde (adjectiv gerunzial/
+adjectiv provenit din verb la gerunziu acordat)
+ Mână tremurândă  Bărbați suferinzi  Bunuri
+ Steaguri  Femeie șovăindă  Ofuri
+fluturânde  Jale crescândă  Nimicuri
+ Coșuri  E-uri  Hopuri
+fumegânde  Adâncuri  Fâșuri
+ Buze sângerânde  Înalturi  Tic-tacuri
+Din literatură:
+ femeie bărbată  vremi copile
+ câini bărbați  lumină fecioară
+II.Prin determinare (articulare cu articol hotarât/ nehotărât, cu ajutorul
+adjectivelor pronominale, prin numărare)
+-prin acest procedeu unele părți de vorbire capătă valoare substantivală;
+1. adjectiv – substantiv
+ un urât/ urâtul
+ un frumos/ frumosul
+ verdele câmpiei
+ albastrul cerului (dar: albastrul cer =adj.)
+ plumburiul cerului
+2.adverb – substantiv
+ un bine/ binele  un încolo
+ aproapele  un încoace
+ un acasă
+3.pronume – substantive
+ eul liric/ eul meu
+ sinele/ sinea (Vorbește în sinea ei.
+Drumul are un încolo și un încoace.
+–complement de mod)
+ un nimic/ nimicul/ un nimeni
+4.numeral – substantiv
+ un opt/ optul
+ îndoitul sumei/ dublul
+
+5.verbe la supin – substantiv nume de lucru
+ de citit – cititul
+ de lucrat – lucratul
+ de vânat – vânatul
+6.verbe la participiu +articol hotărât – substantiv nume de ființă
+ rănit – rănitul
+ ofensat – ofensatul
+ invitat – invitatul
+înecat – înecatul
+
+7.adverbe/ locuțiuni adverbiale, prin articulare – prepoziții/ locuțiuni prepoziționale
+!!OBS!! Un enunț se poate termina în adverb sau locuțiune adverbială, dar nu se poate
+termina în prepoziție sau locuțiune prepozițională.
+ADV./LOCUȚ. ADV. PREP/LOCUȚ PREP ADV./LOCUȚ. ADV. PREP/LOCUȚ PREP
+| Deasupra  | deasupra   | În față        | În fața        |
+| --------- | ---------- | -------------- | -------------- |
+| înapoi    | înapoia    | În spate       | În spatele     |
+| Îndărăt   | Îndărătul  | În sus         | În susul       |
+| Înainte   | Înaintea   | În jos         | În josul       |
+| Dinainte  | Dinaintea  | În mijloc      | În mijlocul    |
+| Dinapoi   | Dinapoia   | În centru      | În centrul     |
+| Înăuntru  | Înăuntrul  | În preajmă     | În preajma     |
+| Dinăuntru | Dinăuntrul | În/ la dreapta | În/ la dreapta |
+| Dedesubt  | Dedesubtul | În/ la stânga  | În/ la stânga  |
+o Eu prășesc înainte (adv. de loc)/ Eu prășesc înaintea casei. (prepoziție)
+o Mașina a luat-o la dreapta. (locuț. adv.)/ Mașina a luat-o la dreapta străzii. (prep.)
+III.Prin distribuție ( un cântec frumos –adj. / se comportă frumos –adv.)
+1.adjective – adverbe (când stau pe lângă un verb)
+Absurd Enorm
+|            |     |          |     |
+| ----------- | --- | --------- | --- |
+|  Admirabil |     |  Teribil |     |
+|  Mortal    |     |  Natural |     |
+2.TOATE verbele la participiu pe lângă un substantiv – adjective
+Cămașă spălată
+
+ Perete văruit
+ Pom înflorit
+ Desen colorat
+3.UNELE verbe la participiu pe lângă alte verbe – adverbe cu funcția de
+complement circumstanțial de mod
+ Vorbește răgușit/ răstit
+ Explică deslușit
+Merge împiedicat
+
+ Vorbește deschis
+4.verb la imperativ – interjecție predicativă (predicat verbal)
+
+ Uită-te! =verb la imperativ – Uite! = interjecție (UITE O FATĂ FRUMOASĂ.)
+5.conjuncțiile ȘI și IAR când sunt accentuate – adverbe de mod fără funcție
+sintactică
+ Ș i tata mi-a dat bani.
+ Iar plouă.
+6.prepoziția LA – adjectiv pronominal nehotărât
+ A mâncat la prăjituri! (la=multe)
+ Am prins la pește!
+!!OBS!! MULT, PUȚIN, TOT sunt pronume nehotărâte.
+7.prepoziția LA – adverb care formează un numeral aproximativ
+ Peștele cântărea la trei kilograme. (circa/ vreo)
+8.prepozițiile PENTRU și CONTRA – adverbe
+ Toți au votat pentru, numai tu ai votat contra.
+9.conjuncția ȘI este coordonatoare copulativa; leagă 2 părți de propoziție sau 2
+propoziții de același fel.
+Alina și Andrei joacă tenis.
+Când ȘI are sensul lui DAR/ ÎNSĂ devine conjuncție adversativă; leagă 2 părți de
+propoziție sau 2 propoziții care se opun prin conținut, dar nu se exclud.
+ Te-am rugat ceva/ și nu m-ai servit./
+10.interjecția HALAL – adjectiv invariabil
+ Hala l fată/ halal băiat
+11.sunt unsprezece adverbe care pe lângă un substantiv devin adjective
+invariabile, cu funcția de atribute adjectivale
+ Așa  Aparte  Mai prejos
+ Gata  Asemenea  Etc.
+ Bine  Astfel/ altfel
+ Anume  Mai presus
+12.numeralul cardinal UNA – adverb de mod
+ Fata asta o ține una. (=morțiș)
+13.numeralul ordinal ÎNTÂI – adverb de timp
+ A trecut întâi o boare...
+ Întâ i mă spăl, apoi mănânc.
+14.pronumele relativ/ interogativ CE – adverb de mod fără fcț. sintactică, în fața
+unui adjectiv/ adverb)
+ Ce frumoasă priveliște!
+ Ce repede merge bunicul!
+!!OBS!! Adjectivele si adverbele precedare de CE au valoare de superlativ absolut.
+15.cuvintele care denumesc anotimpuri, zilele săptămânii sau părți ale zilei sunt
+substantive dacă –au funcția de SUBIECT
+--au lângă ele un atribut
+--au în față o prepoziție
+Dacă nu se încadrează la unul dintre cele 3 criterii sunt adverbe de timp cu funcția de
+complement circumstanțial de timp.
+
+| Ziua        | Seara         | După prânz |
+| ----------- | ------------- | ---------- |
+|            |              |           |
+|  Noaptea   |  După-masă   |            |
+|  Dimineața |  După-amiază |            |
+Toamna este un anotimp ploios. (substantiv, subiect)
+La toamnă dau examen. (substantiv, complement circumstanțial de timp)
+Această toamnă este lungă. (substantiv)
+Toamna se numără bobocii. (adverb de timp, complement circumstanțial de timp)
+16.pronumele nehotărât TOT – adverb
+ Pe masă erau trei feluri de bucate. El a mâncat tot.(pronume nehot.)
+  To t mai plânge băiatul acela. (=încă, adverb)
+17.cuvântul POATE, urmat de conjuncția CĂ – adverb predicativ, predicat verbal,
+urmat de subiectivă
+     cuvântul POATE, urmat de conjuncția SĂ – verb predicativ tranzitiv, urmat de
+completivă drectă
+ Poate / că va reuși./
+
+  Poate / să danseze hora./
+18. UNELE substantive care determina verbe sau adjective – adverbe de mod,
+complement de mod
+| Frumoasă foc     | Slabă scândură  | Curat lună          |
+| ---------------- | --------------- | ------------------- |
+|                 |                |                    |
+|  Prost bâtă     |  Se uită țintă |  Se ține scai      |
+|  Beat criță     |  Nu știe neam  |  Îndrăgostit lulea |
+|  Doarme buștean |  Merge strună  |  Tace chitic       |
+| Aleargă glonș    | Zboară stol     | Umblă creanga       |
+|                 |                |                    |
+|  Taie brici     |  Bătut măr     |  Gol pușcă         |
+|  Strâns covrig  |  Tuns chilug   |                     |
+!!OBS!! Adjectivele de mai sus au valoare de superlativ absolut. (frumoasă foc= foarte
+frumoasă)
+19.adverbele relative UNDE, CUM, CÂND, CÂT – conjuncții fără funcție sintactică
+a) CUM + temporală (CT)/ cauzală (CZ) devine conjuncție
+  Cum  treci Siretul,/ apa-i rea./(CT)
+ Cum  a întârziat,/ n-a ma intrat în clasă./ (cum=deoarece, CZ)
+
+b) UNDE + cauzala(CZ) devine conjuncție
+  Unde  nu s-a pregătit,/ a luat notă mică./ (unde=deoarece, CZ)
+c) CÂND + condițională(CDȚ) devine conjuncție, când=dacă
+ Când  m-aș lua după tine,/ aș ajunge rău./ (CDȚ)
+
+d) CÂT + concesivă(CV) devine conjuncție, cât=deși
+  Cât  e muntele de înalt,/ tot se tocește./ (CV)
+
+MORFOLOGIE
+
+NUMERALUL
+=partea de vorbire flexibilă care exprimă un număr sau ordinea obiectelor prin numărare;
+-este de 8 feluri:
+1) Cardinal 5) Distributiv
+2) Ordinal 6) Adverbial
+3) Colectiv 7) Fracționar
+4) Multiplicativ 8) Aproximativ
+-cel mai important este numeralul cardinal deoarece de la el se formează toate celelalte
+numerale;
+NUMERALUL CARDINAL
+-exprimă un număr abstract sau determinarea numerică a obiectelor;
+Clasificare:
+ După structura:
+ Simple: 1-10, sută, mie, milion,...
+ Compuse: 11-19, douăzeci, treizeci, paisprezece, șaisprezece,
+optsprezece, șaizeci...(CONTOPITE)
+
+-numeralul cardinal de la 1 la 19 în fața unui substantiv are valoare adjectivală și funcția
+de atribut adjectival;
+-de la 20 în sus are valoare substantivală, iar substantivul de după el se leagă de
+numeral prin prepoziția DE și are funcția de atribut substantival prepozițional;
+o Nouăsprezece studenți au plecat în tabără.(atr.adj, N)
+o Douăzec i de studenți au plecat în tabără.(subiect, N)
+-numeralul cardinal aflat după un substantiv are valoare substantivală, cazul Nominativ,
+funcția de atribut apozițional;
+o S-a născut în anul două mii.(atr.apozițional)
+o Locuiesc la etajul doi.(atr.apozițional)
+o Am ajuns la pagina douăzeci.(atr.apozițional)
+-în exprimarea datei UNU și COMPUSELE CU UNU se folosesc la masculin;
+o Azi e 1 Mai. (întâi)
+o Azi suntem în 21 Martie. (douăzeci și unu)
+-DOI și COMPUSELE CU DOI se pot folosi atât la masculin, cât și la feminin;
+o Azi suntem în doi/ două Mai.
+o Azi suntem în doisprezece/ douăsprezece Mai.
+o Azi suntem în douăzeci si doi/ două Mai.
+Funcții sintactice:
+NOMINATIV:
+1) Subiect: Cei doi se joacă.
+2) Nume predicativ: Prietenii mei sunt cei doi.
+3) Atribut apozițional: colegii mei, cei doi, joacă handbal.
+ACUZATIV:
+1) Complement direct: Îi cunosc pe cei doi.
+2) Complement indirect: Eu mă bizui pe cei doi. / Eu mă gândesc la cei doi.
+3) Complement de agent: Proiectul este realizat de către cei doi.
+4) Complement circumstanțial de loc: Mă duc la cei doi să învățăm.
+5) Complement circumstanțial de mod: Eu sunt mai scund decât cei doi.
+6) Complement circumstanțial de timp: Merg la școală odată cu cei doi.
+7) Complement circumstanțial de cauză: Eu am fost certat pentru cei doi.
+8) Complement circumstanțial de scop: Cheta se face pentru cei doi.
+9) Atribut substantival prepozițional: Cadoul de la cei doi mi-a plăcut.
+10)Nume predicativ: Cadoul este pentru cei doi. (PN)
+DATIV:
+1) Complement indirect: Le dau celor doi un premiu.
+2) Complement circumstanțial de mod: Ana se comportă asemenea celor doi.
+3) Complement circumstanțial de cauză: Datorită celor doi am reușit.
+4) Atribut substantival prepozițional: Costum asemenea celor doi am și eu.
+
+|     | 5) Nume predicativ: Ana este asemenea celor doi. |     |     |     |     |     |
+| --- | ------------------------------------------------ | --- | --- | --- | --- | --- |
+GENITIV:
+1) Complement circumstanțial de cauză: Din cauza celor doi am întârziat.
+2) Complement circumstanțial de loc: Diriginta s-a așezat în fața celor doi.
+3) Complement circumstanțial de scop: Recapitularea se face în favoarea
+celor doi.
+|     | 4) Complement indirect: Câinele s-a năpustit asupra celor doi. |     |     |     |     |     |
+| --- | -------------------------------------------------------------- | --- | --- | --- | --- | --- |
+5) Complement condițional: În locul celor doi, eu plecam de la oră.
+6) Complement concesiv: În pofida celor doi, nu mai merg la școală.
+7) Atribut substantival prepozițional: Banca din fața celor doi e ruptă.
+|     | 8) Nume predicativ: Mama este contra celor doi. |     |     |     |     |     |
+| --- | ----------------------------------------------- | --- | --- | --- | --- | --- |
+!!OBS!! Prepoziții și locuțiuni prepoziționale ale GENITIVULUI:
+| Asupra       |     |     | Din cauza          |     | În susul/ josul    |         |
+| ------------ | --- | --- | ------------------ | --- | ------------------ | ------- |
+|             |     |     |                   |     |                   |         |
+|  Deasupra   |     |     |  Împotriva        |     |  În centrul       |         |
+|  Înăuntrul  |     |     |  Îndărătul        |     |  În               | stânga/ |
+| Contra       |     |     | Împrejurul         |     | dreapta            |         |
+|             |     |     |                   |     |                    |         |
+|  Înapoia    |     |     |  În folosul       |     |  În favoarea etc. |         |
+|  Dedesubtul |     |     |  În fața/ spatele |     |                    |         |
+!!OBS!! Prepoziții ale DATIVULUI:
+| Aidoma     |     |     | Conform     |     | Potrivit              |     |
+| ---------- | --- | --- | ----------- | --- | --------------------- | --- |
+|           |     |     |            |     |                      |     |
+|  Asemenea |     |     |  Multumită |     |  Datorită            |     |
+|  Contrar  |     |     |  Grație    |     |  Așijderi/ așijderea |     |
+NUMERALUL ORDINAL
+-arată ordinea obiectelor în spațiu și timp, prin numărare;
+-1 – primul, prima, primii, primele / întâiul, întâia, întâii, întâiele / cel dintâi, cea dintâi;
+|     | Art. posesiv |     |     | Art. posesiv |     |     |
+| --- | ------------ | --- | --- | ------------ | --- | --- |
+Art. hotărât
+Particulă
+| MASCULIN:   al  doi + -le +a |              |           | FEMININ:    a   trei + a |              |     |     |
+| ---------------------------- | ------------ | --------- | ------------------------ | ------------ | --- | --- |
+|                              | Nr. cardinal | Particulă |                          | Nr. cardinal |     |     |
+!!FORME:
+| Al zecelea                    |     |     |     | O mie – al o mielea            |       |           |
+| ----------------------------- | --- | --- | --- | ------------------------------ | ----- | --------- |
+|                              |     |     |     |                               |       |           |
+|  Sută – al sutălea           |     |     |     |  Două mii – al două miilea    |       |           |
+|  O sută – al o sutălea       |     |     |     |  Milion – al milionulea       |       |           |
+|  Două sute – al două sutelea |     |     |     |  Un milion – al un milionulea |       |           |
+| Opt – al optulea              |     |     |     | Două   milioane                |   –   | al   două |
+|                              |     |     |     |                               |       |           |
+|  Mie – al mielea             |     |     |     | milioanelea                    |       |           |
+!!OBS!! Cuvintele care încheie șirul numeralelor ordinale sunt adjective sau locuțiuni
+adjectivale.
+| Ultimul |     |     |     | Ultima  |     |     |
+| ------- | --- | --- | --- | ------- | --- | --- |
+|        |     |     |     |        |     |     |
+
+ Ultimii  Cei din urmă
+ Ultimele  Cea din urma
+ Cel din urmă  Cele din urmă
+NUMERALUL COLECTIV
+-exprimă ideea dee grup sau colectivitate;
+-este de 2 feluri:
+a) simplu: ambii, ambele, amândoi, amândouă;
+G/D: ambilor, ambelor, amândurora;
+b) compuse: tustrei, tuspatru, tuscinci, tusșase, toți șapte, toți zece, câteșitrei;
+-după AMBII și AMBELE substantivele nu se articulează;
+Ambii elevi/ Ambele profesoare/ Ambii copaci
+-după AMÂNDOI și AMÂNDOUĂ substantivele se articulează;
+Amândoi colegii/ Amândouă studentele
+!!OBS!! Cărțile a doi elevi. (a=prepoziție a G)
+Cărțile a tustrei sunt noi.
+Funcții sintactice:
+1) Atribut adjectival: Ambii elevi au reușit.
+2) Subiect: Ambii sunt colegii mei.
+3) Complement direct: Le ajut pe amândouă.
+4) Complement indirect: Mă gândesc la amândoi.
+5) Nume predicativ: Prietenii mei sunt amândoi.
+6) Atrivut substantival, Genitiv: Părerea amândurora e bună.
+NUMERALUL MULTIPLICATIV
+-arată în ce proporție crește o cantitate sau o calitate;
+-este derivat parasintetic;
+Ex: în- + doi+ -it
+Întreit, împătrit, încincit, înzecit, înmiit
+-când determină un substantiv are valoare adjectivală și funcția de atribut adjectival;
+-când determină un verb are valoare adverbială și funcția de complement circ. de mod;
+-numerale multiplicative neologice: DUBLU, TRIPLU, CVADRUPLU, CVATRIPLU;
+NUMERALUL DISTRIBUTIV
+-exprimă repartizarea obiectelr în timp și spațiu;
+-se formează cu adverbul CÂTE;
+Ex: câte unu, câte doi
+Câte unu, unu; câte doi, doi
+Unu câte unu, doi câte doi
+(saci) a câte cincizeci de kg
+Funcții sintactice:
+
+1) Atribut adjectival: Câte trei nepoțeii ma felicită.
+2) Subiect: Câte trei se joacă.
+3) Complement direct: Îi ajut pe cei trei la mate..
+4) Complement indirect: Ofer la câte trei bomboane.
+5) Atribut substantival: Hăinuțele a câte trei sunt noi.
+NUMERALUL FRACȚIONAR
+-se formează prin derivare cu sufixul –IME;
+Ex: o doime, o treime, o zecime;
+- fără O are valoare substantivală;
+NUMERALUL ADVERBIAL/ DE REPETIȚIE
+-arată de câte ori se îndeplinește o acțiune sau o calitate;
+Ex: o dată, de două ori, de trei ori
+O dată în plus/ o dată pentru totdeauna/ de câte două ori/ încă o dată/ de ambele dăți
+-când are valoare adverbială (pe lângă un verb) are funcția de complement de mod;
+o A repetat de două ori.
+-când determină un substantiv are funcția de atribut adverbial;
+o Prășitul de două ori a dat recolte bune.
+!! Numeralul ordinal adverbial:
+ Prima oară/ dată
+ A doua oară
+ În primul rând/ în al doilea rând
+NUMERALUL APROXIMATIV
+ Vreo zece  La cincizeci
+ Circa douăzeci  Zece-douăzeci
+ Aproximativ douăzeci  Aproape zece
+ În jur de douăzeci  !!Vreo șapte-opt =PLEONASM!!
+VALORILE LUI *UN* ȘI *O*
+Când UN și O sunt precedate de adverbele/ adjectivele următoare sunt numerale
+cardinale cu valoare adjectivală, funcția de atribut adjectival.
+ Numai un/o  Câte un/o
+ Doar un/o  Măcar un/o
+ Încă un/o  Un singur/ o singură
+ Decât un/o  Cel puțin un/o
+Tot numerale cardinale sunt în exemplele:
+ Cu o floare nu se face primăvară.
+ Cu o rândunică...
+
+VALORILE MORFOLOGICE ALE LUI *O*
+1) Pronume personal: O ajut pe bunica în grădină.
+2) Pronume personal, valoare neutră, fără fcț.sint.: Iepurele a luat-o la sănătoasa.
+3) Articol nehotărât: O studentă citea pe o bancă.
+4) Numeral cardinal cu val.adj.: O studentă și doi studenți învață.
+5) Adjectiv pronominal nehotărât: O fată citea, alta desena.
+6) Interjecție fără fcț.sint.: O,ce bine îmi pare!
+7) Verb auxiliar, perfect compus forma populară: El o fost la teatru.
+8) Verb auxiliar pentru viitorul popular: O să merg.
+PRONUMELE
+=partea de vorbire flexibilă care substituie un nume/ substantiv;
+-este de 10 feluri:
+| 1) Personal             |     | 6) Demonstrativ |
+| ----------------------- | --- | --------------- |
+| 2) Personal de politețe |     | 7) Interogativ  |
+| 3) De întărire          |     | 8) Relativ      |
+| 4) Negativ              |     | 9) Nehotărât    |
+| 5) Posesiv              |     | 10)Reflexiv     |
+-primele 5 pronume au categoria persoanei, iar ultimele 5 nu;
+-primele 3 pronume (personal, de politețe, reflexive) nu devin adjective pronominale
+niciodată; când determină substantivul de lângă ele au funcția de atribute pronominale;
+PRONUMELE PERSONAL
+-înlocuiește un substantiv desemnând diverse persoane:
+Sg.: eu, tu, el/ea
+Pl.: noi, voi, ei/ele
+-tot pronume personale sunt și dânsul/ dânsului, dânsa/ dânsei, dânșii/ dânșilor,
+dânsele/ dânselor;
+-pronumele eu, tu, noi, voi (=persoanele I și II, sg/pl) nu au forme pentru genitiv, caz în
+care se folosește pronumele posesiv, care rămâne posesiv;
+-la acuzativ și dativ prezintă forme accentuate și neaccentuate;
+| NOMINATIV | EU  | NOI |
+| --------- | --- | --- |
+ACUZATIV (pe) mine, mă, m-, -mă, -m- Pe noi, ne, ne-, -ne-, -ne
+| GENITIV | -------- | ------ |
+| ------- | -------- | ------ |
+DATIV Mie, îmi, mi-,mi, -mi, -mi- Nouă, ni, ne-, -ne-,-ni-, -ne
+| VOCATIV   | -------- | ------ |
+| --------- | -------- | ------ |
+| NOMINATIV | TU       | VOI    |
+ACUZATIV (pe) tine, te, te-, -te, -te- Pe viu, vă, v-,-vă, -v-
+| GENITIV   | --------                     | ------                    |
+| --------- | ---------------------------- | ------------------------- |
+| DATIV     | Ție, îți, ți, ți-, -ți, -ți- | Vouă, vi, vă, v-,-vă, -v- |
+| VOCATIV   | Tu!                          | Voi!                      |
+| NOMINATIV | EL/ EA                       | EI/ ELE                   |
+
+ACUZATIV Pe el, îl, l-,-l,-l- Pe ei, îi, i,i-,-i-,-i
+Pe ea, o, -o-, -o Pe ele, le, le-,-le-,-le
+GENITIV (a/ al/ ai/ ale) lui/ei (a/ al/ ai/ ale) lor
+DATIV Lui, îi, i,i-,-i-,-i Lor, le-, -le-, -le
+Ei, îi, i,i-,-i-,-i
+VOCATIV -------- ------
+Funcții sintactice:
+NOMINATIV:
+4) Subiect: El e prietenul meu.
+5) Nume predicativ: Prietenii mei sunt ei.
+6) Atribut apozițional: Colegul meu, el, joacă handbal.
+ACUZATIV:
+1) Complement direct: Îi cunosc pe ei.
+2) Complement indirect: Eu mă bizui pe el. / Eu mă gândesc la ele.
+3) Complement de agent: Proiectul este realizat de către el.
+4) Complement circumstanțial de loc: Mă duc la el să învățăm.
+5) Complement circumstanțial de mod: Eu sunt mai scund decât voi.
+6) Complement circumstanțial de timp: Merg la școală odată cu ele.
+7) Complement circumstanțial de cauză: Eu am fost certat pentru el.
+8) Complement circumstanțial de scop: Cheta se face pentru noi.
+9) Atribut substantival prepozițional: Cadoul de la tine mi-a plăcut.
+10)Nume predicativ: Cadoul este pentru ei. (PN)
+DATIV:
+1) Complement indirect: Le dau lor un premiu.
+2) Complement circumstanțial de mod: Ana se comportă asemenea lui.
+3) Complement circumstanțial de cauză: Datorită ție am reușit.
+4) Atribut substantival prepozițional: Costum asemenea lui am și eu./ Rochia-ți a fost
+admirată.
+5) Nume predicativ: Ana este asemenea ție.
+GENITIV:
+1) Complement circumstanțial de cauză: Din cauza lui am întârziat.
+2) Complement circumstanțial de loc: Diriginta s-a așezat în fața lui.
+3) Complement circumstanțial de scop: Recapitularea se face în favoarea lui.
+4) Complement condițional: În locul lui, eu plecam de la oră.
+5) Complement concesiv: În pofida lor, nu mai merg la școală.
+6) Atribut substantival prepozițional: Banca din fața ei e ruptă.
+7) Nume predicativ: Mama este contra lui
+!!OBS!! După următoarele verbe, deși unele răspund la întrebarea PE CINE, când se
+referă la ființe urmează COMPLEMENTE INDIRECTE, ele fiind intranzitive:
+A se lăsa (pe) A se bizui
+A conta (pe) A miza
+
+| A fi gelos  | Eu   o   supăr  |   pe   Ana. |   (complement   |
+| ----------- | --------------- | ----------- | --------------- |
+| A paria     | direct)         |             |                 |
+| A se enerva | Eu   mă   supăr |   pe        | Ana.(complement |
+| A se supăra | indirect)       |             |                 |
+PRONUMELE PERSONAL DE POLITEȚE
+-are forme pentru persoana a II a singular/ plural și a III a;
+N/ Ac G/D
+| Dumneata (d-ta)                    | Dumitale      |     |     |
+| ---------------------------------- | ------------- | --- | --- |
+| Dumnealui (d-lui)                  | Dumnealui     |     |     |
+| Dumneaei (d-ei)                    | Dumneaei      |     |     |
+| Dumneasa(d-sa)                     | Dumisale      |     |     |
+| Dumneavoastră (dv./dvs./d-voastră) | Dumneavoastră |     |     |
+| Dumnealor(d-lor)                   | Dumnealor     |     |     |
+-dumnealui, dumneaei, dumnealor, dumneavoastră au aceeași formă la toate cazurile;
+-au vocativ dumneata și dumneavoastră;
+Dumneata de colo, veniți mai aproape!
+Locuțiuni pronominale de politețe:
+| o Domniile Lor (D-lor)  | o Domniei Tale (D-Tale)    |     |     |
+| ----------------------- | -------------------------- | --- | --- |
+| o Domnia Sa (D-sa)      | o Domnia Voastră (Dv/ Dvs) |     |     |
+| o Domniei Sale (D-Sale) | o Excelența Sa             |     |     |
+| Domnia Ta (D-Ta)        | Măria Sa/ Ta/ Voastră      |     |     |
+| o                       | o                          |     |     |
+PRONUMELE ȘI ADJECTIVUL PRONOMINAL DE ÎNTĂRIRE
+-în prezent se folosește doar ca adjectiv de întărire;
+-este compus din vechiul pronume latin + formele scurte de pronume personal sau
+reflexiv;
+M. însu + -mi/ -ți/ -și/ -ne/ -vă/ -și
+F. însă + -mi/ -ți/ -și/ -ne/ -vă/ -și
+Masculin Feminin
+| Eu însumi  | Eu însămi          |     |     |
+| ---------- | ------------------ | --- | --- |
+| Tu însuți  | Tu însăți          |     |     |
+| El însuși  | Ea însăși          |     |     |
+| Noi înșine | Noi însene         |     |     |
+| Voi înșivă | Voi însevă         |     |     |
+| Ei înșiși  | Ele înseși/ însele |     |     |
+!!OBS!!
+  Masculinu l  are aceleași forme la toate cazurile  (eu ÎNSUMI; pe mine ÎNSUMI),
+cazul fiind indicat de pronumele/ substantivul din față;
+ La feminin, la G/D singular Ă se transformă în E (mie ÎNSEMI; ție ÎNSEȚI, fetei
+ÎNSEȘI);
+
+La persoana III plural feminin la G/D flexionează pronumele personal din față și
+
+se asociaza cu ÎNSEȘI;
+ Are funcție sintactică de atribut adjectival.
+PRONUMELE ȘI ADJECTIVUL PRONOMINAL NEGATIV
+-se folosește în propoziții negative;
+|           | N/Ac |           | G/D |
+| --------- | ---- | --------- | --- |
+| Niciunul  |      | Niciunuia |     |
+| Niciuna   |      | Niciuneia |     |
+| Niciunii  |      | Niciunora |     |
+| Niciunele |      | Niciunora |     |
+Niciun copac/ Nicio floare
+-NIMENI și NIMIC nu devin adjective pronominale, ele pot căpăta valoare de substantiv;
+Un nimic/ un nimeni/ niște nimicuri/ nimicul
+
+PRONUMELE ȘI ADJECTIVUL PRONOMINAL POSESIV
+-înlocuiește atât numele posesorului, cât și al obiectului posedat;
+-este compus din vechiul pronume din latină+ articolul posesiv genitival în față;
+-are 4 tipuri de forme:
+I.  UN POSESOR/ UN OBIECT POSEDAT
+|               | Pers. I  | Pers. II | Pers. III |
+| ------------- | -------- | -------- | --------- |
+| Masculin: CAL | Al meu   | Al tău   | Al său    |
+| Feminin:CASĂ  | A mea    | A ta     | A sa      |
+II.  UN POSESOR/ MAI MULTE OBIECTE POSEDATE
+|               | Pers. I  | Pers. II | Pers. III |
+| ------------- | -------- | -------- | --------- |
+| Masculin: CAI | Ai mei   | Ai tăi   | Ai săi    |
+| Feminin:CASE  | Ale mele | Ale tale | Ale sale  |
+III.  MAI MULȚI POSESORI/ UN OBIECT POSEDAT
+|               | Pers. I   | Pers. II  | Pers. III |
+| ------------- | --------- | --------- | --------- |
+| Masculin: CAL | Al nostru | Al vostru | ----      |
+| Feminin:CASĂ  | A noastră | A voastră | ----      |
+IV.  MAI MULȚI POSESORI/ MAI MULTE OBIECTE POSEDATE
+|               | Pers. I     | Pers. II    | Pers. III |
+| ------------- | ----------- | ----------- | --------- |
+| Masculin: CAI | Ai noștri   | Ai voștri   | ----      |
+| Feminin:CASE  | Ale noastre | Ale voastre | ----      |
+!!OBS!!
+ Articolul posesiv-genitival din față s acordă în gen și număr cu substantivul obiect
+posedat.
+ Pronumele posesiv nu are forme proprii pentru persoana III, mai mulți posesori.
+Aici se folosește pronumele personal, dar rămâne personal.
+ Articolul poseviv-genitival din față nu impune cazul genitiv acestui pronume. Ca să
+fie la G/D aceste pronume trebuie să aibă în față ALOR.
+
+ Ai me i au plecat la munte.(subiect, N.)
+ Le dau alor mei un cadou.(D)
+ Ideile alor mei sunt acceptate.(G)
+ Ca adjectiv posesiv pierde articolul din față când se află după substantiv.
+ Prietena mea/ sa/ ta/ noastră/ voastră
+ Colegul meu/ tău/ său/ nostru/ vostru
+ Adjectivul posesiv păstrează articolul în față, putându-se confunda cu pronumele
+posesiv în trei situații
+a) Când este antepus substanivului regent
+Al meu copil/ a mea colegă
+b) Când regentul mai are un atribut
+Acest coleg al meu/ această profesoară a mea
+c) Când regentul este articulat cu articol nehotărât
+Un profesor al meu/ o profesoară a mea
+ Ca adjective pronominale au funcția de atribut adjectival.
+ După prepoziții și locuțiuni ale cazului genitiv, pronumele posesiv devine
+adjectiv posesiv și e la cazul acuzativ, nu genitiv.
+ În fața mea/ ta/ sa s-a așezat Maria.(c.c.l., Ac)
+-adjectiv posesiv, Ac., excepție de la regula genitivului
+ În spatele meu/ tău/ său
+ Este singurul adjectiv pronominal care are și alte funcții sintactice în afară de
+atribut adjectival
+ Din cauza ta am fost certată. (complement de cauză, Ac)
+ Recapitularea se face în folosul nostru.(complement de scop, Ac)
+ După aceleași prepoziții și locuțiuni prepoziționale ale genitivului formele
+neaccentuate de pronume personal și reflexivul ȘI sunt la dativ, nu la genitiv.
+Genitivul nu are forme neaccentuate.
+ În spatele-ți
+ Deasupră-ți
+ În juru-ne
+PRONUMELE ȘI ADJECTIVUL PRONOMINAL DEMONSTRATIV
+-înlocuiește un substantiv, arătând apropierea, depărtarea, identitatea sau diferențierea
+față de altă persoană;
+I. de apropiere
+N/Ac singular G/D singular N/Ac plural G/D plural
+Masculin Acesta Acestuia Aceștia Acestora
+Feminin Aceasta Acesteia Acestea Acestora
+II. de depărtare
+N/Ac singular G/D singular N/Ac plural G/D plural
+Masculin Acela Aceluia Aceia Acelora
+Feminin Aceea Aceleia Acelea Acelora
+III. de identitate
+N/Ac singular G/D singular N/Ac plural G/D plural
+Masculin Același Aceluiași Aceiași Acelorași
+Feminin Aceeași Aceleiași Aceleiași Acelorași
+
+IV.de diferențiere
+|          | N/Ac singular | G/D singular | N/Ac plural | G/D plural  |
+| -------- | ------------- | ------------ | ----------- | ----------- |
+| Masculin | Cestălalt     | Cestuilalt   | Ceștilalți  | Cestorlalți |
+| Feminin  | Ceastălaltă   | Cesteilalte  | Cestelalte  | cestorlalți |
+| Masculin | Celălalt      | Celuilalt    | Ceilalți    | Celorlalți  |
+| Feminin  | Cealaltă      | Celeilalte   | Celelalte   | Celorlalte  |
+-când se acordă cu substantivul de lângă ele, acestea devin adjective pronominale,
+unele suferind modificări:
+Băiatul acesta/ acest băiat
+Eleva aceasta/ această elevă
+!!OBS!! Cartea inginerului acestuia/ cartea inginerei acesteia
+Forme regionale și populare:
+| o Ăsta |     | o Ăla   | o Istalalt | o Etc. |
+| ------ | --- | ------- | ---------- | ------ |
+| o Asta |     | o Aista | o Ăluia    |        |
+| Aia    |     | Aiasta  | Ăleia      |        |
+| o      |     | o       | o          |        |
+PRONUMELE ȘI ADJECTIVUL PRONOMINAL INTEROGATIV
+-înlocuiește un substantiv așteptat ca răspuns la o întrebare;
+| o Care? |     | o Cât?  |     | o Câte? |
+| ------- | --- | ------- | --- | ------- |
+| o Cine? |     | o Câtă? |     |         |
+| o Ce?   |     | o Câți? |     |         |
+-pronumele CINE nu devine adjectiv pronominal prin conversiune, nici compusele cu
+CINE
+| Oricine  |     |     | Altcineva   |     |
+| -------- | --- | --- | ----------- | --- |
+| o        |     |     | o           |     |
+| o Cineva |     |     | o Orișicine |     |
+Funcții sintactice:
+1) Subiect: Cine te-a sunat? / Ce s-a întâmplat?
+2) Nume predicativ: Cine/ Care e prietenul tău? / Ce e fericirea?
+3) Complement direct: Ce scrii?
+4) Complement indirect: De cine/ care te temi? / Pe ce te bazezi?
+5) Complement de loc: La cine ai mers în vizită? / În spatele cui s-a așezat diriginta?
+6) Complement de cauză: Din cauza cui te-ai supărat? / De ce s-a oprit mașina?
+7) Complement de scop: În folosul cui acționează primarul? / De ce înveți atâta?
+8) Complement de timp: Pe vremea cui se trăia mai bine?
+9) Complement condițional: În locul cui l-ai fi pedepsit tu?
+10)Complement de mod: Aidoma cărora ați procedat?
+11)Complement de agent: De către cine ai fost ajutat?
+12)Atribut pronominal genitival: Al cărui copil a reușit?
+13)Atribut adjectival: Care elev a reusit?/ Cărei fete i-ai dus flori?
+!!OBS!! Pronumele CINE reprezintă întrebările cazurilor: N- cine?, Ac- pe cine?, D- cui?,
+G- al/ a/ ai/ ale cui?
+CE în fața uni adjectiv/ adverb este adverb de mod fără funcție sintactică, iar
+adjectivul/ adverbul precedate de CE este la superlativ absolut.
+  Ce  frumoasă e vremea!
+
+ Ce repede merge bunica!
+PRONUMELE ȘI ADJECTIVUL PRONOMINAL RELATIV
+-are aceleași forme ca cel interogativ la care se adaugă două compuse
+ Care  Ce  Câți/ câte
+ Cine  Cât/ câtă  Cel ce/ ceea ce
+-nu devin adjective: cine, cel ce și ceea ce
+-pronumele relative se întâlnesc doar în frază, leagă o subordonată de o regentă și au
+funcție în subordonată;
+Funcții sintactice:
+1) Subiect: Știu/ cine te-a sunat.
+2) Complement de loc: Am aflat/ la cine ai fost.
+3) Complement de scop: Mi s-a spus/ în favoarea cui se face cheta.
+4) Complement de timp: Noi știm/ pe vremea cărora se trăia mai bine.
+5) Complement direct: Am aflat/ pe care l-ai ajutat.
+6) Complement indirect: Știu/ de cine ți-e frică
+7) Atribut pronominal genitival: Orașul/ ale cărui străzi sunt largi/ e frumos.
+8) Atribut adjectival: Am aflat/ care elev a reușit.
+VALORILE MORFOLOGICE ALE LUI * CE *
+ Pronume interogativ: Ce ai cumpărat?
+ Adjectiv interogativ: Ce carte ai cumpărat?
+ Pronume relativ: Am aflat/ ce a făcut.
+ Adjectiv relativ: Am aflat/ ce poznă a făcut.
+ Adverb de mod, fără fcț.sint.: Ce priveliște frumoasă!
+ Substantiv: În familia aceasta este un ce.
+ Pronume nehotărât: Ce aș face, nu o mulțumesc pe mama. (=orice)
+ Adjectiv pronominal nehotărât: Tata a făcut un ce profit din afacere. (=oarecare)
+ Interjecție: Ce? (=Poftim?)
+VALORILE MORFOLOGICE ALE LUI * CARE *
+ Pronume interogativ: Care a reușit?
+ Adjectiv interogativ: Care floare îți place?
+ Pronume relativ: Spune-mi/ care a reușit.
+ Adjectiv relativ: Am aflat/ care băiat a reușit.
+ Substantiv: Pe drum trec două care cu fân.
+ Pronume nehotărât: Care cânta, care dansa, care fluiera... (=unul...unul...)
+LOCUȚIUNI PRONOMINALE ECHIVALENTE CU PRONUMELE NEHOTĂRÂT
+Cine știe cine Nu știu câți
+Cine știe care Te miri cine
+Cine știe ce Te miri care
+Cine știe câți Te miri ce
+Nu știu cine Te miri câte
+Nu știu care Câte și mai câte (=multe)
+Nu știu ce
+
+!!! Verbul din aceste locuțiuni nu are funcție de predicat verbal.!!!
+ACORDUL ÎNCRUCIȘAT
+-pentru realizarea acestuia intră în relație patru elemente: articolul posesiv genitival (al/
+a/ ai/ ale ), pronumele relativ care și 2 substantive;
+CĂRUI
+M. AL AI
+CARE
+CĂROR
+F. A ALE
+CĂREI
+ Un copi l a cărui mamă
+ Un copi l al cărui tată
+ Un pictor ale cărui tablouri
+ Niște eleve ale căror caiete
+ Un fotbalis t a cărui echipă
+ACORDUL ÎMBRĂȚIȘAT
+ Ale cărei fete sunt cărțile?
+ A cărui băiat e cartea?
+PRONUMELE ȘI ADJECTIVUL PRONOMINAL NEHOTĂRÂT
+-înlocuiește un nume fără să aducă precizări în legătură cu acesta;
+-multe din ele sunt compuse din pronume relativ-interogative + 4 particule;
+Care
+Ori
+Cine
+Oare Va
+Ce
+Fie
+Câți/ câte
+Cât/ câtă
+o Unul/ una/ unii/ o Alde
+unele o Cuiva
+o Altul/ alta/ alții/ altele o Căruiva
+o Vreunul/ vreuna o Oricăruia
+o Altceva/ altcineva o Altuia/ alteia
+o Orișicine/ altcareva o Tot/ toată/ toți/ toate
+o Anumit/ ă o Mult/multă/ mulți/ multe
+o Anumiți/ anumite o Puțin/ă / puțini/e
+o Niscaiva
+-când stau în fața substantivului au valoare de adjectiv pronominal nehotărât;
+-după un substantiv au valoare de adjectiv propriu-zis (calificativ);
+Mulți spectatori au fost în tribune. (adj pron)
+Spectatori mulți...(adj propriu-zis)
+!!OBS!!
+
+Când NIȘTE este în fața unui substantiv la plural este articol nehotărât fără
+funcție.
+  Când stă în fața unui substantiv defectiv de plural, nume de alimente sau materii
+este adjectiv pronominal nehotărât.
+| Niște brânză  |     |     |     | Niște aur    |     |
+| ------------- | --- | --- | --- | ------------ | --- |
+|              |     |     |    |              |     |
+|  Niște lapte |     |     |    | Niște pește  |     |
+|  Niște caș   |     |     |    | Niște argint |     |
+ Niște carne
+LOCUȚIUNI PRONOMINALE CU VALOARE DE PRONUME NEGATIV
+| Nici țipenie de om  |     |     |     | Nici cât păr pe broscă |     |
+| ------------------- | --- | --- | --- | ---------------------- | --- |
+|                    |     |     |    |                        |     |
+|  Nici picior de om |     |     |    | Nimica toată           |     |
+ Nici cât păr în palmă
+PRONUMELE REFLEXIV
+-are forme doar pentru persoana III;
+-are doar două cazuri: ACUZATIV și DATIV;
+-prezintă forme accentuate și neaccentuate;
+-la persoanele I și II sg/pl se folosesc formele neaccentuate de pronume personal;
+| ACUZATI | Mă Te | --- | Ne  | Vă  | --- |
+| ------- | ----- | --- | --- | --- | --- |
+V
+| DATIV | Îmi/ mi Îți/ ți | --- | Ne  | vă  | --- |
+| ----- | --------------- | --- | --- | --- | --- |
+FORME PROPRII:
+Pe sine, se, s-,-s-
+Sieși, își, și,-și,-și,și-
+Funcții sintactice:
+1) Complement indirect: Se gândește doar la sine./ Se bazează pe sine.
+2) Complement direct: Maria se laudă mult.
+3) Atribut pronominal prepozițional: Lauda de sine nu miroase a bine.
+4) Nume predicativ: Cadoul este pentru sine.
+5) Complement de loc: A pus geanta lângă sine.
+6) Complement de agent: Problema a fost rezolvată de către sine.
+CONVERSIUNEA PRON. PERS. ÎN PRON. REFLEXIV
+ACUZATIV:
+Verb la diateza activă pronominală
+ Eu mă spăl.(pe mine)
+ I      I
+Reflexiv,
+complement direct
+Verb la diateza reflexivă
+Reflexiv, fără funcție
+
+ Eu mă culc. (pe mine)
+I I
+DATIV:
+ Eu îmi spăl cămașa.
+I I
+Reflexiv, atribut pronominal în
+dativul posesiv
+ Eu îmi imaginez că...(verb la diateza reflexivă)
+ Tu îți amintești de...( verb la diateza reflexivă)
+ Eu îmi spăl o cămașă.
+I I
+Reflexiv, complement indirect
+VALORILE MORFOLOGICE ALE LUI *ȘI*
+1) Conjuncție copulativă: Alina și Alin se plimbă.
+2) Adverb de mod fără funcție sintactică: Și mâine merg la antrenament.
+3) Pronume reflexiv, atribut pronominal: Și-a reparat mașina.
+4) Conjuncție adversativă: Te-am salutat,/ și n-ai răspuns.(și=dar)
+ARTICOLUL
+=partea de vorbire flexibilă care însoțește un substantiv, arătând în ce măsură obiectul
+denumit prin acel substantiv este cunoscut vorbitorilor;
+-este singura parte de vorbire care nu are locuțiuni;
+-nu are funcție sintactică, se ia cu substantivul următor;
+-este de patru feluri:
+1. Hotărât
+2. Nehotărât
+3. Posesiv/ genitival
+4. Demnonstrativ/ adjectival
+
+ARTICOLUL HOTĂRÂT
+=însoțește un substantiv, arătând că obiectul denumit prin substantiv este cunoscut
+vorbitorilor;
+-în general este enclitic, adică se atașează la sfârșitul substantivului;
+|          | N/Ac singular | D/G singular | N/Ac plural | D/G plural |
+| -------- | ------------- | ------------ | ----------- | ---------- |
+| Masculin | -(u)l         | -(u)lui      | -i          | -lor       |
+| Feminin  | -a            | -i           | -le         | -lor       |
+| Neutru   | -(u)l         | -lui         | -le         | -lor       |
+-poate fi și proclitic, adică se atașează în fața substantivului;
+ În fața substantivelor masculine nume de persoana la G/D
+ În fața substantivelor feminine nume de persoană la G/D
+ În fața subtantivelor care nu se termină în a
+Cartea lui Mihai/ Îi spun lui Mihai (articol proclitic, fără funcție)
+o
+o În zilele lui ianuarie
+În iarna lui 2020
+o
+o Părerea lui moșu-meu/ frate-meu
+Lui nenea/ tanti/ Vodă
+o
+!!OBS!!  Articolul hotărât ajută la conversiunea unor părți de vorbire care devin
+substantive. (urătul, verdele, oful, eul, aratul, optul)
+ARTICOLUL NEHOTĂRÂT
+-este întotdeauna proclitic;
+-se atașează în fața substantivelor arătând că obiectul denumit este mai puțin cunoscut;
+|          | N/Ac singular | D/G singular | N/Ac plural | D/G plural |
+| -------- | ------------- | ------------ | ----------- | ---------- |
+| Masculin | Un            | Unui         | Niște       | Unor       |
+| Feminin  | O             | Unei         | Niște       | Unor       |
+| Neutru   | Un            | Unui         | Niște       | Unor       |
+!!OBS!!
+1. A se vedea valorile morfologice ale lui UN, O și NIȘTE
+2. Și articolul nehotărât ajută la conversiunea unor părți de vorbire în substantiv:
+o Un opt – nr. cardinal cu valoare substantivală
+Un nimeni
+o
+o Un nimic/ niște nimicuri
+Un of/ un hop
+o
+ARTICOLUL GENITIVAL
+|          | singular | plural |     |     |
+| -------- | -------- | ------ | --- | --- |
+| Masculin | Al       | Ai     |     |     |
+| Feminin  | A        | Ale    |     |     |
+
+-se numește articol genitival pentru că se folosește în fața substantivelor și pronumelor la
+cazul genitiv;
+O carte a elevului
+Niște cărți ale elevului !!Se acordă cu substantivul obiect-posedat
+Un cățel al vecinului în gen și număr.!!
+Niște elevi ai clasei.
+VALORILE MORFOLOGICE ALE LUI *A*
+1. Prepoziție a cazului genitiv: El e tată a doi copii.
+2. Prepoziție marcă a infinitivului: a citi, a iubi
+3. Prepoziție a cazului Acuzativ: Miroase a cozonac.
+ARTICOLUL DEMONSTRATIV/ ADJECTIVAL
+singular plural
+Masculin Cel Cei
+Feminin Cea Cele
+-se cheamă demonstrativ pentru că provine din pronume demonstrativ;
+-se cheamă adjectival pentru ca leagă un adjectiv/ locuțiune adjectivală de un substantiv;
+Zâna cea isteață/ zâna cea cu stea în frunte
+-tot articol demonstrativ este în următoarele situații:
+ Ajută la formarea superlativului relativ de superioritate/ inferioritate;
+ Cel mai bun/ cel mai puțin bun
+ Intră în componența unor substantive proprii
+ Ștefan cel Mare
+ În fața unui numeral cardinal/ ordinal ajutând la substantivizarea sa
+ Cea de-a doua
+ Intră în componența locuțiunilor: cel din urmă/ cea din urmă/ cei din urmă/ cele din
+urmă
+!!OBS!! Când cel/ cea/ cei/ cele sunt urmate de o prepoziție sau de pronumele relativ
+CARE sunt pronume demonstrative formă scurtă/ populară.
+ Cea/ care vine/ e sora mea./
+ Cel de acolo este student. (=acela)
+
+ADJECTIVUL
+=partea de vorbire flexibilă care exprimă o însușire calitativă sau cantitativă a unui obiect
+acordându-se cu substantivul regent în gen, număr și caz;
+Funcții sintactice:
+1) Atribut adjectival: Carte frumoasă, cinste cui te-a scris.
+2) Nume predicativ: Cartea este frumoasă. (caz Nominativ)
+3) Complement circumstanțial de timp: O cunosc de mică/ de tânără.
+Iepurii au mâncat frunza de verde.
+4) Complement circumstanțial de cauză: De bună/ ce era/ toți o iubeau.
+5) Complement circumstanțial de mod: El era mai mult mort decât viu.
+6) Complement indirect: Din bun s-a făcut rău.
+Clasificare:
+I.după formă
+ SIMPLE:
+o Bun
+o Urât
+o Mic
+
+COMPUSE
+
+4 forme
+o Rozalb o Neoliberal
+o Binecuvântat o Nou-născut
+o Sociocultural o Băimărean
+o Propriu-zis o Româno-americană
+o Clarvăzător o Chimico-farmaceutic
+o Atotputernic o Greco-catolic
+ LOCUȚIUNI ADJECTIVALE
+| o   | Cu stare          | o   | Într-o ureche      | o   | Tobă de carte   |
+| --- | ----------------- | --- | ------------------ | --- | --------------- |
+|     | De seamă          |     | Cu stea în frunte  |     | Din topor       |
+| o   |                   | o   |                    | o   |                 |
+| o   | De vază           | o   | Cu dare de mână    | o   | Pestriț la mațe |
+|     | De frunte         |     | De încredere       |     | Tot unu și unu  |
+| o   |                   | o   |                    | o   |                 |
+| o   | De geniu          | o   | De treabă          | o   | De față         |
+|     | Cu scaun la cap   |     | În floarea vârstei |     | De milioane     |
+| o   |                   | o   |                    | o   |                 |
+| o   | Numai piele și os | o   | De zile mari       | o   | De invidiat     |
+II. în funcție de terminație
+ VARIABILE- cu una/ două terminații și 2/3/4 forme
+!!Ca să aflăm câte terminații are un adjectiv luăm substantivele băiat și fată și punem
+adjective lângă ele la singular. Ca să aflăm câte forme are le punem la plural și adunăm
+cu singularul.
+Băiat frumos/ Fată frumoasă –2 terminații
+Băieți frumoși/ Fete frumoase
+Adjective cu 3 forme:
+|     |  Mic   |     |  Larg |     |  Auriu    |
+| --- | ------- | --- | ------ | --- | ---------- |
+|     |  Adânc |     |  Drag |     |  Românesc |
+!!Adjectivele variabile care se termină în e au o terminație și 2 forme:
+|     | Mare      |     | Moale     |     | Fierbinte |
+| --- | --------- | --- | --------- | --- | --------- |
+|     |          |     |          |     |          |
+|     |  Subțire |     |  Limpede |     |  Tulbure |
+|     |  Tare    |     |  Iute    |     |           |
+ INVARIABILE
+|     | Bej         |     | Mov            |     | Feroce!!              |
+| --- | ----------- | --- | -------------- | --- | --------------------- |
+|     |            |     |               |     |                      |
+|     |  Crem      |     |  Havan        |     |  Locvace!!           |
+|     |  Bleu      |     |  Corai        |     |  Propice             |
+|     |  Gri       |     |  Acaju= mahon |     |  Vivace              |
+|     | Lila        |     | Maro           |     | Motrice               |
+|     |            |     |               |     |                      |
+|     |  Kaki      |     |  Roz          |     |  Factice= artificial |
+|     |  Liv       |     |  Ecru         |     |  Veloce=sprinten     |
+|     | Orange      |     | Atroce!!       |     | Perspicace            |
+|     |            |     |               |     |                      |
+|     |  Indigo    |     |  Eficace!!    |     |  Coșcogea            |
+|     |  Bleumarin |     |  Ferice!!     |     |  Dita mai            |
+
+ Sadea  Leoarcă
+ Doldora  Chic
+III. după sens
+ CALIFICATIVE/ PROPRIU-ZISE
+ Frumos
+ Mic
+ Urât
+ Bun
+ DETERMINATIVE= provenite din alte părți de vorbire prin conversiune
+ Șapte tipuri de pronume devin adjective pronominale
+ Unele numerale (cardinale de la 1 la 19, ordinale, multiplicative, colective,
+distributive) când se acordă cu substantivul capătă valoare adjectivală
+ Unsprezece adverbe pe lângă un substantiv devin adjective
+ Așa  Bine  Aievea
+ Gata  Asemenea  Anume
+ Gerunziile acordate
+ Cafea aburindă
+ Cafele aburinde
+ Interjecția HALAL pe lângă un substantiv are valoare adjectivală
+ Halal fete
+ Toate verbele la participiu pe lângă un substantiv au valoare adjectivală
+(adj. participiale)
+ Pomi înfloriți
+ Cămăși spălate
+GRADELE DE COMPARAȚIE ALE ADJECTIVULUI
+1. POZITIV: bun
+2. COMPARATIV:
+ De superioritate: mai bun
+ De inferioritate: mai puțin bun
+ De egalitate: la fel de bun/ tot așa de bun/ tot atât de bun
+3. SUPERLATIV:
+ Relativ: cel mai bun/ cel mai puțin bun
+ Absolut: foarte bun
+!!OBS!! Mijloace expresive de formare a superlativului absolut:
+Prin repetarea adjectivului: frumoasă, frumoasă
+Prin repetarea adjectivului la genitiv: urâta urâtelor
+Prin repetarea sau ungirea unor sunete: borș acruuuu!
+Prin conversiunea unor substantive:
+o Deștept foc o Prost bâtă
+
+Slabă scândură Beat turtă
+| o   |     | o   |     |
+| --- | --- | --- | --- |
+Cu ajutorul unor adverbe urmate de prepoziția DE:
+| o Grozav de... |     | o Fantastic de... |     |
+| -------------- | --- | ----------------- | --- |
+| o Nespus de... |     | o Impecabil de... |     |
+o Teribil de...
+Cu ajutorul unor prefixe:
+| o  Ultra elegant |     | o  Extra fin |     |
+| ---------------- | --- | ------------ | --- |
+ Stră lucitor  Supra aglomerat
+| o             |     | o                |     |
+| ------------- | --- | ---------------- | --- |
+| o  Stră vechi |     | o  Super elegant |     |
+Cu sufixul –ISIM:
+| o Rarisim |     | o Simplisim |     |
+| --------- | --- | ----------- | --- |
+Adjective fără grad de comparație:
+| Superior   | Suprem     | Univ       | Perfect  |
+| ---------- | ---------- | ---------- | -------- |
+|           |           |           |         |
+|  Inferior |  Extrem   |  Viu      |  Popesc |
+|  Major    |  Ulterior |  Mort     |  Pătrat |
+|  Minor    |  Anterior |  Splendid |  Rotund |
+| Maxim      | Posterior  | Teribil    | Genial   |
+|           |           |           |         |
+|  Minim    |  Ultim    |  Vast     |          |
+Conversiunea adjectivelor:
+ Prin conversiune adjectivele pot deveni substantive (un frumos/ frumosul)
+Unele adjective devin adverbe de mod cu funcția de complement de mod când
+
+determină verbe (cântă frumos)
+  Adjective substantivizate :
+Cel tânăr
+
+Cel cu notoc
+
+ Cel cu judecată
+ Cel cu stea în frunte
+!!Adjectivele din limba latină terminate în  OR( major, inferior...) au valoare de
+comparativ.
+!!Adjectivele terminate în IM sau EM (maxim, minim, suprem, extrem...) au valoare de
+superlativ.
+
+SUBSTANTIVUL
+=partea de vorbire flexibilă care denumește obiecte în sens larg: ființe, lucruri, fenomene
+ale naturii, nume de acțiuni (mersul, plimbatul etc), stări sufletești, senzații (foame, sete,
+frig, durere);
+-îl recunoaștem prin numărare, articulare sau determinare cu un adjectiv sau adjectiv
+pronominal;
+CLASIFICARE:
+I. După structură:
+1. Simple : copil, creion, carte
+2. Compuse :
+ Contopite : botgros, surdomut, triplusalt, pursânge, dreptunghi,
+binecuvântare, bunăvoință, preafericitul, răuvoitor;
+ Cu cratimă : rea-voință, bun-simț, floarea-soarelui
+ Alăturare fără cratimă : Baia Mare, Marea Neagră
+ Abreviere : tarom, aprozar, agromec
+II. După sens:
+1. Comune : bunic, școală
+2. Propri i: anumite obiecte/ ființe pentru a le deosebi de altele
+-unele substantive comune provin din substantive proprii: volt, watt, zepelin, joben,
+recamier,amandină, newton;
+Am cumpărat un Eminescu./ Am admirat un Grigorescu. (comune)
+PRINCIPALELE CATEGORII GRAMATICALE:
+1. Gen
+2. Număr
+3. Caz
+4. Articol
+
+GENUL SUBSTANTIVELOR:
+-în limba română substantivele se împart în trei genuri:
+MASCULIN: un copil, niște copii (doi copii)
+G/D:unui copil
+FEMININ: o fată, niște fete (două fete)
+NEUTRU: un scaun, niște scaune (două scaune)
+!!OBS!! Nu întotdeauna genul natural se suprapune peste cel gramatical.
+!!Sunt masculine:
+o Literele alfabetului
+o Lunile anului
+o Cifrele
+o Notele muzicale
+o Semințele de cereale (+mușețel)
+!!Sunt feminine:
+ Santinelă, ordonanță
+ Zilele săptămânii
+ Anotimpurile
+ Unele momente ale zilei (seara, ziua, noaptea, dimineața, după-masa)
+ Nume de orașe/ țări/ insule terminate în A (excepție: Târgoviște)
+ Senzații și stări sufletești: teamă, frică, sete, bucurie, tristețe
+!!Sunt neutre:
+ Orașe/ insule/ țări care nu se termină în A
+ Numele sporturilor (excepție:oină- feminin)
+ Orânduiri sociale (sclavagie, capitalism)
+ Curente literare
+ Numele simțurilor
+ Nume de materii (sânge, lapte, aur, argint)
+ Numele unor vânturi (Austru, Crivăș, viscol)
+ Însușiri fără plural (patriotism, curaj, erosim)
+ Câteva substantive nume de ființe (popor, norod, macrou, animal, dobitoc,
+mamifer, personaj)
+Opoziția de gen, în afară de folosirea desinențelor, se poate realiza cu ajutorul derivării
+cu sufixe mobile, formându-se SUBSTANTIVE MOBILE:
+ Cele mai multe substantive sunt feminine de la masculin:
+ Profesor- profesoară  Lup- lupoaică
+ Coleg- colegă  Etc
+ Preot- preoteasă
+ Există și masculine de la feminin
+ Rață- rățoi  Vulpe- vulpoi
+ Vrabie- vrăbioi  Curcă- curcan
+
+Broască- broscoi Gâscă- gâscan
+|     |    |     |     |    |     |
+| --- | --- | --- | --- | --- | --- |
+ Cioară- cioroi
+SUBSTANTIVE EPICENE:
+-utilizează un singur cuvânt pentru ambele genuri:
+| o   | Crocodil   | o   | Ciocârlie | o   | Făt     |
+| --- | ---------- | --- | --------- | --- | ------- |
+| o   | Libelulă   | o   | Știucă    | o   | Sugar   |
+| o   | Elefant    | o   | Furnică   | o   | Părinte |
+| o   | Rinocer    | o   | Albină    | o   | Soldat  |
+| o   | Viezure    | o   | Struț     | o   | Rector  |
+| o   | Nevăstuică | o   | Victimă   | o   | Star    |
+| o   | Gazelă     | o   | Păianjen  | o   | Rudă    |
+-există substantive cu aceeași formă la singular și la plural:
+|     | Un pui/ doi pui |     | Tei       |     | Codice       |
+| --- | --------------- | --- | --------- | --- | ------------ |
+|     |                |     |          |     |             |
+|     |  Unchi         |     |  Broscoi |     |  Muncitoare |
+|     |  Baci          |     |  Nume    |     |  Lucrătoare |
+|     |  Arici         |     |  Prenume |     |              |
+|     | Ardei           |     | Păntecele |     |              |
+|     |                |     |          |     |              |
+SUBSTANTIVE DEFECTIVE DE SINGULAR (pluraliatantum):
+|     |  Blugi         |     |  Cori           |     |  Cosmetice |
+| --- | --------------- | --- | ---------------- | --- | ----------- |
+|     | Câlți           |     | Confetti         |     | Crudități   |
+|     |                |     |                 |     |            |
+|     |  Lapți         |     |  Grafitti       |     |  Spaghete  |
+|     |  Ravioli       |     |  Funeralii      |     |  Paste     |
+|     | Tăiței/ tăieței |     | Condoleanțe      |     | Represalii  |
+|     |                |     |                 |     |            |
+|     | Vapori          |     | Contrainformații |     | Rechizite   |
+|     |                |     |                 |     |            |
+|     |  Speze         |     |  Citrice        |     |  Tipizate  |
+|     |  Tratative     |     |  Devize         |     |             |
+|     | Urale           |     | Grâie/ grâne     |     |             |
+|     |                |     |                 |     |             |
+SUBSTANTIVE DEFECTIVE DE PLURAL (singulariatantum):
+|     |  Accept  |     |  Curaj  |     |  Buzău   |
+| --- | --------- | --- | -------- | --- | --------- |
+|     | Astm      |     | Miere    |     | Griș      |
+|     |          |     |         |     |          |
+|     |  Confort |     |  Fasole |     |  Haos    |
+|     |  Frică   |     |  Mazăre |     |  Plictis |
+|     |  Foame   |     |  Aur    |     |           |
+|     | Sete      |     | Argint   |     |           |
+|     |          |     |         |     |           |
+SUBSTANTIVE FEMININE CU ACCEAȘI FORMĂ LA SINGULAR ȘI PLURAL:
+|     | o Azalee  |     | o Pigmee   |     | o Galinacee |
+| --- | --------- | --- | ---------- | --- | ----------- |
+|     | o Camee   |     | o Cornee   |     | o Seboree   |
+|     | o Orhidee |     | o Dulcinee |     | o Graninee  |
+
+o Logoree o Dispnee o Maree
+o Liliacee o Onomatopee
+o Tranșee o Odisee
+!!Dar:
+ Alee-alei  Melopee-melopei
+ Idee-idei  Trahee-trahei
+ Apopee-epopei  Diaree-diarei
+ Moschee-moschei
+SUBSTANTIVE CU FORME DUBLE DE SINGULAR:
+Ax/ axă Corijent/ corigent
+Cearceaf/ cearșaf Votcă/ vodcă
+Zi/ ziuă Urcior/ ulcior
+Tumoră/ tumoare Piuneză/ pioneză
+Isus/ Iisus Grâne/ grâie
+SUBSTANTIVE CU FORME DUBLE DE PLURAL:
+ Cicatrice/ cicatrici  Râpe/ râpi
+ Corzi/ coarde  Niveluri/ nivele
+ Coperți/ coperte
+FUNCȚII SINTACTICE:
+NOMINATIV:
+1) Subiect: Bunicul curăță copacii.
+2) Nume predicativ: Andrei este colegul meu.
+3) Atribut apozițional: Colegul meu, Andrei, învață bine.
+ACUZATIV:
+1) Complement direct: O ajut pe mama.
+2) Complement indirect: Mă gândesc la examen.
+3) Complement de agent: Mașina e reparata de către tine.
+4) Complement de loc: Merg la școală.
+5) Complement de timp: Merg la școală odată cu Maria.
+6) Complement de mod: Mama este mai mică decât tata.
+7) Complement de scop: Mama face economii pentru casă.
+8) Complement de cauză: N-am intrat în clasă de rușine.
+9) Nume predicativ: Pădurea este de fagi.
+10)Atribut substantival prepozițional: Pădurea de fagi e tânără.
+GENITIV:
+1) Atribut substantival genitival: Proprietarii casei au plecat.
+2) Atribut substantival prepozițional: Pomul din fața casei a rodit.
+3) Nume predicativ: Mama este contra fumatului.
+4) Complement de loc: Mașina s-a oprit în fața casei.
+5) Complement de cauză: Din cauza poleiului am alunecat.
+
+6) Complement indirect: Câinele s-a năpustot asupra hoțului.
+7) Complement de timp: Am sosit acasa înaintea mamei.
+8) Complement condițional: În locul tatei eu nu-ți dădeam bani.
+DATIV:
+1) Complement indirect: Îi ofer flori mamei.
+2) Complment de loc: Stai locului! / Stă țintuit locului./ Așterne-te drumului!/ Du-te
+naibii!
+3) Complement concesiv: Contrar obiceiului, s-a culcat la amiază.
+4) Atribut substantival prepozițional: Reușita grație mamei mă bucură.
+5) Atribut în dativul arhaic: Maria este nepoată mătușii mele.
+VOCATIV:
+!!nu are funcții sintactice
+!!excepție:
+ Bădie Ioane! Primul cuvât nu are funcție
+ Nene Iancule! Al doilea este atribut apozițional în vocativ
+ Vecine Dumitre!
+substantivul nu are funcție,adjectivul
+Dar: dragă mamă/ mamă dragă
+este atribut adjectival
+!!OBS!! Putem avea subiect în Acuzativ/ Genitiv/ Dativ, dar exprimat numai prin
+pronume relative, deci în fraze:
+ Îl premiez/ pe cine ia premiul I./ (Ac)
+ Resituie cartea/ cui ți-a împrumutat-o./ (D)
+ Hai fiecare pe la casa/ cui ne are./ (G)
+LOCUȚIUNI SUBSTANTIVALE:
+-grup de cuvinte cu valoarea unui substantiv:
+ Băgare de seamă  Punct de vedere
+ Aruncătură de ochi  Ținere de minte
+ Nod în papură  Foc de paie
+ Dare de mână  Stat de vorbă
+ Tragere de inimă  Aducere aminte
+ Părere de rău/ bine
+!!OBS!! Substantivele care denumesc anotimpuri, zile ale săptămânii sau părți ale zilei
+sunt substantive în 3 situații:
+1. Dacă au funcție de subiect
+2. Dacă au lângă ele un atribut
+3. Dacă au în față o prepoziție
+Dacă nu respectă acestea, snt adverbe de timp cu funcția de complement de timp.
+Toamna se numără bobocii.
+CONVERSIUNEA:
+-substantiv-adverb
+
+ Doarme buștean
+ Îndrăgostit lulea
+ Sărac ocnă
+e voie
+e nevoie
+-în structurile
+e cazul
+e vorba
+Predicat verbal Subiect
+-Ei au plecat la scăldat
+la arat
+Complemente de scop
+la vânat
+la banchet
+-Ei vin de la arat
+de la semănat Complemente de loc
+de la nuntă
+
+VERBUL
+=partea de vorbire flexibilă care exprimă acțiunea, starea și existența;
+CATEGORIILE GRAMATICALE ALE VERBULUI:
+1. Conjugarea
+2. Diateza
+3. Modul
+4. Timpul
+5. Persoana
+A. CONJUGAREA
+-după sufixul verbelor de la modul infinitiv verbele se împart în patru conjugări:
+a) conjugarea I- se termină în –A (a lucra, a căuta, a mânca)
+b) conjugarea II- se termină în –EA (a încăpea, a tăcea, a zăcea)
+c) conjugarea III- se termină în –E (a zice, a spune, a cere)
+d) conjugarea IV- se termină în –I sau –Î (a hotărî, a coborî, a citi, a fi)
+B. DIATEZA
+=forma pe care o ia verbul pentru a arăta raportul dintre acțiune și autorul ei;
+1. ACTIVĂ- arată că subiectul gramatical face acțiunea
+ Soarele răsare.
+ Studenții învață.
+2. PASIVĂ- subiectul gramatical este pasiv și suportă acțiunea pe care altcineva o
+face
+ Mașina e reparată de către mecanic. (masina= subiectul gramatical, de către
+mecanic= subiect logic)
+!!OBS!!
+ La diateza pasivă, verbul de bază este la participiu, deși se comportă ca un adjectiv.
+ Verbul A FI din componența pasivului este auxiliar, nu copulativ.
+ La diateza pasivă se folosesc doar verbe tranzitive, dar devin intranzitive.
+3. REFLEXIVĂ- cuprinde verbe care arată că subiectul gramatical face acțiunea, tot
+el o suportă, dar are în față, în mod obligatoriu, un pronume reflexiv, fără funcție
+La persoana I-II, Ac: mă, te, --, ne, vă,--
+D: îmi/ mi, îți/ ți, --, ne, vă, --
+ Eu mă culc. (reflexiv)
+ Tu te gândești.(pe tine = reflexiv)
+ El își imaginează. ( lui= reflexiv)
+Verbe reflexive cu pronume la ACUZATIV în față:
+a)verbe cu caracter împrumutat
+
+o se zice o se aude o se observă
+o se spune o se cunoaște o se înțelege
+o se știe o se presupune
+!!!După ele urmează o SUBIECTIVĂ
+b)verbe care nu se pot construi fără pronumele SE în față
+o a se îmtâmpla o a se baza
+o a se cădea o a se ofili
+o a se bucura o a se cuveni
+o a se odihni o a se zvoni
+c)verbe care, dacă au pronumele SE în față, au un sens și fără SE au un alt sens
+sunt la diateza reflexivă când au pronumele în față
+o a se uita o a uita
+o a se juca o a juca
+o a se simță o a simți
+o a se îndrepta o a îndrepta
+o a se duce o a duce
+!!OBS!! Există verbe relativ-pasive care au în față pronume reflexiv, dar au sens pasiv.
+Aici se construiește o grădiniță. (de către cineva)
+C. MODURILE
+=froma pe care o ia verbul pentru a arăta felul cum consideră vorbitorul acțiunea:
+1.reală- indicativ
+2.posibilă, realizabilă- conjunctiv
+3.dorită, depinde de o condiție- condițional-optativ
+4.poruncită, ordonată- imperativ
+În limba română există 9 moduri, dar se studiază 8: 4 predicative/ personale și 4
+nepredicative/ nepersonale.
+MODURI PERSONALE/ PREDICATIVE
+-se numesc moduri predicative pentru că verbele la aceste moduri au funcție de predicat
+verbal și personale pentru ca au categoria persoanei;
+1. MODUL INDICATIV=singurul mod cu cele trei timpuri de bază(prezent/
+trecut/viitor)
+-trecutul are 4 forme:
+ Perfect simplu: eu citii, tu citiși
+ Perfect compus: eu am citit, tu ai citit (+a avea auxiliar)
+ Imperfect: eu citeam, tu scriai
+ Mai-mult-ca-perfectul: eu mâncasem, noi cântam, tu mâncaseși
+2. MODUL CONJUNCTIV- are două timpuri
+ Prezent: să plec, să pleci
+ Perfect/ trecut: să fi plecat (+a fi auxiliar)
+
+3. MODUL CONDIȚIONAL-OPTATIV
+|     |  Prezent: aș merge (+a avea)            |     |     |     |     |     |
+| --- | ---------------------------------------- | --- | --- | --- | --- | --- |
+|     |  Perfect: aș fi mers (+ a avea, + a fi) |     |     |     |     |     |
+4. MODUL IMPERATIV- are două persoane
+|     |  II, sg: Cântă!, Nu cânta!     |     |     |     |     |     |
+| --- | ------------------------------- | --- | --- | --- | --- | --- |
+|     |  II, pl: Cântați!, Nu cântați! |     |     |     |     |     |
+!!OBS!!  Uneori conjunctivul se poate forma fără conjuncția SĂ și are valoare de
+imperativ:
+ Trăiască nașii! (= să trăiască)
+    Mai-mult-ca-perfectul se formează de la tema perfectului simplu, la care se
+adaugă sufixul gramatical SE+ desinențele de persoană.
+| Conj I | A cânta |      | Conj I        | A cânta |       |      |
+| ------ | ------- | ---- | ------------- | ------- | ----- | ---- |
+| Perfec | eu      | Cânt | a i Mai-mult- | eu      | Cânta | se m |
+| t      |         |      | ca-perfectul  |         |       |      |
+simplu
+|          | Tu     | Cânt | a și         | Tu       | Cânta  | se și   |
+| -------- | ------ | ---- | ------------ | -------- | ------ | ------- |
+|          | El     | Cânt | a --         | El       | Cânta  | se --   |
+|          | Noi    | Cânt | a răm        | Noi      | Cânta  | se răm  |
+|          | Voi    | Cânt | a răți       | Voi      | Cânta  | se răți |
+|          | Ei     | Cânt | a ră         | Ei       | Cânta  | se ră   |
+| Conj II  | A bea  |      | Conj II      | A bea    |        |         |
+| Perfect  | eu     | Bă u | i Mai-mult-  | eu       | Bău se | m       |
+| simplu   |        |      | ca-perfectul |          |        |         |
+|          | Tu     | Bă u | și           | Tu       | Bău se | și      |
+|          | El     | Bă u | --           | El       | Bău se | --      |
+|          | Noi    | Bă u | răm          | Noi      | Bău se | răm     |
+|          | Voi    | Bă u | răți         | Voi      | Bău se | răți    |
+|          | Ei     | Bă u | ră           | Ei       | Bău se | ră      |
+| Conj III | A face |      | Conj III     | A merge  |        |         |
+| Perfect  | eu     | Făc  | u i Perfect  | eu       | Mer se | i       |
+| simplu   |        |      | simplu       |          |        |         |
+|          | Tu     | Făc  | u și         | Tu       | Mer se | și      |
+|          | El     | Făc  | u --         | El       | Mer se | --      |
+|          | Noi    | Făc  | u răm        | Noi      | Mer se | răm     |
+|          | Voi    | Făc  | u răți       | Voi      | Mer se | răți    |
+|          | Ei     | Făc  | u ră         | Ei       | Mer se | ră      |
+| Conj IV  | A citi |      | Conj IV      | A coborî |        |         |
+| Perfect  | eu     | Ci i | i Perfect    | eu       | Cobor  | â i     |
+| simplu   |        | t    | simplu       |          |        |         |
+
+|     | Tu Ci | i și | Tu  | Cobor | â și |
+| --- | ----- | ---- | --- | ----- | ---- |
+t
+|     | El Ci | i -- | El  | Cobor | â -- |
+| --- | ----- | ---- | --- | ----- | ---- |
+t
+|     | Noi Ci | i răm | Noi | Cobor | â răm |
+| --- | ------ | ----- | --- | ----- | ----- |
+t
+|     | Voi Ci | i răți | Voi | Cobor | â răți |
+| --- | ------ | ------ | --- | ----- | ------ |
+t
+|     | Ei Ci | i ră | Ei  | Cobor | â ră |
+| --- | ----- | ---- | --- | ----- | ---- |
+t
+| Perfect simplu | A coace    |                 | A frige    | A înfige                |     |
+| -------------- | ---------- | --------------- | ---------- | ----------------------- | --- |
+| Eu             | copsei     |                 | fripsei    | înfipsei                |     |
+| Tu             | copseși    |                 | fripseși   | înfipseși               |     |
+| El             | coapse     |                 | fripse     | înfipse                 |     |
+| Noi            | coapserăm  |                 | fripserăm  | înfipserăm              |     |
+| Voi            | coapserăți |                 | fripserăți | înfipserăți             |     |
+| Ei             | coapseră   |                 | fripseră   | înfipseră               |     |
+| VIITOR         |            | VIITOR ANTERIOR |            | VIITOR POPULAR          |     |
+| Voi merge      |            | Voi fi plecat   |            | O să/ am să/ oi +vb     |     |
+| Vei merge      |            | Vei fi plecat   |            | O să/ ai să/ ăi +vb     |     |
+| Va merge       |            | Va fi plecat    |            | O să/ are să/ o         |     |
+| Vom merge      |            | Vom fi plecat   |            | O să/ avem să/ om +vb   |     |
+| Veți merge     |            | Veți fi plecat  |            | O să/ aveți să/ ăți +vb |     |
+| Va merge       |            | Va fi plecat    |            | O să/ au să/ or +vb     |     |
+MODURI NEPERSONALE/ NEPREDICATIVE
+-se chemaă nepredicative pentru că verbele la aceste moduri nu au funcție de predicat,
+decât cu două excepții, și nepersonale pe că verbele la aceste moduri nu au persoane;
+1. MODUL INFINITIV- numește acțiunea
+| o   | Prezent: a merge            |     |     |     |     |
+| --- | --------------------------- | --- | --- | --- | --- |
+| o   | Perfect: a fi citit (+a fi) |     |     |     |     |
+2. MODUL GERUNZIU- arată o acțiune în desfășurare
+| o   | Are 2 sufixe: -ând și –ind (mâncând, citind) |     |     |     |     |
+| --- | -------------------------------------------- | --- | --- | --- | --- |
+3. MODUL SUPIN- arată scopul sau proveniența
+| o   | Are prepoziția DE, de regulă ( de arat, de semănat) |     |     |     |     |
+| --- | --------------------------------------------------- | --- | --- | --- | --- |
+4. MODUL PARTICIPIU- arată urmarea unei acțiuni
+| o   | Spălată/ spălate |     | o   | Înflorită/ înflorite |     |
+| --- | ---------------- | --- | --- | -------------------- | --- |
+!!OBS!!
+
+Verbele la modul participiu pe lângă un substantiv au valoare de adjective
+participiale. Unele verbe la participiu pe lângă alte verbe au valoare de adverbe și
+funcție de complement de mod. (vorbește răgușit)
+Verbele la participiu cu valoare adjectivală au funcția de atribut adjectival sau
+nume predicativ.
+FUNCȚII SINTACTICE:
+INFINITIV
+1) Subiect: A citi e plăcerea mea.
+2) Nume predicativ: Dorința mea este de a reuși.
+3) Atribut verbal: Dorința de a reuși e mare.
+4) Complement direct: Știe a dansa populară.
+5) Complement indirect: M-am săturat a învăța.
+6) Complement de timp: S-a sculat înainte de a răsări soarele.
+7) Complement de mod: A plecat fără a saluta.
+8) Complement de cauză: A fost pedepsit pentru a nu fi făcut tema.
+9) Complement concesiv: Chiar fără a repeta a luat notă bună.
+10)Complement consecutiv: E prea bolnav pentru a merge la prășit.(=încât să
+meargă)
+11)Complement de scop: Merg la sală pentru a mă antrena.
+GERUNZIU
+1) Subiect: Se aude tunând.
+2) Complement direct: Eu aud tunând.
+3) Complement indirect: M-am plictisit așteptând.
+4) Complement de mod: Vine șchiopătând.
+5) Complement de cauză: Nerepetând zilnic, ia note mici.
+6) Complement de timp: Ajungând în clasă, m-am așezat.
+7) Complement condițional: Doar muncind cinstit vei fi apreciat.
+8) Complement concesiv: Chiar învățând zilnic, el ia note mici.
+9) Atribut verbal: Se văd steaguri fluturând.
+SUPIN
+1) Subiect: De vorbit e ușor.
+2) Nume predicativ: Vinul este de băut.
+3) Atribut verbal: Vinul de băut e rece.
+4) Complement direct: Eu am mult de învățat.
+5) Complement indirect: M-am săturat de muncit.
+6) Complement de scop: Andrei a dus vitele la păscut.
+7) Complement de loc: Andrei aduce vitele de la păscut.
+8) Complement consecutiv: Ea s-a îngrășat de neimaginat.
+9) Complement de mod: Emai ușor de săpat decât de învățat.
+
+VERBE AUXILIARE:
+-ajută la formarea unor moduri/ timpuri compuse sau a diatezei pasive;
+A AVEA
+ Perfect compus: Eu am scris.
+ Viitor popular: Am să mă culc.
+ Condițional prezent: Ai pleca în excursie.
+ Condițional perfect: Aș fi plecat.
+A VREA
+ Viitor: Vei dansa.
+ Viitor anterior: Voi fi dansat.
+ Viitor popular: Oi dansa./ O să dansez.
+A FI
+ Condițional perfect: Aș fi citit.
+ Conjunctiv perfect: Să fi citit.
+ Viitor anterior: Voi fi citit.
+ Viitor anterior popular: Oi fi citit.
+ Infinitiv perfect: A fi dormit.
+ Diateza pasivă: Mașina e reparată de tata.
+VERBE PREDICATIVE/ NEPREDICATIVE:
+!! A nu se confunda cu modurile predicative/ nepredicative !!
+-verbe predicative sunt toate verbele în afară de copulative și auxiliare indiferent de
+mod; doar punându-le la un mod predicativ au funcție de predicat verbal;
+-verbe nepredicative sunt copulativele și auxiliarele pentru ca nu au singure funcția de
+predicat verbal;
+COPULATIVE:
+ A fi  A deveni  A ieși
+ A părea  A se face  A însemna
+ A ajunge  A rămâne  A se numi
+VERBE NEREGULATE:
+-nu își păstrează aceeași rădăcină în cursul flexiunii.
+ A fi  A lua  A da  A mânca
+ A bea  A avea  A sta  A usca
+!!OBS!! Unele verbe la infinitiv și supin pot avea funcția de predicat verbal când au
+valoare de imperativ.
+A nu rupe florile!/ De citit romanul X!
+VERBE DEFECTIVE:
+-nu au modul participiu, deci nu vor avea forme care se construiesc cu acest mod.
+o A divide o A transcede o A extige
+o A concede o A accede
+VERBE TRANZITIVE
+
+-sunt verbele care răspunzând la întrebările PE CINE?/ CE? cer un complement direct
+sau o completivă directă.
+ A scrie  A afla  A învăța
+ A iubi  A spune  A lucra
+VERBE INTRANZITIVE
+-nu pot avea niciodată după ele complement direct sau completivă directă, ci alte
+completive;
+-acestea sunt: copulativele, verbele de mișcare, majoritatea verbelor reflexive (se
+zice,...);
+!!OBS!! Unele verbe tranzitive pot avea și complement indirect:
+Eu citesc o poveste nepoatei mele.
+VALORILE LUI *A FI*
+1. Verb auxiliar
+2. Verb copulativ (f.s.:predicat nominal)
+3. Verb predicativ (f.s.: predicat verbal) când are următoarele sensuri:
+Eu sunt din Rădășeni. (provin)
+Tata este în livadă. (se află)
+A fost odată un împărat. (a trăit)
+Ora de curs e de 50 de minute. (durează)
+Cartea este 10 lei. (costă)
+Sunt doi ani de la festivalul X. (s-au împlinit)
+Am fost la Suceava cu mașina. (am călătorit)
+Am fost la bunici. (am vizitat)
+Pe unde ai fost? (ai hoinărit)
+Ce e acolo? (se întâmplă)
+VALORILE MORFOLOGICE ALE LUI *I/-I*
+1. Verb predicativ, personal: Tata-i în livadă.
+2. Verb predicativ, impersonal: Ce-i acolo?
+3. Verb copulativ, impersonal: Nu-i bine ce faci.
+4. Verb copulativ, personal: Bunicu-i sănătos.
+5. Pronume personal la dativ: I-am dat Mariei o carte.
+6. Pronume personal la acuzativ: I-am ajutat la matematică.
+7. Interjecție, fără funcție: I! Ce frig e afară!
+8. Articol hotărât enclitic: Pomii au înflorit.
+9. Pronume cu valoare neutră, fără funcție: Dă-i cu bere, dă-i cu vin!/ Zi-i cobzare!
+
+ADVERBUL
+=partea de vorbire neflexibilă care determină un verb/ o locuțiune verbală, unele
+interjecții, adjective sau alte adverbe;
+ Merge încet.(verb)
+ Merge destul de repede.(adv)
+ Hai mai repede.(interj)
+ A luat-o la fugă agitat.(locuț vb)
+ Peretele este perfect perpendicular.(adj)
+CLASIFICARE:
+a)după structură
+
+1. Simple
+| o Așa  | o Bine  | o Cam |
+| ------ | ------- | ----- |
+| o Ieri | o Mâine | o Ba  |
+| o Azi  | o Da    | o Nu  |
+2. Compuse
+| Alaltăieri | Oriunde       | Azi-noapte  |
+| ---------- | ------------- | ----------- |
+| o          | o             | o           |
+| o Totuși   | o Oricând     | o După-masă |
+| Dinadins   | Cândva        |             |
+| o          | o             |             |
+| o Dinafară | o Astă-noapte |             |
+3. Locuțiuni adverbiale
+| o cu toate acestea | o la pas           | o pe de rost  |
+| ------------------ | ------------------ | ------------- |
+| o de aceea         | o în veci          | o cu toptanul |
+| o pentru asta      | o în permanență    | o cu grămada  |
+| o din când în când | o în spate/jos/sus |               |
+| o de neimaginat    | o în dos           |               |
+b)după sens
+1.DE LOC
+Simple: sus, jos, aici, acolo
+Compuse: departe, undeva, oriunde, orișiunde, fieunde
+Locuțiuni: din loc în loc, la stânga, în stânga, peste tot, în urmă, de jur împrejur, în sus/
+jos
+!! Nu știu unde/ Te miri unde/ Cine știe unde = UNDEVA
+2.DE TIMP
+Simple: acum/ acuma, azi, ieri, târziu
+Compuse: totdeauna, odată, cândva, niciodată, câteodata
+Locuțiuni: din când în când, la început, din vreme în vreme, pe urmă, de cu seară, în veci
+!! Nu știu când/ Te miri când/ Cine știe când = CÂNDVA
+3.DE MOD
+Simple: târâș, grăpiș, chiorâș, bine, așa, totalmente, nu, ba, repede
+Compuse: defel, deloc, numai, oricum, cumva, fiecum, într-una
+Locuțiuni: pe furiș, de-a valma, de prisos, pe alese, pe de rost, cu neputință, de milă/ silă
+!! Nu știu cum/ Te miri cum/ Cine știe cum = CUMVA
+4.+5. CAUZALE și DE SCOP
+-nu există adverbe de cauză, ci numai locuțiuni;
+-aceleași locuțiuni pot fi și cauzale și de scop;
+!!OBS!! Când se află în regenta unei cauzale, ele sunt locuțiuni de cauză cu
+funcția de complement de cauză. Când se află în regenta unei finale, ele sunt locuțiuni
+de scop cu funcția de complement de scop.
+|  De aceea   |  De aia    |  Într-adins |
+| ------------ | ----------- | ------------ |
+| De asta      | Pentru asta | Dintr-adins  |
+|             |            |             |
+| Pentru aceea | Pentru aia  |              |
+|             |            |              |
+
+-există și câteva adverbe de scop:
+|  Anume   |     |  Expres   |     |
+| --------- | --- | ---------- | --- |
+|  Înadins |     |  Dinadins |     |
+ Intenționat
+6.CONDIȚIONALE
+-adverbele condiționale au funcția de complement condițional;
+o Astfel o Altminteri
+Altfel În acest fel
+o o
+7.CONCESIVE
+-au funcția de  complement concesiv, se regăsesc în regenta unei  subordonate
+concesive;
+|  Tot    |     |  Cu toate acestea |     |
+| -------- | --- | ------------------ | --- |
+|  Totuși |     |  Cu toate astea   |     |
+8.CONSECUTIVE
+-nu există adverbe consecutive, ci doar unele locuțiuni pe care lingviștii le consideră
+verbe la supin;
+| De neimaginat  |     | De necrezut   |     |
+| -------------- | --- | ------------- | --- |
+| De neînchipuit |     | De neconceput |     |
+De nespus
+c)după statutul lor în propoziție/ frază
+1.INTEROGATIVE-ajută la formarea unei interogații
+De loc: unde?, de unde?, până unde? Încotro?
+De timp: când?, de când?, până când?, cât timp?
+De mod: cum?, cât?, în ce fel?, în ce mod?
+2.RELATIVE
+!!OBS!! Aceleași adverbe menționate mai sus, când leagă o subordonată de
+regenta ei devin adverbe relative, având funcție în subordonata pe care o introduc.
+Când ai ajuns acasă? (interogativ)– Spune-mi/ când ai ajuns acasă./(relativ)
+!!OBS!!
+1. Douăzeci și șapte de adverbe nu au funcție sintactică (=semiadverbe)
+| Nu   | Tocmai  | Numai  | Aproximativ |
+| ---- | ------- | ------ | ----------- |
+| o    | o       | o      | o           |
+| o Ba | o Decât | o Vreo | o Adică     |
+| Cam  | Chiar   | Taman  | La (=circa) |
+| o    | o       | o      | o           |
+2. Unsprezece adverbe, când determină substantive, devin adjective invariabile
+| Așa    | Asemenea | Mai presus | Astfel |
+| ------ | -------- | ---------- | ------ |
+|       |         |           |       |
+| Gata   | Anume    | Mai prejos | Altfel |
+|       |         |           |       |
+|  Bine |  Aparte |  Aievea   |        |
+3. Urmate de CĂ, următoarele adverbe sunt PREDICATIVE
+Desigur
+Probabil
+=predicat verbal, urmat de o SUBIECTIVĂ
++CĂ
+Firește
+
+Poate
+4. După verbele ÎNVAȚĂ/ ȘTIE/ VORBEȘTE englezește= adverb de mod cu valoare
+de substantiv
+5. Unele substantive care determină verbe/ adjective devin adverbe de mod cu
+funcția de complement de mod (tace chitic, doarme buștean)
+6. Cuvântul CE în fața unor adverbe/ adjective devine adverb de mod fără funcție,
+iar adverbele/ adjectivele precedate de el sunt la superlativ absolut
+7. Cuvântul POATE urmat de conjuncția CĂ este adverb predicativ cu funcția de
+predicat verbal +SB (Poate/ că va înțelege./)
+8. Cuvântul POATE urmat de conjuncția SĂ este verb predicativ tranzitiv cu funcția
+de predicat verbal +CD (Poate/ să danseze./)
+9. Adverbul CÂT are mai multe valori
+ Adverb interogativ de loc: Cât a parcurs?
+ Adverb relativ de loc: Spune-mi/ cât a parcurs.
+ Adverb interogativ de timp: Cât a stat la tine?
+ Adverb de mod: Cât a mai plans băiatul ăsta!
+10.Prepoziția LA devine adverb de mod cu sensul circa/ cam (cântărea la 5kg)
+11.Când ȘI și IAR sunt accentuate sunt adverbe de mod fără funcție. (ai venit și tu)
+12.Adjectivele din expresiile impersonale E FRUMOS/ E UȘOR/ E URÂT/ E GREU
+devin adverbe dacă SB care urmează după ele este introdusă prin CĂ sau SĂ
+Dacă SB de după ele se leagă prin pronumele relativ CE, CARE sau CINE,
+acestea rămân adjective (=nume predicativ)
+ E frumos/ să-i respecți pe cei în vârstă./(adverb)
+ E frumos/ ce-mi place mie./(adjectiv)
+13.Unele adverbe/ locuțiuni adverbiale devin prepoziții/ locuțiuni prepoziționale fără
+funcție sintactică (înapoi- înapoia, îndărăt- îndărătul, în spate- în spatele)
+14.Numeralul ordinal ÎNTÂI devine adverb de timp, complement de timp (Întâi mă
+spăl, apoi mănânc.)
+15.Unele verbe la participiu care determină un alt verb devin adverbe de mod,
+complemente de mod. (vorbește răgușit)
+16.Când adverbul CUM este urmat de CT sau CZ este conjuncție fără funcție
+ Cum treci Siretul,/apa e rea./ (CT)
+ Cum a întârziat,/ n-a mai intrat la oră./ (CZ)
+17.Când adverbul UNDE are sensul lui DEOARECE este conjuncție
+ Unde nu s-a pregătit bine, / n-a reușit./ (CZ)
+18.Când adverbul CÂND are sensul lui DACĂ și e urmat de CDȚ este conjuncție
+ Când m-aș lua după tine, / aș ajunge rău. (CDȚ)
+19.Când adverbul CÂT are sensul lui DEȘI este conjuncție
+ Cât e muntele de înalt,/ tot se tocește./ (CV)
+
+CONJUNCȚIA
+=partea de vorbire neflexibilă care leagă părți de propoziție de același fel într-o
+propoziție, o subordonată de regenta ei sau două propoziții de același fel în frază;
+-conjuncțiile și locuțiunile conjuncționale sunt elemente de legătură în frază;
+-există cinci conjuncții coordonatoare care se folosesc și în propoziție:
+o ȘI o SAU o FIE
+o DAR o ORI
+-în propoziție pot lega:
+ 2 subiecte : Alina și Andrei se plimbă.
+ 2 complemente directe : A scris o nuvelă și un roman.
+ 2 atribute : Pădurea de brazi și de pini e deasă.
+ 2 complemente : Merg la munte și la mare./ Din cauza ploii și a vântului a
+întârziat.
+ Subiecte : Mama sau tata mă va înțelege./ E frumoasă, dar proastă.
+-în frază, conjuncțiile leagă:
+ 2 propoziții de același fel: Copiii dorm/ și se joacă în aceeași cameră./; E frumos/
+să ajuți/ și să-i respecți pe vârstnici./
+ 2 propoziții diferite : Merg/ unde vreau/ și când vreau./
+ O parte de propoziție și o subordonată corespunzătoare : A venit Maria/ și cine a
+mai vrut./ ; Plecăm în parc/ și unde e răcoare./
+
+CLASIFICARE:
+I.După structură:
+1.  Simple : și, dar, iar, însă, ci, ca, să
+2.  Compuse : ca să, deoarece, întrucât, fiindcă, deși, ci și, dar și, încât, ca...să
+3.  Locuțiuni conjuncționale :
+a) Care se termină în conjuncție: pentru că, din pricină că, din cauză că, chiar
+să, fără să, chit că, în caz că, chiar dacă
+b) Terminate în CE:
+ În timp ce
+|  Până ce    |     |  De vreme ce |     |
+| ------------ | --- | ------------- | --- |
+|  Pe dată ce |     |  Odată ce    | +CZ |
++CT
+| Imediat ce  |     | Din moment ce  |     |
+| ----------- | --- | -------------- | --- |
+|            |     |               |     |
+|  Îndată ce |     |  Pe măsură ce | +CM |
+ De îndată ce
+c) Terminate în adverb
+| Ca și cum    |     | Astfel încât |      |
+| ------------ | --- | ------------ | ---- |
+|             |     |             | +CNS |
+|  Ca și când |     |  Așa încât  |      |
+ De parcă +CM
+ După cum
+După cât
+
+II.După rolul lor în frază/ propoziție sunt:
+A. Coordonatoare=   leagă   două   propoziții   de   același   fel,   fie   principale,   fie
+secundare;
+1)  COPULATIVE - leagă 2 propoziții care, prin conținutul lor, sunt asociate;
+|  Și    |     |  Cât și                |     |
+| ------- | --- | ----------------------- | --- |
+|  Nici  |     |  Precum și             |     |
+|  Ci și |     |  Nu numai...,dar și... |     |
+| Dar și  |     | Nu numai...,ci și...    |     |
+|        |     |                        |     |
+Ea nu numai că lucrează, dar învață și la seral.
+Nici nu învață, nici nu muncește.
+2)  ADVERSATIVE - leagă 2 propoziții care se opun prin conținut, dar nu se
+exclud, se pot îndeplini ambele acțiuni;
+|  Dar |  Ci      |     |  Numai că |
+| ----- | --------- | --- | ---------- |
+|  Iar |  Or      |     |            |
+| Însă  | Și (=dar) |     |            |
+|      |          |     |            |
+Te-am salutat, și n-ai răspuns.
+Am fost atent, numai că n-am înțeles.
+!!OBS!! În fața lor există OBLIGATORIU virgula.
+3)  DISJUNCTIVE -leagă 2 propoziții care se exclud prin conținut, numai una
+realizându-se;
+
+| Sau   |     |     | Ba...,ba...       |     |
+| ----- | --- | --- | ----------------- | --- |
+|      |     |     |                  |     |
+|  Ori |     |     |  Aci...,aci...   |     |
+|  Fie |     |     |  Când...,când... |     |
+4)  CONCLUSIVE - a doua propoziție exprimă o concluzie la o acțiune sau la o
+însușire din prima propoziție;
+|  Deci      |     |  Așa că       |     |  Vasăzică  |
+| ----------- | --- | -------------- | --- | ----------- |
+|  Așadar    |     |  În concluzie |     |  C-o vorbă |
+| Prin urmare |     | De aceea       |     |             |
+|            |     |               |     |             |
+!!OBS!! Se despart prin virgulă.
+B. Subordonatoare= leagă o subordonată de o regentă;
+1)NESPECIALIZATE/ NESPECIFICE- aceeași conjuncție poate lega mai multe
+subordonate:
+|  Să |     |  Dacă      |     |  Ca să      |
+| ---- | --- | ----------- | --- | ------------ |
+|  Că |     |  De(=dacă) |     |  Ca...să... |
+SĂ:
+Știu/ șă dansez hora./ (CD)
+Mă tem/ să înot în iaz./ (CI)
+E bine/ să știi o limbă străină./ (SB)
+Ideea/ să plecăm la munte/ mi-a plăcut./ (AT)
+Intru în magazin/ să cumpăr o pâine./ (CS)
+Să am bani,/ aș merge la mare./(CDȚ)
+A alergat așa tare,/ să zici/ că avea motor./(CNS)
+Mamă,/ să mă cerți,/ eu nu merg la școală./(CV)
+Problema e/ să reușesc./(PR)
+2) SPECIALIZATE- introduc un singur tip de subordonată;
+| o Până ce      |     |     | o Îndată ce       |     |
+| -------------- | --- | --- | ----------------- | --- |
+| După ce        |     |     | În timp ce        |     |
+| o              |     |     | o                 |     |
+| o De îndată ce | +CT |     | o Înainte să      | +CT |
+| Imediat ce     |     |     | Mai înainte să    |     |
+| o              |     |     | o                 |     |
+| o De câte ori  |     |     | o Ori de câte ori |     |
+|  Fiindcă      |     |     |  Din cauză că    |     |
+|  Deoarece     |     |     |  Din pricină că  |     |
+| Căci           |     |     | Odată ce          |     |
+|               | +CZ |     |                  | +CZ |
+|  Întrucât     |     |     |  Din moment ce   |     |
+|  Pentru că    |     |     |  De vreme ce     |     |
+
+De vreme ce am întârziat, n-am mai intrat la oră.
+!!OBS!! CZ nu se introduc niciodată prin conjuncția SĂ, iar finalele/ CS nu se introduc
+prin CĂ.
+o Deși o Chiar să
+o Cu toate că +CV o Și să +CV
+o Măcar că o Chit că
+o Chiar dacă o Și chiar dacă
+!!OBS!! CV se despart prin virgulă și pot sta în fața sau după regentă.
+ Încât
+ Că/ de/ cât
++CNS
+ Astfel încât
+ Așa încât
+!!OBS!! CNS stă numai după regentă.
+o În caz de
+o În caz că +CDȚ
+o În caz dacă
+o De unde (=dacă)
+ De ce..., de ce...
+ De ce..., de aceea...
+ De ce..., de aia... +CM
+ Pe cât..., pe atât...
+ Cu cât..., cu atât...
+!!OBS!! Împletirea subordonatei cu regenta:
+Cine/ doreai/ să vină?
+Unde/ ziceai/ că o să stea?
+Când/ sperai/ să iei permisul?
+Cine/ trebuie/ să răspundă?
+Când/ e recomandat/ să începi tratamentul?
+
+PREPOZIȚIA
+=partea de vorbire neflexibilă care leagă un atribut sau un complement de elementele lor
+regente;
+ATRIBUTUL= determină un substantiv, un pronume sau un numeral cu valoare
+substantivală/ pronominală*; (pădurea de fagi, acela din bancă, doi din clasă)
+COMPLEMENTUL= determină un verb, o locuțiune verbală, unele interjecții, unele
+adjective, unele adverbe; (Merge la școală, Bravo studenților; A luat-o la fugă spre
+pădure)
+ADJECTIVE CARE CER COMPLEMENTE INDIRECTE CU ÎNTREBAREA CUI
+| Util/ă     |     | Fidel          |     | Conform |
+| ---------- | --- | -------------- | --- | ------- |
+|           |     |               |     |        |
+|  Propice  |     |  Superior     |     |  Apt   |
+|  Necesar  |     |  Anterior     |     |  Dator |
+|  Contrară |     |  Recunoscător |     |  Tipic |
+CLASIFICARE:
+1) Simple: la, pe, de, cu, sub, fără, spre, din, către, contra, a
+2) Compuse:
+a) Prin alăturare: de pe, de la, de către, de sub, de lângă, pe la, pe sub, fără de;
+b) Contopite: dintre, dinspre, despre, înspre
+c) Cu cratimă: de-a (doar în componența locuțiunilor): de-a lungul, de-a latul;
+3) Locuțiuni prepoziționale:
+!!OBS!! Există doar pentru genitiv și acuzativ.
+GENITIV:
+|  În fața  |      |     |  În josul  |     |
+| ---------- | ---- | --- | ----------- | --- |
+| În dosul   |      |     | În spatele  |     |
+|           | +CCL |     |            |     |
+|  În susul |      |     |  În stânga |     |
++CCL
+
+| La mijlocul |     | În centrul |
+| ----------- | --- | ---------- |
+|            |     |           |
+|  În vremea |     |  În ciuda |
++CV
+|  Pe vremea   |      |  În pofida |
+| ------------- | ---- | ----------- |
+| În/ pe timpul | +CCT |             |
+
+ Din cauza
++CZ
+ Din pricina
+|  În vederea |     |  În defavoarea |
+| ------------ | --- | --------------- |
++CCS
+|  În folosul | +CCS |  În paguba |
+| ------------ | ---- | ----------- |
+ În favoarea
+Altele: în afara, cu excepția, în numele
+ACUZATIV:
+|  Aproape de |     |  Vizavi de |
+| ------------ | --- | ----------- |
+| Departe de   |     | Alături de  |
+|             |     |            |
+++CCCCLL
+|  Dincolo de     |          |  Dincoace de      |
+| ---------------- | -------- | ------------------ |
+|  Peste drum de  |          |  De din vale de   |
+|  Față-n față cu |          |  Înainte de       |
+|  Înainte de     |          |  În vreme de      |
+|  Pe/ în timp ce | ++CCCCTT |  Începând cu      |
+|  În jur de      |          |  În urmă cu       |
+|  Conform cu     |          |  În comparație cu |
+ În conformitate cu
++CCM
+| Comparativ cu |     |  Din cauză de |
+| ------------- | --- | -------------- |
+
++CZ
+Din pricină de
+
+|  Cu tot |     |  Cu toți/ toate |
+| -------- | --- | ---------------- |
+| Cu toată | +CV |                  |
+
+În scop de
+|     | +CCS |    |
+| --- | ---- | --- |
+!!OBS!! Unele prepoziții și locuțiuni prepoziționale au dublă întrebuințare:
+ Bunica mătură înaintea casei.(ccl)
+ Înaintea examenulu i repet materia.(cct)
+
+ Nepoții roiesc în jurul bunicii.(ccl)
+ În jurul sărbătorilor  ne adunăm cu toții.(cct)
+
+!!OBS!! Au prepoziții Genitivul,Dativul și Acuzativul:
+GENITIV:
+
+| Asupra      | Deasupra    | Înăuntrul     |
+| ----------- | ----------- | ------------- |
+|            |            |              |
+|  Contra    |  Înapoia   |  Dinăuntrul  |
+|  Împotriva |  Îndărătul |  Dedesubtul  |
+ DATIV  :
+|  Grație    |  Potrivit |  Asemenea    |
+| ----------- | ---------- | ------------- |
+|  Mulțumită |  Contrar  |  Aidoma      |
+|  Datorită  |  Conform  |  Așijderi/ea |
+!!OBS!! Ambele variante sunt corecte:
+Asupra-mi/ asupră-mi
+Deasupra-ți/ deasupră-ți
+Înainte-ți/ înaintea-ți
+Împotriva-ți/ împotrivă-ți
+!!OBS!! Formele neaccentuate: -MI, -ȚI, -I,-NE, -VĂ, -LE și reflexivul ȘI sunt la cazul
+DATIV chiar dacă au prepoziții de genitiv.
+CONVERSIUNEA:
+Prepoziție – conjuncție (PÂNĂ)
+Învăț până la amiază.(prepoziție)
+
+ Bunica prășește/ până se întunecă./ (conjuncție)
+Prepoziție – adverb (LA)
+ Peștele cântărea la 5 kg. (=vreo)
+Prepoziție – adjectiv pronominal nehotărât (LA)
+ Am mâncat la meree....(=multe)
+
+INTERJECȚIA
+=partea de vorbire neflexibilă care sugerează, cu ajutorul unei intonații specifice, stări
+fizice sau psihice ori imită sunete, zgomote din natură sau sunete scoase de animale
+(onomatopee);
+CLASIFICARE:
+1. Simple: Of!, A!, Ah!, Zău!, Uf!, Hai!, Vai!, Măi!, Bre!
+2. Compuse: Iaca!, Heirup!, Tic-tac!, Hodoronc-tronc! Ham-ham!, Haidem!
+3. Locuțiuni interjecționale: Ia te uită!, Doamne iartă-mă!, Ei bine!, Doamne
+ferește!, Drăgăliță doamne!, Auzi colo!, Pe naiba!, Nu zău!, Păcatele mele!
+FUNCȚII SINTACTICE:
+1) Complement direct: Eu aud tic-tac de acolo.
+2) Predicat verbal: Pupăza zbrr! pe o dugheană./ Hai cu mine.
+3) Complement de mod: Pupăza zbrr! zbură pe o dugheană.
+4) Subiect: Se aude tic-tac de acolo.
+5) Predicat nominal: E vai de capul lor./ E vai și of în casa lor.
+!!OBS!!
+1. Unele interjecții pot fi elemente regente pentru diverse părți de propoziție sau
+pentru propoziții subordonate.
+ Iată o mașină frumoasă.(complement direct)
+ Iată/ ce mi-a cumpărat bunica./(CD)
+ Vai de tine.(complement indirect)
+ Vai/ de cine nu muncește./(CI)
+ Haide acolo.(complement de loc)
+ Haide/ unde zic eu.(CL)
+ Hai mai repede.(complement de mod)
+ Hai/ cum zic eu.(CM)
+ Hai cu mine/ deși nu meriți./(CV)
+2. Trei interjecții formează predicat verbal dezvoltat împreună cu un verb.
+ Ia du-te!
+
+ Ia să vedem!
+ Hai vino!
+3. Interjecția HAIDEM și HAIDEȚI, deși au desinențe de persoană a unui verb(M, Ți)
+sunt interjecții predicative, nu verbe.
+4. Următoarele interjecții: IACA!, IACĂ!, IATĂ!, UITE!, NA!, POFTIM!, IACĂTĂ!
+Sunt interjecții predicative cu funcția sintactică de predicat verbal urmate de
+complement direct/ CD.
+5. UITĂ-TE este verb la diateza reflexivă, iar UITE este interjecție predicativă.
+6. Interjecția HALAL pe lângă un substantiv devine adjectiv invariabil cu funcția de
+atribut interjecțional.
+7. Următoarele interjecții au valoare unor propoziții întregi, dar neanalizabile:
+ Marș!  Valea!
+ Huști!  Pardon!
+ Ura!  Sst
+ Bravo!
+8. Cuvintele AJUTOR! Și LINIȘTE! nu sunt considerate interjecții, ci substantive
+care formează enunțuri nominale. (fără predicat verbal)
+9. Unele interjecții au 2/3 variante:
+o A!, Aaa! o Iaca!, Iacă!
+o De!, Dee! o Bă!, Băi!
+o Hop!, Hopa! o Mă!, măi!
+CONVERSIUNE:
+Interjecție – substantiv:
+ Doamne!  Un hop/ hopul
+ Drace!  Fâșul
+ Dumnezeule!  Vaiul
+ Un of/ oful  Tic-tacul
+
+SINTAXĂ
+
+SUBIECTIVA
+=propoziția subordonată care, la nivel de frază, corespunde subiectului dintr-o propoziție.
+-prin expansiunea unui subiect obținem o SB, iar prin contragerea unei SB obținem un
+subiect;
+-pe când subiectul este parte principală de propoziție, SB este subordonată, nu
+propoziție principală;
+  Harnicu l are de toate.
+  Cine e harnic / are de toate./
+E bine a repeta înainte de examen.
+
+ E bine/ să repeți înainte de examen./
+ELEMENTELE DE RELAȚIE ALE SB:
+!!OBS!! SB, PR, CD, CI, ATR, CP au aceleași elemente de relație, depinde cum sunt
+selectate.
+1. Conjuncții nespecializate:
+| Să   | Ca să        | Dacă         |
+| ---- | ------------ | ------------ |
+|     |             |             |
+|  Că |  Ca...să... |  De (=dacă) |
+2. Pronume si adjective pronominale relative:
+|  Care |  Ce    |  Câți/e |
+| ------ | ------- | -------- |
+| Cine   | Ceea ce | Cât/ă    |
+|       |        |         |
+3. Unele pronume și adjective pronominale nehotărâte:
+|  Oricine |  Oricare |  Oricâte |
+| --------- | --------- | --------- |
+|  Orice   |  Oricâți |           |
+4. Adverbe relative singure sau cu prepoziție:
+|  Unde      |  Încotro |  De când   |
+| ----------- | --------- | ----------- |
+|  Pe unde   |  Cum     |  Până când |
+|  Până unde |  Când    |             |
+!!OBS!!
+ Nu se știe/ unde a plecat tata./ (SB)
+ Întrebarea e/ unde să apuc./ (PR)
+Eu știu/ unde ai fost ieri./(CD)
+
+ Mă gândesc/ unde să dau examen./(CI)
+
+Conjuncțiile nu au funcție sintactică, dar celelalte elemente de relație au funcție în
+subordonata pe care o leagă de regentă.
+ELEMENTELE REGENTE ALE SB:
+1. Adverbe predicative cu funcția de predicat verbal + conjuncția CĂ
+|  Desigur |     |  Negreșit    |     |  Mai     |     |     |
+| --------- | --- | ------------- | --- | --------- | --- | --- |
+|  Poate   |     |  Bineînțeles |     |  Mai-mai |     |     |
+|           |     |               | +CĂ |           |     | +CĂ |
++CĂ
+| Probabil  |     | Pesemne   |     | Pasămite |     |     |
+| --------- | --- | --------- | --- | -------- | --- | --- |
+|          |     |          |     |         |     |     |
+|  Firește |     |  Aproape |     |          |     |     |
+2. Adverbe de mod care nu au în față verbul A FI, dar îl putem pune noi, cu
+funcția de nume predicativ cu verb copulativ subînțeles
+|  (e) normal că/ să  |     |  (e) sigur că       |     |  (e) firesc să  |     |     |
+| -------------------- | --- | -------------------- | --- | ---------------- | --- | --- |
+|  (e) adevărat că    |     |  (e) destul că/ să  |     |  (e) aproape să |     |     |
+|  (e) evident că     |     |  (e) posibil că/ să |     |  (e) mai să     |     |     |
+| (e) suficient că/ să |     | (e) drept că/ să     |     | (e) mai-mai să   |     |     |
+|                     |     |                     |     |                 |     |     |
+3. Locuțiuni adverbiale predicative+ CĂ
+|  Cu siguranță |     |     |  De bună seamă |     |     |     |
+| -------------- | --- | --- | --------------- | --- | --- | --- |
+| Cu certitudine |     | +CĂ | Într-adevăr     |     | +CĂ |     |
+|               |     |     |                |     |     |     |
+ Fără doar și poate
+4. Expresii verbale impersonale cu verbul A FI
+| E bine   |       | E urât       |       | E imposibil |     |       |
+| -------- | ----- | ------------ | ----- | ----------- | --- | ----- |
+|         |       |             |       |            |     | +CĂ/  |
+|  E rău  | +CĂ/  |  E frumos   | +CĂ/  |  Așa-i     |     | +SĂ   |
+|  E ușor | +SĂ   |  E adevărat | +SĂ   |             |     |       |
+|  E greu |       |  E posibil  |       |             |     |       |
+5. Verbe reflexive impersonale cu caracter reflexiv împrumutat
+|  Se zice |     |     |  Se aude |     |     |     |
+| --------- | --- | --- | --------- | --- | --- | --- |
++CĂ
+|  Se spune |     |     |  Se cuvine |     |     |     |
+| ---------- | --- | --- | ----------- | --- | --- | --- |
++CĂ
+| Se știe |     |     | Se cade |     |     |     |
+| ------- | --- | --- | ------- | --- | --- | --- |
+|        |     |     |        |     |     |     |
+ Se presupune
+6. Verbe impersonale la diateza pasivă
+| E permis |     | E dat |     | E stabilit |     |     |
+| -------- | --- | ----- | --- | ---------- | --- | --- |
+| o        |     | o     |     | o          |     |     |
++CĂ/
+| o E admis | +CĂ/  | o E hărăzit | +CĂ/  | o E îngăduit |     |     |
+| --------- | ----- | ----------- | ----- | ------------ | --- | --- |
++SĂ
+| E interzis | +SĂ | E dovedit | +SĂ | I-a fost scris |     |     |
+| ---------- | --- | --------- | --- | -------------- | --- | --- |
+| o          |     | o         |     | o              |     |     |
+| o E știut  |     | o E scris |     |                |     |     |
+
+7. Expresii verbale impersonale compuse din verbul A FI și un verb la supin.
+Pot avea complement de agent, dar nu sunt la diateza pasivă
+ E de dovedit  E de înțeles
+ E de prevăzut  E de presupus
+ E de admis  E de neimaginat
+ E de admirat
+!!OBS!! NOROC și PĂCAT, în anumite contexte, au valoare de adverb. Pot fi folosite
+fără verbul A FI, care se subînțelege.
+(E) Noroc/ că am prins trenul./
+(E) Păcat/ că s-a întâmplat așa./
+8. Verbe impersonale/ cu valoare impersonală
+Sunt de 3 feluri:
+a) Verbe reflexive cu pronume reflexiv, formă neaccentuată(clitice) la Dativ
+Îmi/ îți/ îi/ ne/ vă/ Convine
+le
+Place
+Displace
+Repugnă
+b) Verbe cu pronume formă scurtă la Acuzativ
+Mă/ te/ îl/ o/ ne/ vă/ îi/ le Doare Frapează
+Enervează Amuză
+Preocupă Intrigă
+Indignează Supără
+c) Verbe impersonale fără pronume formă scurtă
+o A trebui: Trebuie/ să plec la antrenament./
+o A merita: Merită/ să ajungi acolo./
+o A ajunge: Ajunge/ cât ai mâncat./
+o A rămâne: Rămâne/ să de întâlnim./
+o A conta: Contează/ ce știi./
+o A începe: Începe/ să plouă./
+o A reieși: Reiese/ că ai greșit./
+o A rezulta: Rezultă/ că nu ai spus adevărul./
+!!OBS!!
+1. Verbul A FI este predicativ impersonal când are sensul de A TREBUI sau A SE
+ÎNTÂMPLA. ( Când e/ să o pățești,/ o pățești./; Ce e acolo?)
+2. Verbul A TREBUI este predicativ personal când se află la persoana III plural,
+imperfect/ viitor. (Ei trebuiau/ să ajungă./; Ei vor trebui/ să danseze./)
+
+9. Locuțiuni verbale impersonale+ pronume, la dativ
+ a-i da prin gând
+ a-i trece prin minte
+ a-i veni în gând
+ a-i face plăcere
+ a-i prinde bine
+
+!!OBS!! SB poate sta după regentă sau înaintea ei. Nu se desparte prin virgulă de regenta
+ei, dar daca este antepusă acesteia și se reia în regentă prin subiect, atunci se desparte
+prin virgulă. (Cine muncește,/ acela e respectat./)

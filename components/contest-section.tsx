@@ -1,12 +1,17 @@
 import Image from "next/image";
 import { ArrowDownRight, ArrowUpRight, CalendarDays, Check, FileText, MapPin } from "lucide-react";
-import { contestEditions, grammarCases } from "@/lib/site-data";
+import type { ContestEdition } from "@/lib/site-data";
 import { MagicCard } from "@/components/ui/magic-card";
 import { NumberTicker } from "@/components/ui/number-ticker";
 
 const contestPosterDimensions = { width: 620, height: 930 };
 
-export function ContestSection() {
+interface ContestSectionProps {
+  contestEditions: ContestEdition[];
+  totalDilemmas: number;
+}
+
+export function ContestSection({ contestEditions, totalDilemmas }: ContestSectionProps) {
   const latestContestYear = contestEditions.at(-1)?.year ?? "2026";
 
   return (
@@ -92,7 +97,7 @@ export function ContestSection() {
 
           <div className="contest__stats" aria-label="Statistici Gramapedia">
             <div><NumberTicker value={contestEditions.length} /><span>ediții</span></div>
-            <div><NumberTicker value={grammarCases.length} /><span>dileme disponibile</span></div>
+            <div><NumberTicker value={totalDilemmas} /><span>dileme disponibile</span></div>
           </div>
 
           <div className="contest-edition-grid">
