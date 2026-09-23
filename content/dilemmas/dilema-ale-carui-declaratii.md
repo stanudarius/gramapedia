@@ -1,6 +1,12 @@
 ---
 category: Morfologie
 prompt: Alege forma corectă pentru «ai cărui / ale cărui».
+question_title: >-
+  «Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut» sau
+  «Acuzatul, ai cărui declarații au fost contradictorii, a fost reținut»? Care
+  este forma corectă
+wrong: 'Acuzatul, ai cărui declarații au fost contradictorii, a fost reținut'
+correct: 'Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut'
 short_rule: 'Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut.'
 choices:
   - 'Acuzatul, ai cărui declarații au fost contradictorii, a fost reținut.'
@@ -8,5 +14,10 @@ choices:
 correct_choice: 'Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut.'
 examples:
   - 'Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut.'
+related_ids:
+  - creeaza
+  - dilema-a-carei-activitate
+  - dilema-a-carei-masina
+  - dilema-a-caror-vina
 ---
 «Ale» se acordă cu substantivul posedat feminin plural «declarații».

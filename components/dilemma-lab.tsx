@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent, type MouseEvent, type PointerEvent } from "react";
+import Link from "next/link";
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Bookmark, Check, ListChecks, MessageCircle, Search, Shuffle, X } from "lucide-react";
 import type { GrammarCase, GrammarTrail } from "@/lib/site-data";
 import { GrammarQuiz } from "@/components/grammar-quiz";
@@ -9,6 +10,7 @@ import { GrammarTutor } from "@/components/grammar-tutor";
 import { useSavedGrammarCases } from "@/hooks/use-saved-grammar-cases";
 import { Marquee } from "@/components/ui/marquee";
 import { ShimmerButton } from "@/components/ui/shimmer-button";
+import { trackDilemmaClick } from "@/lib/analytics";
 
 interface DilemmaLabProps {
   grammarCases: GrammarCase[];
@@ -376,9 +378,18 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
                   <div className="dilemma-panel__question">
                     <span className="eyebrow eyebrow--coral">{item.category}</span>
                     <h3>{item.prompt}</h3>
-                    <span className="dilemma-panel__arrow" aria-hidden="true">
-                      <ArrowRight size={23} strokeWidth={1.5} />
-                    </span>
+                    <Link
+                      href={`/dileme/${item.id}/`}
+                      className="dilemma-panel__arrow dilemma-panel__arrow--link"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        trackDilemmaClick(item.id, item.category, "lab_card_arrow");
+                      }}
+                      title="Vezi pagina dedicată regulii"
+                      aria-label={`Vezi pagina dedicată regulii pentru ${item.prompt}`}
+                    >
+                      <ArrowRight size={22} strokeWidth={1.5} />
+                    </Link>
                   </div>
 
                   <div className="dilemma-panel__answer">
@@ -409,7 +420,14 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
           <div className="grammar-marquee" aria-label="Exemple de dileme gramaticale">
             <Marquee pauseOnHover repeat={2} className="[--duration:72s]">
               {grammarCases.map((item) => (
-                <span className="grammar-marquee__item" key={item.id}>{item.prompt}</span>
+                <Link
+                  className="grammar-marquee__item"
+                  key={item.id}
+                  href={`/dileme/${item.id}/`}
+                  onClick={() => trackDilemmaClick(item.id, item.category, "marquee")}
+                >
+                  {item.prompt}
+                </Link>
               ))}
             </Marquee>
           </div>

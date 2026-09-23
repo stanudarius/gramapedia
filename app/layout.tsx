@@ -69,8 +69,36 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  const cfBeaconToken = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
+
   return (
     <html lang="ro">
+      <head>
+        {gaId ? (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
+            <script
+              id="google-analytics"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${gaId}', { page_path: window.location.pathname });
+                `,
+              }}
+            />
+          </>
+        ) : null}
+        {cfBeaconToken ? (
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={`{"token": "${cfBeaconToken}"}`}
+          />
+        ) : null}
+      </head>
       <body>{children}</body>
     </html>
   );

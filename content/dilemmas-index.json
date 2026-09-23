@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "abuza-de",
+    "category": "Lexicosemantică",
+    "wrong": "A abuzat funcția",
+    "correct": "A abuzat de funcție",
+    "question_title": "«A abuzat de funcție» sau «a abuzat funcția»? Care este forma corectă",
+    "prompt": "«A abuzat de funcție» sau «a abuzat funcția»?",
+    "rule": "Cu sensul de a folosi în mod excesiv sau nedrept, verbul «a abuza» se construiește cu prepoziția «de».",
+    "short_rule": "A abuzat de funcție.",
+    "examples": [
+      "Nu este corect să abuzezi de încrederea cuiva.",
+      "A abuzat de poziția pe care o avea."
+    ],
+    "choices": [
+      "A abuzat de funcție.",
+      "A abuzat funcția.",
+      "A abuzat la funcție."
+    ],
+    "correct_choice": "A abuzat de funcție.",
+    "related_ids": [
+      "artificiu",
+      "concentreaza",
+      "decat-doar",
+      "dilema-adoptata"
+    ]
+  },
+  {
+    "id": "al-carui",
+    "category": "Sintaxă",
+    "wrong": "fata a cărui frate",
+    "correct": "fata al cărei frate",
+    "question_title": "«Fata al cărei frate...» sau «fata a cărui frate...»? Care este forma corectă",
+    "prompt": "«Fata al cărei frate...» sau «fata a cărui frate...»?",
+    "rule": "Forma «al» se acordă cu substantivul posedat «frate», iar «cărei» cu persoana la care se referă.",
+    "short_rule": "fata al cărei frate",
+    "examples": [
+      "Fata al cărei frate studiază aici a venit la întâlnire.",
+      "Am citit articolul al cărui autor este profesorul nostru."
+    ],
+    "choices": [
+      "fata al cărei frate",
+      "fata a cărui frate",
+      "fata ai cărei frate"
+    ],
+    "correct_choice": "fata al cărei frate",
+    "related_ids": [
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor",
+      "dilema-datorita-pregatirii"
+    ]
+  },
+  {
+    "id": "artificiu",
+    "category": "Lexicosemantică",
+    "wrong": "o artificie",
+    "correct": "un artificiu",
+    "question_title": "«Un artificiu» sau «o artificie»? Care este forma corectă",
+    "prompt": "Se spune «o artificie» sau «un artificiu»?",
+    "rule": "Forma corectă pentru sensul de procedeu ingenios este «un artificiu».",
+    "short_rule": "un artificiu",
+    "examples": [
+      "A găsit un artificiu pentru a rezolva exercițiul.",
+      "Acest artificiu clarifică demonstrația."
+    ],
+    "choices": [
+      "o artificie",
+      "un artificiu",
+      "un artificie"
+    ],
+    "correct_choice": "un artificiu",
+    "related_ids": [
+      "abuza-de",
+      "concentreaza",
+      "decat-doar",
+      "dilema-adoptata"
+    ]
+  },
+  {
+    "id": "cincizeci-si-una",
+    "category": "Sintaxă",
+    "wrong": "cincizeci și unu de universități",
+    "correct": "cincizeci și una de universități",
+    "question_title": "«Cincizeci și unu de universități» sau «cincizeci și una de universități»? Care este forma corectă",
+    "prompt": "«Cincizeci și unu de universități» sau «cincizeci și una de universități»?",
+    "rule": "Numeralul se acordă cu substantivul feminin «universități»: «cincizeci și una».",
+    "short_rule": "cincizeci și una de universități",
+    "examples": [
+      "Cincizeci și una de universități au participat la proiect.",
+      "Treizeci și una de pagini sunt suficiente pentru introducere."
+    ],
+    "choices": [
+      "cincizeci și unu de universități",
+      "cincizeci și una de universități",
+      "cincizeci și un de universități"
+    ],
+    "correct_choice": "cincizeci și una de universități",
+    "related_ids": [
+      "al-carui",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor",
+      "dilema-datorita-pregatirii"
+    ]
+  },
+  {
+    "id": "concentreaza",
+    "category": "Lexicosemantică",
+    "wrong": "te focusezi",
+    "correct": "te concentrezi",
+    "question_title": "«Te focusezi» sau «te concentrezi»? Care este forma corectă",
+    "prompt": "«Te focusezi» sau «te concentrezi»?",
+    "rule": "În exprimarea generală, preferăm verbul consacrat «a se concentra» pentru ideea de a-ți îndrepta atenția asupra unui lucru.",
+    "short_rule": "te concentrezi",
+    "examples": [
+      "Te concentrezi mai ușor într-un spațiu liniștit.",
+      "Elevii se concentrează asupra cerinței."
+    ],
+    "choices": [
+      "te focusezi",
+      "te concentrezi",
+      "te focalizezi asupra la"
+    ],
+    "correct_choice": "te concentrezi",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "decat-doar",
+      "dilema-adoptata"
+    ]
+  },
+  {
+    "id": "creeaza",
+    "category": "Morfologie",
+    "wrong": "crează",
+    "correct": "creează",
+    "question_title": "«Creează» sau «crează»? Care este forma corectă",
+    "prompt": "«Creează» sau «crează»?",
+    "rule": "Verbul «a crea» se păstrează cu doi «e» la persoana a III-a singular: «el creează».",
+    "short_rule": "creează",
+    "examples": [
+      "Lectura creează legături între idei.",
+      "Exercițiul creează o situație de comunicare."
+    ],
+    "choices": [
+      "creează",
+      "crează",
+      "creiază"
+    ],
+    "correct_choice": "creează",
+    "related_ids": [
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina",
+      "dilema-a-instantei"
+    ]
+  },
+  {
+    "id": "decat-doar",
+    "category": "Lexicosemantică",
+    "wrong": "Am decât două minute",
+    "correct": "Am doar două minute",
+    "question_title": "«Am decât două minute» sau «Am doar două minute»? Care este forma corectă",
+    "prompt": "«Am decât două minute» sau «Am doar două minute»?",
+    "rule": "Într-o construcție afirmativă cu sens de limitare, folosim «doar» sau «numai». «Decât» apare, de regulă, în construcții negative.",
+    "short_rule": "Am doar două minute.",
+    "examples": [
+      "Nu am decât două minute.",
+      "Am doar două minute, așa că alegem un singur exemplu."
+    ],
+    "choices": [
+      "Am decât două minute.",
+      "Am doar două minute.",
+      "Am de cât două minute."
+    ],
+    "correct_choice": "Am doar două minute.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "dilema-adoptata"
+    ]
+  },
+  {
+    "id": "dilema-a-carei-activitate",
+    "category": "Morfologie",
+    "wrong": "Firma, al cărei activitate a fost suspendată, a contestat decizia",
+    "correct": "Firma, a cărei activitate a fost suspendată, a contestat decizia",
+    "question_title": "«Firma, a cărei activitate a fost suspendată, a contestat decizia» sau «Firma, al cărei activitate a fost suspendată, a contestat decizia»? Care este forma corectă",
+    "prompt": "Alege forma corectă pentru «al cărui / a cărui».",
+    "rule": "«A» se acordă cu substantivul posedat feminin «activitate».",
+    "short_rule": "Firma, a cărei activitate a fost suspendată, a contestat decizia.",
+    "examples": [
+      "Firma, a cărei activitate a fost suspendată, a contestat decizia."
+    ],
+    "choices": [
+      "Firma, al cărei activitate a fost suspendată, a contestat decizia.",
+      "Firma, a cărei activitate a fost suspendată, a contestat decizia."
+    ],
+    "correct_choice": "Firma, a cărei activitate a fost suspendată, a contestat decizia.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina",
+      "dilema-a-instantei"
+    ]
+  },
+  {
+    "id": "dilema-a-carei-masina",
+    "category": "Morfologie",
+    "wrong": "Suspectul, al cărui mașină a fost confiscată, a fost audiat din nou",
+    "correct": "Suspectul, a cărui mașină a fost confiscată, a fost audiat din nou",
+    "question_title": "«Suspectul, a cărui mașină a fost confiscată, a fost audiat din nou» sau «Suspectul, al cărui mașină a fost confiscată, a fost audiat din nou»? Care este forma corectă",
+    "prompt": "Alege forma corectă pentru «al cărui / a cărui».",
+    "rule": "«A» se acordă cu obiectul posedat «mașină», feminin singular, iar «căruia» se raportează la antecedentul masculin «suspectul».",
+    "short_rule": "Suspectul, a cărui mașină a fost confiscată, a fost audiat din nou.",
+    "examples": [
+      "Suspectul, a cărui mașină a fost confiscată, a fost audiat din nou."
+    ],
+    "choices": [
+      "Suspectul, al cărui mașină a fost confiscată, a fost audiat din nou.",
+      "Suspectul, a cărui mașină a fost confiscată, a fost audiat din nou."
+    ],
+    "correct_choice": "Suspectul, a cărui mașină a fost confiscată, a fost audiat din nou.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-caror-vina",
+      "dilema-a-instantei"
+    ]
+  },
+  {
+    "id": "dilema-a-caror-vina",
+    "category": "Morfologie",
+    "wrong": "Inculpații, ai căror vină a fost dovedită, au fost condamnați",
+    "correct": "Inculpații, a căror vină a fost dovedită, au fost condamnați",
+    "question_title": "«Inculpații, a căror vină a fost dovedită, au fost condamnați» sau «Inculpații, ai căror vină a fost dovedită, au fost condamnați»? Care este forma corectă",
+    "prompt": "Alege forma corectă pentru «ai căror / a căror».",
+    "rule": "«A» se acordă cu substantivul posedat feminin singular «vină», chiar dacă antecedentul «inculpații» este masculin plural.",
+    "short_rule": "Inculpații, a căror vină a fost dovedită, au fost condamnați.",
+    "examples": [
+      "Inculpații, a căror vină a fost dovedită, au fost condamnați."
+    ],
+    "choices": [
+      "Inculpații, ai căror vină a fost dovedită, au fost condamnați.",
+      "Inculpații, a căror vină a fost dovedită, au fost condamnați."
+    ],
+    "correct_choice": "Inculpații, a căror vină a fost dovedită, au fost condamnați.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-instantei"
+    ]
+  },
+  {
+    "id": "dilema-a-instantei",
+    "category": "Morfologie",
+    "wrong": "Decizia finală este al instanței",
+    "correct": "Decizia finală este a instanței",
+    "question_title": "«Decizia finală este a instanței» sau «Decizia finală este al instanței»? Care este forma corectă",
+    "prompt": "Alege forma corectă a articolului posesiv genitival.",
+    "rule": "«A» se acordă cu obiectul posedat feminin singular «decizie».",
+    "short_rule": "Decizia finală este a instanței.",
+    "examples": [
+      "Decizia finală este a instanței."
+    ],
+    "choices": [
+      "Decizia finală este al instanței.",
+      "Decizia finală este a instanței."
+    ],
+    "correct_choice": "Decizia finală este a instanței.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-adoptata",
+    "category": "Lexicosemantică",
+    "wrong": "Legea a fost adaptată de Parlament",
+    "correct": "Legea a fost adoptată de Parlament",
+    "question_title": "«Legea a fost adoptată de Parlament» sau «Legea a fost adaptată de Parlament»? Care este forma corectă",
+    "prompt": "Alege verbul potrivit pentru o lege aprobată de Parlament.",
+    "rule": "«A adopta» înseamnă a aproba, a vota sau a lua oficial o decizie (Parlamentul *adoptă* o lege, un consiliu *adoptă* o hotărâre). «A adapta» înseamnă a modifica ceva pentru a corespunde unui nou scop sau context (a *adapta* un roman pentru ecran). Confundarea lor constituie o greșeală semantică frecventă în limbajul juridic și jurnalistic.",
+    "short_rule": "Legea a fost adoptată de Parlament.",
+    "examples": [
+      "Legea a fost adoptată de Parlament."
+    ],
+    "choices": [
+      "Legea a fost adaptată de Parlament.",
+      "Legea a fost adoptată de Parlament."
+    ],
+    "correct_choice": "Legea a fost adoptată de Parlament.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-ai-acuzarii",
+    "category": "Morfologie",
+    "wrong": "Acești martori sunt ale acuzării",
+    "correct": "Acești martori sunt ai acuzării",
+    "question_title": "«Acești martori sunt ai acuzării» sau «Acești martori sunt ale acuzării»? Care este forma corectă",
+    "prompt": "Alege forma corectă a articolului posesiv genitival.",
+    "rule": "«Ai» se acordă cu obiectul posedat masculin plural «martori».",
+    "short_rule": "Acești martori sunt ai acuzării.",
+    "examples": [
+      "Acești martori sunt ai acuzării.",
+      "Experții audiați sunt ai apărării, nu ai procurorului."
+    ],
+    "choices": [
+      "Acești martori sunt ai acuzării.",
+      "Acești martori sunt ale acuzării."
+    ],
+    "correct_choice": "Acești martori sunt ai acuzării.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-ai-carui-colegi",
+    "category": "Morfologie",
+    "wrong": "Polițistul, ale cărui colegi au intervenit primii, a fost decorat",
+    "correct": "Polițistul, ai cărui colegi au intervenit primii, a fost decorat",
+    "question_title": "«Polițistul, ai cărui colegi au intervenit primii, a fost decorat» sau «Polițistul, ale cărui colegi au intervenit primii, a fost decorat»? Care este forma corectă",
+    "prompt": "Alege forma corectă pentru «ai cărui / ale cărui».",
+    "rule": "«Ai» se acordă cu substantivul posedat masculin plural «colegi».",
+    "short_rule": "Polițistul, ai cărui colegi au intervenit primii, a fost decorat.",
+    "examples": [
+      "Polițistul, ai cărui colegi au intervenit primii, a fost decorat."
+    ],
+    "choices": [
+      "Polițistul, ai cărui colegi au intervenit primii, a fost decorat.",
+      "Polițistul, ale cărui colegi au intervenit primii, a fost decorat."
+    ],
+    "correct_choice": "Polițistul, ai cărui colegi au intervenit primii, a fost decorat.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-al-carei-sot",
+    "category": "Morfologie",
+    "wrong": "Martora, a cărui soț a fost citat în instanță, a refuzat să depună mărturie",
+    "correct": "Martora, al cărei soț a fost citat în instanță, a refuzat să depună mărturie",
+    "question_title": "«Martora, al cărei soț a fost citat în instanță, a refuzat să depună mărturie» sau «Martora, a cărui soț a fost citat în instanță, a refuzat să depună mărturie»? Care este forma corectă",
+    "prompt": "Alege forma corectă pentru «al cărui / a cărui».",
+    "rule": "«Al» se acordă cu substantivul posedat «soț», masculin singular; «cărei» se acordă cu antecedentul feminin «martora».",
+    "short_rule": "Martora, al cărei soț a fost citat în instanță, a refuzat să depună mărturie.",
+    "examples": [
+      "Martora, al cărei soț a fost citat în instanță, a refuzat să depună mărturie."
+    ],
+    "choices": [
+      "Martora, al cărei soț a fost citat în instanță, a refuzat să depună mărturie.",
+      "Martora, a cărui soț a fost citat în instanță, a refuzat să depună mărturie."
+    ],
+    "correct_choice": "Martora, al cărei soț a fost citat în instanță, a refuzat să depună mărturie.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-al-carui-avocat",
+    "category": "Morfologie",
+    "wrong": "Inculpatul, a cărui avocat a lipsit de la termen, a cerut amânarea",
+    "correct": "Inculpatul, al cărui avocat a lipsit de la termen, a cerut amânarea",
+    "question_title": "«Inculpatul, al cărui avocat a lipsit de la termen, a cerut amânarea» sau «Inculpatul, a cărui avocat a lipsit de la termen, a cerut amânarea»? Care este forma corectă",
+    "prompt": "Alege forma corectă pentru «al cărui / a cărui».",
+    "rule": "«Al» se acordă cu obiectul posedat «avocat», masculin singular, iar «cărui» se acordă cu antecedentul «inculpatul».",
+    "short_rule": "Inculpatul, al cărui avocat a lipsit de la termen, a cerut amânarea.",
+    "examples": [
+      "Inculpatul, al cărui avocat a lipsit de la termen, a cerut amânarea."
+    ],
+    "choices": [
+      "Inculpatul, al cărui avocat a lipsit de la termen, a cerut amânarea.",
+      "Inculpatul, a cărui avocat a lipsit de la termen, a cerut amânarea."
+    ],
+    "correct_choice": "Inculpatul, al cărui avocat a lipsit de la termen, a cerut amânarea.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-al-procurorului",
+    "category": "Morfologie",
+    "wrong": "Acest dosar este a procurorului",
+    "correct": "Acest dosar este al procurorului",
+    "question_title": "«Acest dosar este al procurorului» sau «Acest dosar este a procurorului»? Care este forma corectă",
+    "prompt": "Alege forma corectă a articolului posesiv genitival.",
+    "rule": "«Al» se acordă cu obiectul posedat masculin singular «dosar».",
+    "short_rule": "Acest dosar este al procurorului.",
+    "examples": [
+      "Acest dosar este al procurorului."
+    ],
+    "choices": [
+      "Acest dosar este al procurorului.",
+      "Acest dosar este a procurorului."
+    ],
+    "correct_choice": "Acest dosar este al procurorului.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-ale-apararii",
+    "category": "Morfologie",
+    "wrong": "Aceste probe sunt ai apărării",
+    "correct": "Aceste probe sunt ale apărării",
+    "question_title": "«Aceste probe sunt ale apărării» sau «Aceste probe sunt ai apărării»? Care este forma corectă",
+    "prompt": "Alege forma corectă a articolului posesiv genitival.",
+    "rule": "«Ale» se acordă cu obiectul posedat feminin plural «probe».",
+    "short_rule": "Aceste probe sunt ale apărării.",
+    "examples": [
+      "Aceste probe sunt ale apărării."
+    ],
+    "choices": [
+      "Aceste probe sunt ai apărării.",
+      "Aceste probe sunt ale apărării."
+    ],
+    "correct_choice": "Aceste probe sunt ale apărării.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-ale-carui-declaratii",
+    "category": "Morfologie",
+    "wrong": "Acuzatul, ai cărui declarații au fost contradictorii, a fost reținut",
+    "correct": "Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut",
+    "question_title": "«Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut» sau «Acuzatul, ai cărui declarații au fost contradictorii, a fost reținut»? Care este forma corectă",
+    "prompt": "Alege forma corectă pentru «ai cărui / ale cărui».",
+    "rule": "«Ale» se acordă cu substantivul posedat feminin plural «declarații».",
+    "short_rule": "Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut.",
+    "examples": [
+      "Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut."
+    ],
+    "choices": [
+      "Acuzatul, ai cărui declarații au fost contradictorii, a fost reținut.",
+      "Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut."
+    ],
+    "correct_choice": "Acuzatul, ale cărui declarații au fost contradictorii, a fost reținut.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-ca-avocat",
+    "category": "Lexicosemantică",
+    "wrong": "A fost numit ca și avocat al statului",
+    "correct": "A fost numit ca avocat al statului",
+    "question_title": "«A fost numit ca avocat al statului» sau «A fost numit ca și avocat al statului»? Care este forma corectă",
+    "prompt": "Alege forma recomandată cu sensul «în calitate de avocat».",
+    "rule": "Cu sensul «în calitate de», forma recomandată este «ca avocat», fără «și».",
+    "short_rule": "A fost numit ca avocat al statului.",
+    "examples": [
+      "A fost numit ca avocat al statului."
+    ],
+    "choices": [
+      "A fost numit ca și avocat al statului.",
+      "A fost numit ca avocat al statului."
+    ],
+    "correct_choice": "A fost numit ca avocat al statului.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-ca-procuror",
+    "category": "Lexicosemantică",
+    "wrong": "Ca și procuror, are obligația de a fi imparțial",
+    "correct": "Ca procuror, are obligația de a fi imparțial",
+    "question_title": "«Ca procuror, are obligația de a fi imparțial» sau «Ca și procuror, are obligația de a fi imparțial»? Care este forma corectă",
+    "prompt": "Alege forma recomandată cu sensul «în calitate de procuror».",
+    "rule": "În această construcție, «ca» este suficient pentru exprimarea calității.",
+    "short_rule": "Ca procuror, are obligația de a fi imparțial.",
+    "examples": [
+      "Ca procuror, are obligația de a fi imparțial."
+    ],
+    "choices": [
+      "Ca și procuror, are obligația de a fi imparțial.",
+      "Ca procuror, are obligația de a fi imparțial."
+    ],
+    "correct_choice": "Ca procuror, are obligația de a fi imparțial.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-ci-nu-dar",
+    "category": "Morfologie",
+    "wrong": "Inculpatul nu a recunoscut fapta, dar a negat-o categoric",
+    "correct": "Inculpatul nu a recunoscut fapta, ci a negat-o categoric",
+    "question_title": "«Inculpatul nu a recunoscut fapta, ci a negat-o categoric» sau «Inculpatul nu a recunoscut fapta, dar a negat-o categoric»? Care este forma corectă",
+    "prompt": "Alege conjuncția corectă după negație.",
+    "rule": "În opoziția totală exprimată după o negație se folosește «ci», nu «dar».",
+    "short_rule": "Inculpatul nu a recunoscut fapta, ci a negat-o categoric.",
+    "examples": [
+      "Inculpatul nu a recunoscut fapta, ci a negat-o categoric."
+    ],
+    "choices": [
+      "Inculpatul nu a recunoscut fapta, dar a negat-o categoric.",
+      "Inculpatul nu a recunoscut fapta, ci a negat-o categoric."
+    ],
+    "correct_choice": "Inculpatul nu a recunoscut fapta, ci a negat-o categoric.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-ci-nu-procuror",
+    "category": "Morfologie",
+    "wrong": "Nu procurorul a formulat acuzația, dar avocatul părții civile",
+    "correct": "Nu procurorul a formulat acuzația, ci avocatul părții civile",
+    "question_title": "«Nu procurorul a formulat acuzația, ci avocatul părții civile» sau «Nu procurorul a formulat acuzația, dar avocatul părții civile»? Care este forma corectă",
+    "prompt": "Alege conjuncția corectă după negație.",
+    "rule": "Structura «nu..., ci...» marchează opoziția totală și cere conjuncția «ci».",
+    "short_rule": "Nu procurorul a formulat acuzația, ci avocatul părții civile.",
+    "examples": [
+      "Nu procurorul a formulat acuzația, ci avocatul părții civile."
+    ],
+    "choices": [
+      "Nu procurorul a formulat acuzația, dar avocatul părții civile.",
+      "Nu procurorul a formulat acuzația, ci avocatul părții civile."
+    ],
+    "correct_choice": "Nu procurorul a formulat acuzația, ci avocatul părții civile.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-coborat-jos",
+    "category": "Lexicosemantică",
+    "wrong": "Suspectul a coborât jos scara în fugă",
+    "correct": "Suspectul a coborât scara în fugă",
+    "question_title": "«Suspectul a coborât scara în fugă» sau «Suspectul a coborât jos scara în fugă»? Care este forma corectă",
+    "prompt": "Alege formularea fără pleonasm.",
+    "rule": "«A coborî» exprimă deja deplasarea în jos; adverbul «jos» este redundant în această construcție.",
+    "short_rule": "Suspectul a coborât scara în fugă.",
+    "examples": [
+      "Suspectul a coborât scara în fugă."
+    ],
+    "choices": [
+      "Suspectul a coborât jos scara în fugă.",
+      "Suspectul a coborât scara în fugă."
+    ],
+    "correct_choice": "Suspectul a coborât scara în fugă.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-colaborare-eficienta",
+    "category": "Lexicosemantică",
+    "wrong": "Cei doi parteneri au avut o colaborare reciprocă eficientă",
+    "correct": "Cei doi parteneri au avut o colaborare eficientă",
+    "question_title": "«Cei doi parteneri au avut o colaborare eficientă» sau «Cei doi parteneri au avut o colaborare reciprocă eficientă»? Care este forma corectă",
+    "prompt": "Alege formularea fără pleonasm.",
+    "rule": "Colaborarea presupune deja participarea reciprocă a părților; «reciprocă» este redundant aici.",
+    "short_rule": "Cei doi parteneri au avut o colaborare eficientă.",
+    "examples": [
+      "Cei doi parteneri au avut o colaborare eficientă."
+    ],
+    "choices": [
+      "Cei doi parteneri au avut o colaborare eficientă.",
+      "Cei doi parteneri au avut o colaborare reciprocă eficientă."
+    ],
+    "correct_choice": "Cei doi parteneri au avut o colaborare eficientă.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-conform-legii",
+    "category": "Sintaxă",
+    "wrong": "Conform cu legea, orice cetățean are drepturi egale",
+    "correct": "Conform legii, orice cetățean are drepturi egale",
+    "question_title": "«Conform legii, orice cetățean are drepturi egale» sau «Conform cu legea, orice cetățean are drepturi egale»? Care este forma corectă",
+    "prompt": "Alege construcția corectă cu «conform».",
+    "rule": "În această construcție, «conform» se folosește direct cu substantivul la genitiv, fără «cu».",
+    "short_rule": "Conform legii, orice cetățean are drepturi egale.",
+    "examples": [
+      "Conform legii, orice cetățean are drepturi egale."
+    ],
+    "choices": [
+      "Conform legii, orice cetățean are drepturi egale.",
+      "Conform cu legea, orice cetățean are drepturi egale."
+    ],
+    "correct_choice": "Conform legii, orice cetățean are drepturi egale.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-contrar-asteptarilor",
+      "dilema-datorita-pregatirii"
+    ]
+  },
+  {
+    "id": "dilema-contrar-asteptarilor",
+    "category": "Sintaxă",
+    "wrong": "Contrar cu așteptările, verdictul a fost favorabil inculpatului",
+    "correct": "Contrar așteptărilor, verdictul a fost favorabil inculpatului",
+    "question_title": "«Contrar așteptărilor, verdictul a fost favorabil inculpatului» sau «Contrar cu așteptările, verdictul a fost favorabil inculpatului»? Care este forma corectă",
+    "prompt": "Alege construcția corectă cu «contrar».",
+    "rule": "«Contrar» se construiește direct cu substantivul la dativ/genitiv, fără «cu».",
+    "short_rule": "Contrar așteptărilor, verdictul a fost favorabil inculpatului.",
+    "examples": [
+      "Contrar așteptărilor, verdictul a fost favorabil inculpatului."
+    ],
+    "choices": [
+      "Contrar așteptărilor, verdictul a fost favorabil inculpatului.",
+      "Contrar cu așteptările, verdictul a fost favorabil inculpatului."
+    ],
+    "correct_choice": "Contrar așteptărilor, verdictul a fost favorabil inculpatului.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-datorita-pregatirii"
+    ]
+  },
+  {
+    "id": "dilema-datorita-pregatirii",
+    "category": "Sintaxă",
+    "wrong": "Din cauza pregătirii temeinice, avocatul a câștigat procesul",
+    "correct": "Datorită pregătirii temeinice, avocatul a câștigat procesul",
+    "question_title": "«Datorită pregătirii temeinice, avocatul a câștigat procesul» sau «Din cauza pregătirii temeinice, avocatul a câștigat procesul»? Care este forma corectă",
+    "prompt": "Alege construcția corectă pentru o cauză favorabilă.",
+    "rule": "Succesul este un efect favorabil, de aceea se folosește «datorită».",
+    "short_rule": "Datorită pregătirii temeinice, avocatul a câștigat procesul.",
+    "examples": [
+      "Datorită pregătirii temeinice, avocatul a câștigat procesul."
+    ],
+    "choices": [
+      "Datorită pregătirii temeinice, avocatul a câștigat procesul.",
+      "Din cauza pregătirii temeinice, avocatul a câștigat procesul."
+    ],
+    "correct_choice": "Datorită pregătirii temeinice, avocatul a câștigat procesul.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-decat-concludenta",
+    "category": "Lexicosemantică",
+    "wrong": "Dovada este mai concludentă ca mărturia",
+    "correct": "Dovada este mai concludentă decât mărturia",
+    "question_title": "«Dovada este mai concludentă decât mărturia» sau «Dovada este mai concludentă ca mărturia»? Care este forma corectă",
+    "prompt": "Alege construcția corectă a comparației.",
+    "rule": "În comparația de superioritate se folosește «decât».",
+    "short_rule": "Dovada este mai concludentă decât mărturia.",
+    "examples": [
+      "Dovada este mai concludentă decât mărturia."
+    ],
+    "choices": [
+      "Dovada este mai concludentă ca mărturia.",
+      "Dovada este mai concludentă decât mărturia."
+    ],
+    "correct_choice": "Dovada este mai concludentă decât mărturia.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-decat-sentinta",
+    "category": "Lexicosemantică",
+    "wrong": "Sentința a fost mai blândă ca se aștepta apărarea",
+    "correct": "Sentința a fost mai blândă decât se aștepta apărarea",
+    "question_title": "«Sentința a fost mai blândă decât se aștepta apărarea» sau «Sentința a fost mai blândă ca se aștepta apărarea»? Care este forma corectă",
+    "prompt": "Alege construcția corectă a comparației.",
+    "rule": "După un comparativ de superioritate se folosește conjuncția «decât».",
+    "short_rule": "Sentința a fost mai blândă decât se aștepta apărarea.",
+    "examples": [
+      "Sentința a fost mai blândă decât se aștepta apărarea."
+    ],
+    "choices": [
+      "Sentința a fost mai blândă ca se aștepta apărarea.",
+      "Sentința a fost mai blândă decât se aștepta apărarea."
+    ],
+    "correct_choice": "Sentința a fost mai blândă decât se aștepta apărarea.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-din-cauza-accident",
+    "category": "Sintaxă",
+    "wrong": "A întârziat la audiere datorită unui accident rutier",
+    "correct": "A întârziat la audiere din cauza unui accident rutier",
+    "question_title": "«A întârziat la audiere din cauza unui accident rutier» sau «A întârziat la audiere datorită unui accident rutier»? Care este forma corectă",
+    "prompt": "Alege construcția corectă pentru o cauză negativă.",
+    "rule": "Pentru o cauză cu efect negativ se recomandă «din cauza»; «datorită» introduce, de regulă, o cauză favorabilă.",
+    "short_rule": "A întârziat la audiere din cauza unui accident rutier.",
+    "examples": [
+      "A întârziat la audiere din cauza unui accident rutier."
+    ],
+    "choices": [
+      "A întârziat la audiere datorită unui accident rutier.",
+      "A întârziat la audiere din cauza unui accident rutier."
+    ],
+    "correct_choice": "A întârziat la audiere din cauza unui accident rutier.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-director-impreuna",
+    "category": "Sintaxă",
+    "wrong": "Directorul, împreună cu angajații săi, au semnat contractul",
+    "correct": "Directorul, împreună cu angajații săi, a semnat contractul",
+    "question_title": "«Directorul, împreună cu angajații săi, a semnat contractul» sau «Directorul, împreună cu angajații săi, au semnat contractul»? Care este forma corectă",
+    "prompt": "Alege forma corectă după construcția «împreună cu».",
+    "rule": "Construcția «împreună cu angajații» este incidentă; subiectul propriu-zis rămâne «directorul», iar predicatul este la singular.",
+    "short_rule": "Directorul, împreună cu angajații săi, a semnat contractul.",
+    "examples": [
+      "Directorul, împreună cu angajații săi, a semnat contractul."
+    ],
+    "choices": [
+      "Directorul, împreună cu angajații săi, a semnat contractul.",
+      "Directorul, împreună cu angajații săi, au semnat contractul."
+    ],
+    "correct_choice": "Directorul, împreună cu angajații săi, a semnat contractul.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-doi-suspecti",
+    "category": "Sintaxă",
+    "wrong": "Doi dintre suspecți a recunoscut infracțiunea",
+    "correct": "Doi dintre suspecți au recunoscut infracțiunea",
+    "question_title": "«Doi dintre suspecți au recunoscut infracțiunea» sau «Doi dintre suspecți a recunoscut infracțiunea»? Care este forma corectă",
+    "prompt": "Alege forma corectă după «doi dintre».",
+    "rule": "Numeralul «doi» exprimă pluralul și cere predicatul la plural.",
+    "short_rule": "Doi dintre suspecți au recunoscut infracțiunea.",
+    "examples": [
+      "Doi dintre suspecți au recunoscut infracțiunea."
+    ],
+    "choices": [
+      "Doi dintre suspecți a recunoscut infracțiunea.",
+      "Doi dintre suspecți au recunoscut infracțiunea."
+    ],
+    "correct_choice": "Doi dintre suspecți au recunoscut infracțiunea.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-dumneavoastra-ati",
+    "category": "Morfologie",
+    "wrong": "Dumneavoastră a semnat declarația?",
+    "correct": "Dumneavoastră ați semnat declarația?",
+    "question_title": "«Dumneavoastră ați semnat declarația?» sau «Dumneavoastră a semnat declarația?»? Care este forma corectă",
+    "prompt": "Alege forma corectă a acordului cu «dumneavoastră».",
+    "rule": "Pronumele de politețe «dumneavoastră» cere predicatul la persoana a II-a plural.",
+    "short_rule": "Dumneavoastră ați semnat declarația?",
+    "examples": [
+      "Dumneavoastră ați semnat declarația?"
+    ],
+    "choices": [
+      "Dumneavoastră ați semnat declarația?",
+      "Dumneavoastră a semnat declarația?"
+    ],
+    "correct_choice": "Dumneavoastră ați semnat declarația?",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-dumneavoastra-sunteti",
+    "category": "Morfologie",
+    "wrong": "Dumneavoastră este singurul martor ocular",
+    "correct": "Dumneavoastră sunteți singurul martor ocular",
+    "question_title": "«Dumneavoastră sunteți singurul martor ocular» sau «Dumneavoastră este singurul martor ocular»? Care este forma corectă",
+    "prompt": "Alege forma corectă a acordului cu «dumneavoastră».",
+    "rule": "Acordul verbal cu «dumneavoastră» se face la persoana a II-a plural: «sunteți».",
+    "short_rule": "Dumneavoastră sunteți singurul martor ocular.",
+    "examples": [
+      "Dumneavoastră sunteți singurul martor ocular."
+    ],
+    "choices": [
+      "Dumneavoastră sunteți singurul martor ocular.",
+      "Dumneavoastră este singurul martor ocular."
+    ],
+    "correct_choice": "Dumneavoastră sunteți singurul martor ocular.",
+    "related_ids": [
+      "creeaza",
+      "dilema-a-carei-activitate",
+      "dilema-a-carei-masina",
+      "dilema-a-caror-vina"
+    ]
+  },
+  {
+    "id": "dilema-el-si-ea",
+    "category": "Sintaxă",
+    "wrong": "El și ea ați fost prezenți la fața locului",
+    "correct": "El și ea au fost prezenți la fața locului",
+    "question_title": "«El și ea au fost prezenți la fața locului» sau «El și ea ați fost prezenți la fața locului»? Care este forma corectă",
+    "prompt": "Alege forma corectă a predicatului pentru un subiect compus.",
+    "rule": "Subiectul compus format din persoane de persoana a III-a cere predicatul la persoana a III-a plural.",
+    "short_rule": "El și ea au fost prezenți la fața locului.",
+    "examples": [
+      "El și ea au fost prezenți la fața locului."
+    ],
+    "choices": [
+      "El și ea au fost prezenți la fața locului.",
+      "El și ea ați fost prezenți la fața locului."
+    ],
+    "correct_choice": "El și ea au fost prezenți la fața locului.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-emigranti",
+    "category": "Lexicosemantică",
+    "wrong": "În ultimii ani, mulți imigranți români au părăsit țara",
+    "correct": "În ultimii ani, mulți emigranți români au părăsit țara",
+    "question_title": "«În ultimii ani, mulți emigranți români au părăsit țara» sau «În ultimii ani, mulți imigranți români au părăsit țara»? Care este forma corectă",
+    "prompt": "Alege termenul potrivit pentru românii care au părăsit țara.",
+    "rule": "«Emigrant» este persoana care pleacă din țara de origine; «imigrant» este persoana care intră într-o altă țară.",
+    "short_rule": "În ultimii ani, mulți emigranți români au părăsit țara.",
+    "examples": [
+      "În ultimii ani, mulți emigranți români au părăsit țara."
+    ],
+    "choices": [
+      "În ultimii ani, mulți emigranți români au părăsit țara.",
+      "În ultimii ani, mulți imigranți români au părăsit țara."
+    ],
+    "correct_choice": "În ultimii ani, mulți emigranți români au părăsit țara.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-eu-si-colegul",
+    "category": "Sintaxă",
+    "wrong": "Eu și colegul meu veți depune raportul mâine",
+    "correct": "Eu și colegul meu vom depune raportul mâine",
+    "question_title": "«Eu și colegul meu vom depune raportul mâine» sau «Eu și colegul meu veți depune raportul mâine»? Care este forma corectă",
+    "prompt": "Alege forma corectă a predicatului pentru un subiect compus.",
+    "rule": "Subiectul compus include persoana I; predicatul se acordă la persoana I plural.",
+    "short_rule": "Eu și colegul meu vom depune raportul mâine.",
+    "examples": [
+      "Eu și colegul meu vom depune raportul mâine."
+    ],
+    "choices": [
+      "Eu și colegul meu vom depune raportul mâine.",
+      "Eu și colegul meu veți depune raportul mâine."
+    ],
+    "correct_choice": "Eu și colegul meu vom depune raportul mâine.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-familial",
+    "category": "Lexicosemantică",
+    "wrong": "Conflictul familiar a fost soluționat de instanța de tutelă",
+    "correct": "Conflictul familial a fost soluționat de instanța de tutelă",
+    "question_title": "«Conflictul familial a fost soluționat de instanța de tutelă» sau «Conflictul familiar a fost soluționat de instanța de tutelă»? Care este forma corectă",
+    "prompt": "Alege forma corectă pentru un conflict din familie.",
+    "rule": "«Familial» înseamnă «de familie»; «familiar» înseamnă «cunoscut, obișnuit».",
+    "short_rule": "Conflictul familial a fost soluționat de instanța de tutelă.",
+    "examples": [
+      "Conflictul familial a fost soluționat de instanța de tutelă."
+    ],
+    "choices": [
+      "Conflictul familiar a fost soluționat de instanța de tutelă.",
+      "Conflictul familial a fost soluționat de instanța de tutelă."
+    ],
+    "correct_choice": "Conflictul familial a fost soluționat de instanța de tutelă.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-fiecare-inculpati",
+    "category": "Sintaxă",
+    "wrong": "Fiecare dintre inculpați au fost audiați separat",
+    "correct": "Fiecare dintre inculpați a fost audiat separat",
+    "question_title": "«Fiecare dintre inculpați a fost audiat separat» sau «Fiecare dintre inculpați au fost audiați separat»? Care este forma corectă",
+    "prompt": "Alege forma corectă după «fiecare dintre».",
+    "rule": "«Fiecare» este singular și impune predicatul la singular.",
+    "short_rule": "Fiecare dintre inculpați a fost audiat separat.",
+    "examples": [
+      "Fiecare dintre inculpați a fost audiat separat."
+    ],
+    "choices": [
+      "Fiecare dintre inculpați a fost audiat separat.",
+      "Fiecare dintre inculpați au fost audiați separat."
+    ],
+    "correct_choice": "Fiecare dintre inculpați a fost audiat separat.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-i-s-a",
+    "category": "Ortografie",
+    "wrong": "Is-a explicat procedura de contestare",
+    "correct": "I s-a explicat procedura de contestare",
+    "question_title": "«I s-a explicat procedura de contestare» sau «Is-a explicat procedura de contestare»? Care este forma corectă",
+    "prompt": "Alege forma corectă a grupului pronominal.",
+    "rule": "Pronumele «i» se scrie separat de «s-a».",
+    "short_rule": "I s-a explicat procedura de contestare.",
+    "examples": [
+      "I s-a explicat procedura de contestare."
+    ],
+    "choices": [
+      "Is-a explicat procedura de contestare.",
+      "I s-a explicat procedura de contestare."
+    ],
+    "correct_choice": "I s-a explicat procedura de contestare.",
+    "related_ids": [
+      "dilema-li-s-a",
+      "dilema-mi-s-a",
+      "dilema-ni-s-a",
+      "intr-adevar"
+    ]
+  },
+  {
+    "id": "dilema-iesit-afara",
+    "category": "Lexicosemantică",
+    "wrong": "Martorul a ieșit afară din sala de judecată",
+    "correct": "Martorul a ieșit din sala de judecată",
+    "question_title": "«Martorul a ieșit din sala de judecată» sau «Martorul a ieșit afară din sala de judecată»? Care este forma corectă",
+    "prompt": "Alege formularea fără pleonasm.",
+    "rule": "Verbul «a ieși» include deja sensul de «a merge afară»; «a ieși afară» este pleonastic.",
+    "short_rule": "Martorul a ieșit din sala de judecată.",
+    "examples": [
+      "Martorul a ieșit din sala de judecată."
+    ],
+    "choices": [
+      "Martorul a ieșit afară din sala de judecată.",
+      "Martorul a ieșit din sala de judecată."
+    ],
+    "correct_choice": "Martorul a ieșit din sala de judecată.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-iminent",
+    "category": "Lexicosemantică",
+    "wrong": "Pericolul unei evadări este eminent",
+    "correct": "Pericolul unei evadări este iminent",
+    "question_title": "«Pericolul unei evadări este iminent» sau «Pericolul unei evadări este eminent»? Care este forma corectă",
+    "prompt": "Alege paronimul potrivit pentru un pericol care urmează să se producă.",
+    "rule": "«Iminent» înseamnă «pe cale să se producă»; «eminent» înseamnă «remarcabil».",
+    "short_rule": "Pericolul unei evadări este iminent.",
+    "examples": [
+      "Pericolul unei evadări este iminent."
+    ],
+    "choices": [
+      "Pericolul unei evadări este eminent.",
+      "Pericolul unei evadări este iminent."
+    ],
+    "correct_choice": "Pericolul unei evadări este iminent.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-inaintat-apelul",
+    "category": "Lexicosemantică",
+    "wrong": "Avocatul a înaintat înainte apelul la Curtea de Apel",
+    "correct": "Avocatul a înaintat apelul la Curtea de Apel",
+    "question_title": "«Avocatul a înaintat apelul la Curtea de Apel» sau «Avocatul a înaintat înainte apelul la Curtea de Apel»? Care este forma corectă",
+    "prompt": "Alege formularea fără pleonasm.",
+    "rule": "Verbul «a înainta» include sensul de «a duce înainte»; adverbul «înainte» este redundant.",
+    "short_rule": "Avocatul a înaintat apelul la Curtea de Apel.",
+    "examples": [
+      "Avocatul a înaintat apelul la Curtea de Apel."
+    ],
+    "choices": [
+      "Avocatul a înaintat apelul la Curtea de Apel.",
+      "Avocatul a înaintat înainte apelul la Curtea de Apel."
+    ],
+    "correct_choice": "Avocatul a înaintat apelul la Curtea de Apel.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-judecatorul-insusi",
+    "category": "Sintaxă",
+    "wrong": "Judecătorul însăși a recunoscut eroarea din sentință",
+    "correct": "Judecătorul însuși a recunoscut eroarea din sentință",
+    "question_title": "«Judecătorul însuși a recunoscut eroarea din sentință» sau «Judecătorul însăși a recunoscut eroarea din sentință»? Care este forma corectă",
+    "prompt": "Alege forma corectă a pronumelui de întărire.",
+    "rule": "«Însuși» se acordă cu substantivul masculin singular «judecătorul».",
+    "short_rule": "Judecătorul însuși a recunoscut eroarea din sentință.",
+    "examples": [
+      "Judecătorul însuși a recunoscut eroarea din sentință."
+    ],
+    "choices": [
+      "Judecătorul însuși a recunoscut eroarea din sentință.",
+      "Judecătorul însăși a recunoscut eroarea din sentință."
+    ],
+    "correct_choice": "Judecătorul însuși a recunoscut eroarea din sentință.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-li-s-a",
+    "category": "Ortografie",
+    "wrong": "Lis-a comunicat verdictul abia azi",
+    "correct": "Li s-a comunicat verdictul abia azi",
+    "question_title": "«Li s-a comunicat verdictul abia azi» sau «Lis-a comunicat verdictul abia azi»? Care este forma corectă",
+    "prompt": "Alege forma corectă a grupului pronominal.",
+    "rule": "Pronumele «li» se scrie separat de grupul «s-a».",
+    "short_rule": "Li s-a comunicat verdictul abia azi.",
+    "examples": [
+      "Li s-a comunicat verdictul abia azi."
+    ],
+    "choices": [
+      "Lis-a comunicat verdictul abia azi.",
+      "Li s-a comunicat verdictul abia azi."
+    ],
+    "correct_choice": "Li s-a comunicat verdictul abia azi.",
+    "related_ids": [
+      "dilema-i-s-a",
+      "dilema-mi-s-a",
+      "dilema-ni-s-a",
+      "intr-adevar"
+    ]
+  },
+  {
+    "id": "dilema-mi-s-a",
+    "category": "Ortografie",
+    "wrong": "Mis-a părut suspectă declarația martorului",
+    "correct": "Mi s-a părut suspectă declarația martorului",
+    "question_title": "«Mi s-a părut suspectă declarația martorului» sau «Mis-a părut suspectă declarația martorului»? Care este forma corectă",
+    "prompt": "Alege forma corectă a grupului pronominal.",
+    "rule": "Pronumele «mi» se scrie separat de «s-a».",
+    "short_rule": "Mi s-a părut suspectă declarația martorului.",
+    "examples": [
+      "Mi s-a părut suspectă declarația martorului."
+    ],
+    "choices": [
+      "Mis-a părut suspectă declarația martorului.",
+      "Mi s-a părut suspectă declarația martorului."
+    ],
+    "correct_choice": "Mi s-a părut suspectă declarația martorului.",
+    "related_ids": [
+      "dilema-i-s-a",
+      "dilema-li-s-a",
+      "dilema-ni-s-a",
+      "intr-adevar"
+    ]
+  },
+  {
+    "id": "dilema-monopol-exclusiv",
+    "category": "Lexicosemantică",
+    "wrong": "Compania deține un monopol exclusiv pe piață",
+    "correct": "Compania deține un monopol pe piață",
+    "question_title": "«Compania deține un monopol pe piață» sau «Compania deține un monopol exclusiv pe piață»? Care este forma corectă",
+    "prompt": "Alege formularea fără pleonasm.",
+    "rule": "Monopolul presupune exclusivitate; adjectivul «exclusiv» repetă sensul termenului.",
+    "short_rule": "Compania deține un monopol pe piață.",
+    "examples": [
+      "Compania deține un monopol pe piață."
+    ],
+    "choices": [
+      "Compania deține un monopol exclusiv pe piață.",
+      "Compania deține un monopol pe piață."
+    ],
+    "correct_choice": "Compania deține un monopol pe piață.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-multi-politisti",
+    "category": "Sintaxă",
+    "wrong": "Mulți dintre polițiști a participat la intervenție",
+    "correct": "Mulți dintre polițiști au participat la intervenție",
+    "question_title": "«Mulți dintre polițiști au participat la intervenție» sau «Mulți dintre polițiști a participat la intervenție»? Care este forma corectă",
+    "prompt": "Alege forma corectă după «mulți dintre».",
+    "rule": "«Mulți» este plural și impune acordul predicatului la plural.",
+    "short_rule": "Mulți dintre polițiști au participat la intervenție.",
+    "examples": [
+      "Mulți dintre polițiști au participat la intervenție."
+    ],
+    "choices": [
+      "Mulți dintre polițiști a participat la intervenție.",
+      "Mulți dintre polițiști au participat la intervenție."
+    ],
+    "correct_choice": "Mulți dintre polițiști au participat la intervenție.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-ni-s-a",
+    "category": "Ortografie",
+    "wrong": "Nis-a promis o rezolvare rapidă",
+    "correct": "Ni s-a promis o rezolvare rapidă",
+    "question_title": "«Ni s-a promis o rezolvare rapidă» sau «Nis-a promis o rezolvare rapidă»? Care este forma corectă",
+    "prompt": "Alege forma corectă a grupului pronominal.",
+    "rule": "Pronumele «ni» și auxiliarul/pronumele «s-a» se scriu separat în această construcție.",
+    "short_rule": "Ni s-a promis o rezolvare rapidă.",
+    "examples": [
+      "Ni s-a promis o rezolvare rapidă."
+    ],
+    "choices": [
+      "Nis-a promis o rezolvare rapidă.",
+      "Ni s-a promis o rezolvare rapidă."
+    ],
+    "correct_choice": "Ni s-a promis o rezolvare rapidă.",
+    "related_ids": [
+      "dilema-i-s-a",
+      "dilema-li-s-a",
+      "dilema-mi-s-a",
+      "intr-adevar"
+    ]
+  },
+  {
+    "id": "dilema-niciunul-martori",
+    "category": "Sintaxă",
+    "wrong": "Niciunul dintre martori nu au recunoscut fapta",
+    "correct": "Niciunul dintre martori nu a recunoscut fapta",
+    "question_title": "«Niciunul dintre martori nu a recunoscut fapta» sau «Niciunul dintre martori nu au recunoscut fapta»? Care este forma corectă",
+    "prompt": "Alege forma corectă după «niciunul dintre».",
+    "rule": "«Niciunul» este pronume la singular; grupul «dintre martori» nu schimbă acordul.",
+    "short_rule": "Niciunul dintre martori nu a recunoscut fapta.",
+    "examples": [
+      "Niciunul dintre martori nu a recunoscut fapta."
+    ],
+    "choices": [
+      "Niciunul dintre martori nu a recunoscut fapta.",
+      "Niciunul dintre martori nu au recunoscut fapta."
+    ],
+    "correct_choice": "Niciunul dintre martori nu a recunoscut fapta.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-potrivit-probelor",
+    "category": "Sintaxă",
+    "wrong": "Decizia a fost luată potrivit cu probele prezentate",
+    "correct": "Decizia a fost luată potrivit probelor prezentate",
+    "question_title": "«Decizia a fost luată potrivit probelor prezentate» sau «Decizia a fost luată potrivit cu probele prezentate»? Care este forma corectă",
+    "prompt": "Alege construcția corectă cu «potrivit».",
+    "rule": "În registrul juridic, «potrivit» se construiește direct cu substantivul: «potrivit probelor».",
+    "short_rule": "Decizia a fost luată potrivit probelor prezentate.",
+    "examples": [
+      "Decizia a fost luată potrivit probelor prezentate."
+    ],
+    "choices": [
+      "Decizia a fost luată potrivit probelor prezentate.",
+      "Decizia a fost luată potrivit cu probele prezentate."
+    ],
+    "correct_choice": "Decizia a fost luată potrivit probelor prezentate.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-presedinte-complet",
+    "category": "Sintaxă",
+    "wrong": "Președintele completului, împreună cu ceilalți judecători, au pronunțat sentința",
+    "correct": "Președintele completului, împreună cu ceilalți judecători, a pronunțat sentința",
+    "question_title": "«Președintele completului, împreună cu ceilalți judecători, a pronunțat sentința» sau «Președintele completului, împreună cu ceilalți judecători, au pronunțat sentința»? Care este forma corectă",
+    "prompt": "Alege forma corectă după construcția «împreună cu».",
+    "rule": "Subiectul este «președintele completului»; grupul introdus prin «împreună cu» nu schimbă acordul.",
+    "short_rule": "Președintele completului, împreună cu ceilalți judecători, a pronunțat sentința.",
+    "examples": [
+      "Președintele completului, împreună cu ceilalți judecători, a pronunțat sentința."
+    ],
+    "choices": [
+      "Președintele completului, împreună cu ceilalți judecători, a pronunțat sentința.",
+      "Președintele completului, împreună cu ceilalți judecători, au pronunțat sentința."
+    ],
+    "correct_choice": "Președintele completului, împreună cu ceilalți judecători, a pronunțat sentința.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-procuror-alaturi",
+    "category": "Sintaxă",
+    "wrong": "Procurorul, alături de doi polițiști, au ajuns la fața locului",
+    "correct": "Procurorul, alături de doi polițiști, a ajuns la fața locului",
+    "question_title": "«Procurorul, alături de doi polițiști, a ajuns la fața locului» sau «Procurorul, alături de doi polițiști, au ajuns la fața locului»? Care este forma corectă",
+    "prompt": "Alege forma corectă după construcția «alături de».",
+    "rule": "«Alături de doi polițiști» nu formează subiectul; acordul se face cu «procurorul».",
+    "short_rule": "Procurorul, alături de doi polițiști, a ajuns la fața locului.",
+    "examples": [
+      "Procurorul, alături de doi polițiști, a ajuns la fața locului."
+    ],
+    "choices": [
+      "Procurorul, alături de doi polițiști, a ajuns la fața locului.",
+      "Procurorul, alături de doi polițiști, au ajuns la fața locului."
+    ],
+    "correct_choice": "Procurorul, alături de doi polițiști, a ajuns la fața locului.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-repetat-din-nou",
+    "category": "Lexicosemantică",
+    "wrong": "Instanța a repetat din nou întrebarea",
+    "correct": "Instanța a repetat întrebarea",
+    "question_title": "«Instanța a repetat întrebarea» sau «Instanța a repetat din nou întrebarea»? Care este forma corectă",
+    "prompt": "Alege formularea fără pleonasm.",
+    "rule": "Verbul «a repeta» exprimă deja reluarea; «din nou» nu mai este necesar.",
+    "short_rule": "Instanța a repetat întrebarea.",
+    "examples": [
+      "Instanța a repetat întrebarea."
+    ],
+    "choices": [
+      "Instanța a repetat din nou întrebarea.",
+      "Instanța a repetat întrebarea."
+    ],
+    "correct_choice": "Instanța a repetat întrebarea.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "dilema-s-a-bazat-pe",
+    "category": "Sintaxă",
+    "wrong": "Instanța s-a bazat în mărturiile depuse",
+    "correct": "Instanța s-a bazat pe mărturiile depuse",
+    "question_title": "«Instanța s-a bazat pe mărturiile depuse» sau «Instanța s-a bazat în mărturiile depuse»? Care este forma corectă",
+    "prompt": "Alege prepoziția cerută de «a se baza».",
+    "rule": "Locuțiunea verbală «a se baza» se construiește cu prepoziția «pe».",
+    "short_rule": "Instanța s-a bazat pe mărturiile depuse.",
+    "examples": [
+      "Instanța s-a bazat pe mărturiile depuse."
+    ],
+    "choices": [
+      "Instanța s-a bazat pe mărturiile depuse.",
+      "Instanța s-a bazat în mărturiile depuse."
+    ],
+    "correct_choice": "Instanța s-a bazat pe mărturiile depuse.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "dilema-tu-si-martorul",
+    "category": "Sintaxă",
+    "wrong": "Tu și martorul vor fi audiați separat",
+    "correct": "Tu și martorul veți fi audiați separat",
+    "question_title": "«Tu și martorul veți fi audiați separat» sau «Tu și martorul vor fi audiați separat»? Care este forma corectă",
+    "prompt": "Alege forma corectă a predicatului pentru un subiect compus.",
+    "rule": "Subiectul compus include persoana a II-a; predicatul se acordă la persoana a II-a plural.",
+    "short_rule": "Tu și martorul veți fi audiați separat.",
+    "examples": [
+      "Tu și martorul veți fi audiați separat."
+    ],
+    "choices": [
+      "Tu și martorul veți fi audiați separat.",
+      "Tu și martorul vor fi audiați separat."
+    ],
+    "correct_choice": "Tu și martorul veți fi audiați separat.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "intr-adevar",
+    "category": "Ortografie",
+    "wrong": "întradevăr",
+    "correct": "într-adevăr",
+    "question_title": "«Într-adevăr» sau «întradevăr»? Care este forma corectă",
+    "prompt": "«Într-adevăr» sau «întradevăr»?",
+    "rule": "Locuțiunea adverbială se scrie cu cratimă și cu «î» la început: «într-adevăr».",
+    "short_rule": "într-adevăr",
+    "examples": [
+      "Într-adevăr, explicația schimbă perspectiva.",
+      "Este, într-adevăr, un exemplu bun."
+    ],
+    "choices": [
+      "într-adevăr",
+      "întradevăr",
+      "într adevăr"
+    ],
+    "correct_choice": "într-adevăr",
+    "related_ids": [
+      "dilema-i-s-a",
+      "dilema-li-s-a",
+      "dilema-mi-s-a",
+      "dilema-ni-s-a"
+    ]
+  },
+  {
+    "id": "mass-media",
+    "category": "Sintaxă",
+    "wrong": "Mass-media au transmis informația",
+    "correct": "Mass-media a transmis informația",
+    "question_title": "«Mass-media a transmis» sau «mass-media au transmis»? Care este forma corectă",
+    "prompt": "«Mass-media a transmis» sau «mass-media au transmis»?",
+    "rule": "Substantivul «mass-media» este folosit la singular în această construcție, iar predicatul se acordă la singular.",
+    "short_rule": "Mass-media a transmis informația.",
+    "examples": [
+      "Mass-media a transmis informația în aceeași seară.",
+      "Mass-media are un rol important în informarea publicului."
+    ],
+    "choices": [
+      "Mass-media a transmis informația.",
+      "Mass-media au transmis informația.",
+      "Mass-media transmită informația."
+    ],
+    "correct_choice": "Mass-media a transmis informația.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "maximum",
+    "category": "Lexicosemantică",
+    "wrong": "la maxim",
+    "correct": "la maximum",
+    "question_title": "«La maximum» sau «la maxim»? Care este forma corectă",
+    "prompt": "«La maxim» sau «la maximum»?",
+    "rule": "În locuțiunea adverbială care exprimă limita superioară, forma recomandată este «la maximum».",
+    "short_rule": "la maximum",
+    "examples": [
+      "Volumul poate fi ridicat la maximum.",
+      "Folosește timpul la maximum."
+    ],
+    "choices": [
+      "la maxim",
+      "la maximum",
+      "la maximale"
+    ],
+    "correct_choice": "la maximum",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "niciun",
+    "category": "Ortografie",
+    "wrong": "nici un elev",
+    "correct": "niciun elev",
+    "question_title": "«Niciun» sau «nici un»? Care este forma corectă",
+    "prompt": "«Niciun elev» sau «nici un elev»?",
+    "rule": "Când are sensul «zero», adjectivul pronominal negativ «niciun» se scrie într-un singur cuvânt.",
+    "short_rule": "niciun elev",
+    "examples": [
+      "Niciun elev nu a lipsit de la întâlnire.",
+      "Nu am găsit niciun exemplu potrivit."
+    ],
+    "choices": [
+      "niciun elev",
+      "nici un elev",
+      "nici- un elev"
+    ],
+    "correct_choice": "niciun elev",
+    "related_ids": [
+      "dilema-i-s-a",
+      "dilema-li-s-a",
+      "dilema-mi-s-a",
+      "dilema-ni-s-a"
+    ]
+  },
+  {
+    "id": "patru-sute",
+    "category": "Sintaxă",
+    "wrong": "Patru sute de lei este o sumă importantă",
+    "correct": "Patru sute de lei sunt o sumă importantă",
+    "question_title": "«Patru sute de lei este...» sau «patru sute de lei sunt...»? Care este forma corectă",
+    "prompt": "«Patru sute de lei este...» sau «patru sute de lei sunt...»?",
+    "rule": "Când numeralul exprimă mai multe unități, predicatul se acordă la plural.",
+    "short_rule": "Patru sute de lei sunt o sumă importantă.",
+    "examples": [
+      "Patru sute de lei sunt o sumă importantă pentru proiect.",
+      "Două sute de pagini au fost analizate."
+    ],
+    "choices": [
+      "Patru sute de lei este o sumă importantă.",
+      "Patru sute de lei sunt o sumă importantă.",
+      "Patru sute de lei fii o sumă importantă."
+    ],
+    "correct_choice": "Patru sute de lei sunt o sumă importantă.",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "pe-care",
+    "category": "Sintaxă",
+    "wrong": "când «care» este subiect",
+    "correct": "când «care» este complement direct",
+    "question_title": "«Pe care» sau «care»? Care este forma corectă",
+    "prompt": "Când apare «pe» în «cartea pe care o citesc»?",
+    "rule": "Prepoziția marchează complementul direct atunci când pronumele relativ «care» se referă la un lucru asupra căruia se răsfrânge acțiunea.",
+    "short_rule": "pe care",
+    "examples": [
+      "Cartea pe care o citesc este despre limbaj.",
+      "Exemplul pe care îl analizăm schimbă perspectiva."
+    ],
+    "choices": [
+      "când «care» este subiect",
+      "când «care» este complement direct",
+      "în orice construcție"
+    ],
+    "correct_choice": "când «care» este complement direct",
+    "related_ids": [
+      "al-carui",
+      "cincizeci-si-una",
+      "dilema-conform-legii",
+      "dilema-contrar-asteptarilor"
+    ]
+  },
+  {
+    "id": "pleonasm-coborat",
+    "category": "Lexicosemantică",
+    "wrong": "A coborât jos",
+    "correct": "A coborât",
+    "question_title": "«A coborât jos» sau «a coborât»? Care este forma corectă",
+    "prompt": "«A coborât jos» sau «a coborât»?",
+    "rule": "Verbul «a coborî» include deja ideea de mișcare în jos; adăugarea lui «jos» poate crea un pleonasm.",
+    "short_rule": "A coborât.",
+    "examples": [
+      "A coborât din tren la prima stație.",
+      "Soarele a coborât încet spre orizont."
+    ],
+    "choices": [
+      "A coborât.",
+      "A coborât jos.",
+      "A coborât în jos jos."
+    ],
+    "correct_choice": "A coborât.",
+    "related_ids": [
+      "abuza-de",
+      "artificiu",
+      "concentreaza",
+      "decat-doar"
+    ]
+  },
+  {
+    "id": "sa-fii",
+    "category": "Ortografie",
+    "wrong": "să fi atent",
+    "correct": "să fii atent",
+    "question_title": "«Să fii» sau «să fi»? Care este forma corectă",
+    "prompt": "«Să fii atent» sau «să fi atent»?",
+    "rule": "La persoana a II-a singular a verbului «a fi», forma este «să fii». Forma «să fi» apare în construcții precum «să fi citit».",
+    "short_rule": "să fii atent",
+    "examples": [
+      "Este important să fii atent la nuanțe.",
+      "E posibil să fi citit deja textul."
+    ],
+    "choices": [
+      "să fii atent",
+      "să fi atent",
+      "să fiii atent"
+    ],
+    "correct_choice": "să fii atent",
+    "related_ids": [
+      "dilema-i-s-a",
+      "dilema-li-s-a",
+      "dilema-mi-s-a",
+      "dilema-ni-s-a"
+    ]
+  },
+  {
+    "id": "serviciu",
+    "category": "Ortografie",
+    "wrong": "servici",
+    "correct": "serviciu",
+    "question_title": "«Serviciu» sau «servici»? Care este forma corectă",
+    "prompt": "«Servici» sau «serviciu»?",
+    "rule": "Substantivul se scrie «serviciu», cu «u» final.",
+    "short_rule": "serviciu",
+    "examples": [
+      "Am rezolvat problema la serviciu.",
+      "Serviciul public trebuie să fie accesibil."
+    ],
+    "choices": [
+      "servici",
+      "serviciu",
+      "serviciul"
+    ],
+    "correct_choice": "serviciu",
+    "related_ids": [
+      "dilema-i-s-a",
+      "dilema-li-s-a",
+      "dilema-mi-s-a",
+      "dilema-ni-s-a"
+    ]
+  },
+  {
+    "id": "subiect-predicat",
+    "category": "Punctuație",
+    "wrong": "Cine învață, reușește",
+    "correct": "Cine învață reușește",
+    "question_title": "Se pune virgulă între subiect și predicat? Care este regula corectă",
+    "prompt": "«Cine învață, reușește» sau «cine învață reușește»?",
+    "rule": "În mod obișnuit, nu punem virgulă între subiect și predicat, chiar dacă subiectul este o propoziție.",
+    "short_rule": "Cine învață reușește.",
+    "examples": [
+      "Cine exersează constant progresează.",
+      "Ceea ce contează este consecvența."
+    ],
+    "choices": [
+      "Cine învață, reușește.",
+      "Cine învață reușește.",
+      "Cine, învață reușește."
+    ],
+    "correct_choice": "Cine învață reușește.",
+    "related_ids": [
+      "virgula-dar",
+      "vocativ",
+      "abuza-de"
+    ]
+  },
+  {
+    "id": "virgula-dar",
+    "category": "Punctuație",
+    "wrong": "Am citit dar nu am memorat",
+    "correct": "Am citit, dar nu am memorat",
+    "question_title": "Se pune virgulă înainte de «dar»? Care este regula corectă",
+    "prompt": "«Am citit, dar nu am memorat» sau «am citit dar nu am memorat»?",
+    "rule": "Conjuncția adversativă «dar» se desparte, de regulă, prin virgulă de propoziția pe care o introduce.",
+    "short_rule": "Am citit, dar nu am memorat.",
+    "examples": [
+      "Am înțeles regula, dar mai am nevoie de exercițiu.",
+      "A venit la timp, însă nu a găsit sala."
+    ],
+    "choices": [
+      "Am citit, dar nu am memorat.",
+      "Am citit dar nu am memorat.",
+      "Am citit; dar nu am memorat."
+    ],
+    "correct_choice": "Am citit, dar nu am memorat.",
+    "related_ids": [
+      "subiect-predicat",
+      "vocativ",
+      "abuza-de"
+    ]
+  },
+  {
+    "id": "vocativ",
+    "category": "Punctuație",
+    "wrong": "Maria vino aici!",
+    "correct": "Maria, vino aici!",
+    "question_title": "Se pune virgulă la vocativ? Care este regula corectă",
+    "prompt": "«Maria, vino aici!» sau «Maria vino aici!»?",
+    "rule": "Substantivul care denumește persoana strigată sau adresată direct este un vocativ și se desparte prin virgulă.",
+    "short_rule": "Maria, vino aici!",
+    "examples": [
+      "Andrei, citește cu atenție cerința.",
+      "Vino, Ioana, să discutăm exemplul."
+    ],
+    "choices": [
+      "Maria vino aici!",
+      "Maria, vino aici!",
+      "Maria; vino aici!"
+    ],
+    "correct_choice": "Maria, vino aici!",
+    "related_ids": [
+      "subiect-predicat",
+      "virgula-dar",
+      "abuza-de"
+    ]
+  }
+]

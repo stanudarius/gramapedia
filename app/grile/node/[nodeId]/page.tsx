@@ -29,7 +29,7 @@ export default async function NodeQuestionsPage({ params }: { params: Promise<{ 
         <div className="knowledge-breadcrumbs">
           <Link href="/grile/"><ArrowLeft size={14} aria-hidden="true" /> Grile</Link>
           <span>/</span>
-          <Link href={`/teorie/${node.id}/`}><BookOpen size={14} aria-hidden="true" /> {node.title}</Link>
+          <Link href={node.id === "GRA-ROOT" ? "/teorie/" : `/teorie/${node.id}/`}><BookOpen size={14} aria-hidden="true" /> {node.title}</Link>
         </div>
         <section className="knowledge-hero knowledge-hero--compact">
           <div>

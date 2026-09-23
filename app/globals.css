@@ -1529,6 +1529,23 @@ summary:focus-visible,
   place-items: center;
 }
 
+.dilemma-panel__arrow--link {
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 2;
+  background: rgba(229, 113, 88, 0.08);
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, color 180ms ease, box-shadow 180ms ease;
+}
+
+.dilemma-panel__arrow--link:hover,
+.dilemma-panel__arrow--link:focus-visible {
+  background: var(--coral);
+  color: var(--paper);
+  border-color: var(--coral);
+  transform: scale(1.1);
+  box-shadow: 0 4px 14px rgba(229, 113, 88, 0.35);
+}
+
 .dilemma-panel__answer {
   color: #c3bec9;
   background: rgba(255, 253, 249, 0.03);
@@ -3852,3 +3869,136 @@ summary:focus-visible,
   font-size: 1.08rem;
   font-style: italic;
 }
+
+/* ==========================================================================
+   Dilemma Detail & SEO Enhancements
+   ========================================================================== */
+
+.dilemma-comparison {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.dilemma-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 9999px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.dilemma-pill--wrong {
+  background: rgba(229, 113, 88, 0.15);
+  color: #ff9d88;
+  border: 1px solid rgba(229, 113, 88, 0.35);
+}
+
+.dilemma-pill--correct {
+  background: rgba(56, 161, 105, 0.18);
+  color: #68d391;
+  border: 1px solid rgba(104, 211, 145, 0.35);
+}
+
+
+.related-dilemmas-section {
+  margin-top: 54px;
+  padding-top: 40px;
+  border-top: 1px solid var(--line);
+}
+
+.related-dilemmas-title {
+  margin: 0 0 24px;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+.related-dilemmas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.related-dilemma-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+}
+
+.related-dilemma-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(46, 36, 39, 0.07);
+  border-color: var(--plum-soft);
+}
+
+.related-dilemma-card__category {
+  color: var(--coral-dark);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.related-dilemma-card__title {
+  margin: 10px 0 14px;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.related-dilemma-card__answer {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--plum);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.category-filter-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 28px 0 36px;
+}
+
+.category-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--white);
+  border: 1px solid var(--line);
+  text-decoration: none;
+  transition: all 160ms ease;
+}
+
+.category-filter-chip:hover,
+.category-filter-chip.is-active {
+  background: var(--plum);
+  color: var(--paper);
+  border-color: var(--plum);
+}
+
+
+

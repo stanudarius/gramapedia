@@ -9,7 +9,16 @@
     "dev": "next dev",
     "build": "next build --webpack",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "data:migrate": "node scripts/migrate-dilemmas.mjs",
+    "seo:validate": "node scripts/validate-seo.mjs",
+    "dilemma:add": "node scripts/add-dilemma.mjs",
+    "dilemma:approve": "node scripts/approve-dilemma.mjs",
+    "dilemma:pending": "node scripts/list-pending.mjs",
+    "data:gap": "node scripts/analyze-competitive-gap.mjs",
+    "data:diff": "node scripts/fetch-diff-dexonline.mjs",
+    "exam:review": "node scripts/exam-season-review.mjs",
+    "seo:report": "node scripts/gsc-striking-distance.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

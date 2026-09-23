@@ -41,7 +41,7 @@ export default async function TheoryNodePage({ params }: { params: Promise<{ nod
       <div className="knowledge-shell knowledge-shell--detail">
         <div className="knowledge-breadcrumbs">
           <Link href="/teorie/"><ArrowLeft size={14} aria-hidden="true" /> Teorie</Link>
-          {node.parentId && nodeMap.has(node.parentId) ? <><span>/</span><Link href={`/teorie/${node.parentId}/`}>{nodeMap.get(node.parentId)?.title}</Link></> : null}
+          {node.parentId && nodeMap.has(node.parentId) ? <><span>/</span><Link href={node.parentId === "GRA-ROOT" ? "/teorie/" : `/teorie/${node.parentId}/`}>{nodeMap.get(node.parentId)?.title}</Link></> : null}
         </div>
         <section className="knowledge-detail-header">
           <div>

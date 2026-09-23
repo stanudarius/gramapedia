@@ -13,3 +13,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# AI agent instruction files (local only)
+AGENTS.md
+CLAUDE.md

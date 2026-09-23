@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site-config";
 import { getQuestions, getTheoryNodes } from "@/lib/knowledge";
-import { getDilemmas } from "@/lib/content";
+import { categoryToSlug, getDilemmaCategories, getDilemmas } from "@/lib/content";
 
 export const dynamic = "force-static";
 
@@ -26,16 +26,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
   }));
 
+  const categoryUrls = getDilemmaCategories().map((cat) => ({
+    url: `${siteConfig.url}/dileme/categorie/${categoryToSlug(cat)}/`,
+    priority: 0.8,
+    changeFrequency: "weekly" as const,
+  }));
+
   const dilemmaUrls = getDilemmas().map((dilemma) => ({
     url: `${siteConfig.url}/dileme/${dilemma.id}/`,
-    priority: 0.7,
+    priority: 0.75,
     changeFrequency: "monthly" as const,
   }));
 
   return [
     { url: siteConfig.url, priority: 1, changeFrequency: "weekly" as const },
+    { url: `${siteConfig.url}/dileme/`, priority: 0.9, changeFrequency: "weekly" as const },
     { url: `${siteConfig.url}/teorie/`, priority: 0.9, changeFrequency: "monthly" as const },
-    { url: `${siteConfig.url}/grile/`, priority: 0.8, changeFrequency: "monthly" as const },
+    { url: `${siteConfig.url}/grile/`, priority: 0.85, changeFrequency: "monthly" as const },
+    ...categoryUrls,
     ...dilemmaUrls,
     ...theoryUrls,
     ...questionUrls,

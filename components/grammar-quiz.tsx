@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowRight, Check, RotateCcw, X } from "lucide-react";
 import type { GrammarCase } from "@/lib/site-data";
 import { useGrammarProgress } from "@/hooks/use-grammar-progress";
+import { trackQuizComplete, trackQuizStart } from "@/lib/analytics";
 
 type GrammarQuizProps = {
   cases: GrammarCase[];
@@ -23,6 +24,10 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
   const { progress, recordAttempt } = useGrammarProgress(progressKey);
   const activeCases = isReviewMode ? cases.filter((item) => mistakeIds.includes(item.id)) : cases;
   const currentCase = activeCases[currentIndex];
+
+  useEffect(() => {
+    trackQuizStart(progressKey);
+  }, [progressKey]);
 
   if (!currentCase) {
     return (
@@ -59,7 +64,10 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
     if (currentIndex === activeCases.length - 1) {
       const finalScore = score + (selectedChoice === currentCase.correctChoice ? 1 : 0);
       setScore(finalScore);
-      if (!isReviewMode) recordAttempt(finalScore, cases.length);
+      if (!isReviewMode) {
+        recordAttempt(finalScore, cases.length);
+        trackQuizComplete(finalScore, cases.length);
+      }
       setIsComplete(true);
       return;
     }

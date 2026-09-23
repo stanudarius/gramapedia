@@ -1,0 +1,173 @@
+{
+  "analyzed_at": "2026-09-23T11:09:06.796Z",
+  "total_target_queries": 10,
+  "live_covered": 0,
+  "missing_count": 10,
+  "coverage_percentage": 0,
+  "covered_items": [],
+  "missing_priority_items": [
+    {
+      "wrong": "așează",
+      "correct": "așază",
+      "category": "Ortografie",
+      "prompt": "«Așază» sau «așează»?",
+      "question_title": "«Așază» sau «așează»? Care este forma corectă",
+      "rule": "Conform DOOM3, verbul «a așeza» are la indicativ prezent persoana a III-a singular și plural forma «așază» (cu «a», nu «ea»).",
+      "examples": [
+        "Ea așază cărțile pe birou.",
+        "Elevii își așază ghiozdanele în bănci."
+      ],
+      "tags": [
+        "evaluare-nationala",
+        "bacalaureat",
+        "doom3"
+      ]
+    },
+    {
+      "wrong": "vroiam",
+      "correct": "voiam",
+      "category": "Morfologie",
+      "prompt": "«Voiam» sau «vroiam»?",
+      "question_title": "«Voiam» sau «vroiam»? Care este forma corectă",
+      "rule": "Forma «vroiam» este o contaminare hibridă incorectă între verbele «a vrea» (imperfect: «vream») și «a voi» (imperfect: «voiam»). Norma literară recomandă «voiam» sau «vream».",
+      "examples": [
+        "Voiam să te întreb despre tema de mâine.",
+        "Înainte de examen, voiam să fiu sigur de regulă."
+      ],
+      "tags": [
+        "evaluare-nationala",
+        "bacalaureat",
+        "doom3"
+      ]
+    },
+    {
+      "wrong": "mi-ar place",
+      "correct": "mi-ar plăcea",
+      "category": "Morfologie",
+      "prompt": "«Mi-ar plăcea» sau «mi-ar place»?",
+      "question_title": "«Mi-ar plăcea» sau «mi-ar place»? Care este forma corectă",
+      "rule": "Condițional-optativul prezent se construiește cu infinitivul verbului («plăcea»), nu cu indicativul prezent («place»). Așadar, forma corectă este «mi-ar plăcea».",
+      "examples": [
+        "Mi-ar plăcea să citesc mai mult.",
+        "Ne-ar plăcea să participăm la concurs."
+      ],
+      "tags": [
+        "evaluare-nationala",
+        "bacalaureat",
+        "doom3"
+      ]
+    },
+    {
+      "wrong": "încontinuu (adverb)",
+      "correct": "în continuu / încontinuu",
+      "category": "Ortografie",
+      "prompt": "«Încontinuu» sau «în continuu»?",
+      "question_title": "«Încontinuu» sau «în continuu»? Care este forma corectă",
+      "rule": "Adverbul cu sensul de «mereu, neîncetat» se scrie legat («Vorbește încontinuu»), în timp ce prepoziția «în» urmată de adjectivul «continuu» se scrie separat («Este într-un proces continuu»).",
+      "examples": [
+        "A plouat încontinuu timp de trei zile.",
+        "Acel zumzet se auzea încontinuu."
+      ],
+      "tags": [
+        "ortografie",
+        "doom3"
+      ]
+    },
+    {
+      "wrong": "demult (prepoziție + adjectiv)",
+      "correct": "de mult / demult",
+      "category": "Ortografie",
+      "prompt": "«Demult» sau «de mult»?",
+      "question_title": "«Demult» sau «de mult»? Care este forma corectă",
+      "rule": "Adverbul cu sensul de «odinioară, în trecut» se scrie legat («A fost odată demult»), iar când indică o durată mare sau cantitate se scrie separat («Nu ne-am văzut de mult timp»).",
+      "examples": [
+        "Am auzit povestea aceasta demult.",
+        "Nu am mai călătorit de mult."
+      ],
+      "tags": [
+        "ortografie",
+        "doom3"
+      ]
+    },
+    {
+      "wrong": "chibrite",
+      "correct": "chibrituri",
+      "category": "Morfologie",
+      "prompt": "«Chibrituri» sau «chibrite»?",
+      "question_title": "«Chibrituri» sau «chibrite»? Care este forma corectă",
+      "rule": "Forma corectă de plural pentru substantivul neutru «chibrit» este «chibrituri» conform DOOM3.",
+      "examples": [
+        "A cumpărat o cutie de chibrituri.",
+        "Avea trei chibrituri în buzunar."
+      ],
+      "tags": [
+        "morfologie",
+        "doom3"
+      ]
+    },
+    {
+      "wrong": "renumera",
+      "correct": "remunera",
+      "category": "Lexicosemantică",
+      "prompt": "«A remunera» sau «a renumera»?",
+      "question_title": "«A remunera» sau «a renumera»? Care este forma corectă",
+      "rule": "Verbul cu sensul de a plăti pentru o muncă efectuată este «a remunera» (din latinescul remunerari). «A renumera» înseamnă a număra din nou.",
+      "examples": [
+        "Munca depusă a fost remunerată corespunzător.",
+        "Toți colaboratorii sunt remunerați corect."
+      ],
+      "tags": [
+        "lexicosemantica",
+        "confuzie-paronimica"
+      ]
+    },
+    {
+      "wrong": "dragile mele fete",
+      "correct": "dragile mele fete / dragele mele fete",
+      "category": "Morfologie",
+      "prompt": "«Dragile mele» sau «dragele mele»?",
+      "question_title": "«Dragile mele» sau «dragele mele»? Care este forma corectă",
+      "rule": "Conform DOOM3, adjectivul «drag» la feminin plural articulat are forma recomandată «dragile» («dragile mele fete»), deși norma actuală admite și varianta «dragele».",
+      "examples": [
+        "Dragile mele prietene, vă mulțumesc!",
+        "Dragile noastre colege au sosit."
+      ],
+      "tags": [
+        "morfologie",
+        "doom3"
+      ]
+    },
+    {
+      "wrong": "genoflexiuni",
+      "correct": "genuflexiuni",
+      "category": "Ortografie",
+      "prompt": "«Genuflexiuni» sau «genoflexiuni»?",
+      "question_title": "«Genuflexiuni» sau «genoflexiuni»? Care este forma corectă",
+      "rule": "Forma corectă este «genuflexiune» (cu «u»), provenită din latinescul «genu» (genunchi) și «flectere» (a îndoi).",
+      "examples": [
+        "A făcut douăzeci de genuflexiuni la încălzire.",
+        "Exercițiul include genuflexiuni corecte."
+      ],
+      "tags": [
+        "ortografie",
+        "vocabular"
+      ]
+    },
+    {
+      "wrong": "itinerariu",
+      "correct": "itinerar",
+      "category": "Morfologie",
+      "prompt": "«Itinerar» sau «itinerariu»?",
+      "question_title": "«Itinerar» sau «itinerariu»? Care este forma corectă",
+      "rule": "Forma literară standard conform DOOM3 este «itinerar» (plural «itinerare»). Varianta «itinerariu» este învechită și nerecomandată.",
+      "examples": [
+        "Am stabilit un itinerar pentru vacanță.",
+        "Itinerarul excursiei a fost aprobat."
+      ],
+      "tags": [
+        "morfologie",
+        "doom3"
+      ]
+    }
+  ]
+}

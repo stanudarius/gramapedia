@@ -1,0 +1,7 @@
+# Cloudflare Static Assets Redirects
+# Format: /source /target 301
+
+# Canonical redirects for dilemmas
+/dileme /dileme/ 301
+/teorie /teorie/ 301
+/grile /grile/ 301

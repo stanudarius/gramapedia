@@ -91,6 +91,10 @@ export type GrammarCase = {
   examples: string[];
   choices: string[];
   correctChoice: string;
+  wrong: string;
+  correct: string;
+  questionTitle: string;
+  relatedIds: string[];
 };
 
 
