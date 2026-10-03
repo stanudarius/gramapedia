@@ -65,7 +65,7 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: `${siteConfig.url}/og-image.svg`,
+          url: `${siteConfig.url}/og-image.png`,
           width: 1200,
           height: 630,
           alt: `Dileme de ${categoryName}`,
@@ -76,7 +76,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [`${siteConfig.url}/og-image.svg`],
+      images: [`${siteConfig.url}/og-image.png`],
     },
   };
 }
@@ -214,7 +214,7 @@ export default async function CategoryHubPage({
           </div>
         </section>
 
-        <div className="knowledge-detail-footer" style={{ marginTop: "48px" }}>
+        <div className="knowledge-detail-footer">
           <Link className="knowledge-text-link" href="/dileme/">
             <ArrowLeft size={15} aria-hidden="true" /> Înapoi la toate dilemele
           </Link>

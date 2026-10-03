@@ -10,14 +10,11 @@ export const metadata: Metadata = {
   },
   description:
     "Gramapedia este clubul de gramatică al Colegiului Național «Gheorghe Lazăr»: un spațiu în care limba română se înțelege prin exemple, jocuri și texte reale.",
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     title: "Gramapedia — Limbă, logică, claritate",
     description:
       "Un club de gramatică pentru elevii care vor să înțeleagă limba română, nu doar să-i memoreze regulile.",
-    url: siteConfig.url,
+    url: `${siteConfig.url}/`,
     siteName: "Gramapedia",
     locale: "ro_RO",
     type: "website",
@@ -44,12 +41,17 @@ export const metadata: Metadata = {
         sizes: "48x48",
       },
       {
-        url: "/favicon-32x32.png",
+        url: "/icon-32x32.png",
         type: "image/png",
         sizes: "32x32",
       },
       {
-        url: "/favicon-96x96.png",
+        url: "/icon-48x48.png",
+        type: "image/png",
+        sizes: "48x48",
+      },
+      {
+        url: "/icon-96x96.png",
         type: "image/png",
         sizes: "96x96",
       },
@@ -73,7 +75,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const cfBeaconToken = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
 
   return (
-    <html lang="ro">
+    <html lang="ro" data-scroll-behavior="smooth">
       <head>
         {gaId ? (
           <>

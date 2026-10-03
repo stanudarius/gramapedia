@@ -1,6 +1,6 @@
 "use client"
 
-import { useLayoutEffect, useRef } from "react"
+import { useEffect, useRef } from "react"
 import type React from "react"
 import { useInView } from "motion/react"
 import { annotate } from "rough-notation"
@@ -36,7 +36,7 @@ export function Highlighter({
   iterations = 2,
   padding = 2,
   multiline = true,
-  isView = false,
+  isView = true,
 }: HighlighterProps) {
   const elementRef = useRef<HTMLSpanElement>(null)
 
@@ -47,7 +47,7 @@ export function Highlighter({
 
   const shouldShow = !isView || isInView
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const element = elementRef.current
     let annotation: RoughAnnotation | null = null
     let resizeObserver: ResizeObserver | null = null

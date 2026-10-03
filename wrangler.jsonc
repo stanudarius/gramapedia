@@ -3,6 +3,8 @@
 
   "name": "gramapedia",
 
+  "main": "./worker.ts",
+
   "compatibility_date": "2026-09-21",
 
   "workers_dev": true,
@@ -32,6 +34,10 @@
   "routes": [
     {
       "pattern": "gramapedia.ro",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.gramapedia.ro",
       "custom_domain": true
     }
   ]

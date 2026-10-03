@@ -1,9 +1,95 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, BookOpen } from "lucide-react";
 import { LearningHeader } from "@/components/learning-header";
 import { QuestionPractice } from "@/components/question-practice";
-import { getQuestion, getQuestions, getTheoryNode } from "@/lib/knowledge";
+import { siteConfig } from "@/lib/site-config";
+import { getQuestion, getQuestions, getTheoryNode, type KnowledgeQuestion, type TheoryNode } from "@/lib/knowledge";
+import { getDilemmasForTheoryNode } from "@/lib/content";
+
+function getQuestionSubject(question: KnowledgeQuestion): string {
+  // Normalize whitespace and newlines first
+  const singleLine = question.prompt.replace(/\s+/g, " ").trim();
+
+  // Normalize Romanian and smart quotation marks to double quote
+  const normalizedQuotes = singleLine
+    .replace(/[«»“”„]/g, '"')
+    .replace(/['']/g, "'");
+
+  // Priority 1: Match linguistic target markers like: cuvântul "x", verbul "x", etc.
+  const targetMatch = normalizedQuotes.match(
+    /(?:cuvântul|termenul|verbul|adjectivul|substantivul|pronumele|forma|predicatul|sintagma|prepoziția|conjuncția)\s+(?:personal[^\s]*\s+)?(?:în\s+[^\s]+\s+)?["']([^"']{1,45})["']/i
+  );
+  if (targetMatch) {
+    const term = targetMatch[1].trim();
+    if (/^a\s+[a-zăâîșț]+/i.test(term)) {
+      return `Verbul «${term}»`;
+    }
+    return `«${term}»`;
+  }
+
+  // Priority 2: Find all valid quoted strings
+  const matches = Array.from(normalizedQuotes.matchAll(/["']([^"']{2,45})["']/g));
+  const candidateQuotes = matches
+    .map((m) => m[1].trim())
+    .filter((text) => !/^[,\.;:!?]/.test(text) && text.length >= 2);
+
+  // If there's a short quote (likely the target term, e.g. "ce" or "a merge"), prefer it
+  const shortQuote = candidateQuotes.find((t) => t.length <= 25 && !t.includes(".") && !t.includes(","));
+  if (shortQuote) {
+    if (/^a\s+[a-zăâîșț]+/i.test(shortQuote)) {
+      return `Verbul «${shortQuote}»`;
+    }
+    return `«${shortQuote}»`;
+  }
+
+  if (candidateQuotes.length > 0) {
+    const first = candidateQuotes[0];
+    if (/^a\s+[a-zăâîșț]+/i.test(first)) {
+      return `Verbul «${first}»`;
+    }
+    return `«${first}»`;
+  }
+
+  // Fallback: clean prompt snippet
+  const clean = singleLine.replace(/[:.]$/, "").trim();
+  if (clean.length <= 50) return clean;
+  return `${clean.slice(0, 47).trimEnd()}...`;
+}
+
+function getTheoryNodeForQuestion(question: KnowledgeQuestion): TheoryNode | null {
+  const directNodeId = question.source?.match(/(FON|ORT|SIL|LEX|MOR|SIN)-\d+/)?.[0];
+  if (directNodeId) {
+    const node = getTheoryNode(directNodeId);
+    if (node) return node;
+  }
+  for (const relId of question.relatedIds) {
+    const node = getTheoryNode(relId);
+    if (node) return node;
+  }
+  const categoryToNodeMap: Record<string, string> = {
+    "GRI-FON": "FON-001",
+    "GRI-ORT": "ORT-001",
+    "GRI-VOC": "LEX-001",
+    "GRI-NUM": "MOR-001",
+    "GRI-PRON": "MOR-002",
+    "GRI-ART": "MOR-003",
+    "GRI-ADJ": "MOR-004",
+    "GRI-SUBST": "MOR-005",
+    "GRI-VERB": "MOR-006",
+    "GRI-ADV": "MOR-007",
+    "GRI-CONJ": "MOR-008",
+    "GRI-PREP": "MOR-009",
+    "GRI-INT": "MOR-010",
+    "GRI-SINT": "SIN-001",
+  };
+  const mappedId = categoryToNodeMap[question.categoryId];
+  if (mappedId) {
+    return getTheoryNode(mappedId);
+  }
+  return null;
+}
 
 export function generateStaticParams() {
   return getQuestions().map((question) => ({ questionId: question.id }));
@@ -12,39 +98,157 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ questionId: string }> }): Promise<Metadata> {
   const { questionId } = await params;
   const question = getQuestion(questionId);
-  const description = question
-    ? `${question.prompt.slice(0, 157).trimEnd()}${question.prompt.length > 157 ? "…" : ""} — Grilă de antrenament Gramapedia.`
-    : "Grilă de antrenament Gramapedia — limbă română, gramatică, DOOM2.";
+  if (!question) {
+    return { title: "Grilă — Gramapedia" };
+  }
+
+  const subject = getQuestionSubject(question);
+  const titleText = `Grila #${question.number}: ${subject} — ${question.categoryLabel} | Gramapedia`;
+  const promptClean = question.prompt ? question.prompt.replace(/\s+/g, " ").trim() : "";
+  const promptSnippet = promptClean.length > 115 ? `${promptClean.slice(0, 112).trimEnd()}...` : promptClean;
+  const description = `Rezolvă grila #${question.number} de gramatică (${question.categoryLabel}): «${promptSnippet}». Verifică răspunsul corect conform normelor DOOM3 pe Gramapedia.`;
+  const canonicalUrl = `${siteConfig.url}/grile/${questionId}/`;
+
   return {
-    title: question ? `Grila ${question.number}` : "Grilă",
+    title: { absolute: titleText },
     description,
-    alternates: { canonical: `/grile/${questionId}/` },
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: titleText,
+      description,
+      url: canonicalUrl,
+      siteName: "Gramapedia",
+      locale: "ro_RO",
+      type: "website",
+      images: [
+        {
+          url: `${siteConfig.url}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: `Grila #${question.number} — Gramapedia`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: titleText,
+      description,
+      images: [`${siteConfig.url}/og-image.png`],
+    },
   };
 }
 
 export default async function QuestionPage({ params }: { params: Promise<{ questionId: string }> }) {
   const { questionId } = await params;
   const question = getQuestion(questionId);
-  if (!question) return null;
+  if (!question) notFound();
+
+  const canonicalUrl = `${siteConfig.url}/grile/${questionId}/`;
+  const acceptedOption = question.options.find((o) => o.label.toLowerCase() === question.answerKey.toLowerCase());
+  const subject = getQuestionSubject(question);
+  const theoryNode = getTheoryNodeForQuestion(question);
+  const relatedDilemmas = theoryNode ? getDilemmasForTheoryNode(theoryNode.id, 2) : [];
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Quiz",
+        "@id": `${canonicalUrl}#quiz`,
+        "name": `Grila #${question.number}: ${subject} — ${question.categoryLabel}`,
+        "description": question.prompt || `Întrebarea numărul ${question.number} din banca de grile Gramapedia`,
+        "educationalLevel": "Intermediate",
+        "inLanguage": "ro",
+        "publisher": {
+          "@type": "EducationalOrganization",
+          "@id": `${siteConfig.url}/#organization`,
+          "name": "Gramapedia",
+          "url": `${siteConfig.url}/`,
+        },
+        "hasPart": [
+          {
+            "@type": "Question",
+            "name": question.prompt || `Întrebarea ${question.number}`,
+            "text": question.prompt,
+            "url": canonicalUrl,
+            "eduQuestionType": "Multiple choice",
+            "author": {
+              "@type": "EducationalOrganization",
+              "@id": `${siteConfig.url}/#organization`,
+              "name": "Gramapedia",
+              "url": `${siteConfig.url}/`,
+            },
+            "suggestedAnswer": question.options.map((opt, index) => ({
+              "@type": "Answer",
+              "text": opt.text,
+              "position": index + 1,
+            })),
+            ...(acceptedOption
+              ? {
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": acceptedOption.text,
+                    "url": canonicalUrl,
+                    "author": {
+                      "@type": "EducationalOrganization",
+                      "@id": `${siteConfig.url}/#organization`,
+                      "name": "Gramapedia",
+                      "url": `${siteConfig.url}/`,
+                    },
+                  },
+                }
+              : {}),
+          },
+        ],
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${canonicalUrl}#breadcrumbs`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Acasă",
+            "item": `${siteConfig.url}/`,
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Grile",
+            "item": `${siteConfig.url}/grile/`,
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": `Grila #${question.number}`,
+            "item": canonicalUrl,
+          },
+        ],
+      },
+    ],
+  };
 
   const allQuestions = getQuestions();
   const prevQuestion = allQuestions.find((item) => item.number === question.number - 1);
   const nextQuestion = allQuestions.find((item) => item.number === question.number + 1);
-  const sourceNode = question.source?.match(/(FON|ORT|SIL|LEX|MOR|SIN)-\d+/)?.[0];
-  const theoryNode = sourceNode ? getTheoryNode(sourceNode) : null;
 
   return (
     <main className="knowledge-page">
       <LearningHeader />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <div className="knowledge-shell knowledge-shell--detail">
-        <div className="knowledge-breadcrumbs">
+        <nav className="knowledge-breadcrumbs" aria-label="Fir de navigare">
           <Link href="/grile/"><ArrowLeft size={14} aria-hidden="true" /> Grile</Link>
           <span>/</span>
           <span>{question.categoryLabel}</span>
-        </div>
+        </nav>
         <section className="knowledge-detail-header">
           <div>
-            <h1>Întrebarea {question.number}</h1>
+            <p className="knowledge-eyebrow">{question.categoryLabel} · Grila #{question.number}</p>
+            <h1>Grila #{question.number} — {subject}</h1>
             {question.prompt ? (
               <p className="knowledge-lede">{question.prompt}</p>
             ) : null}
@@ -53,14 +257,43 @@ export default async function QuestionPage({ params }: { params: Promise<{ quest
         </section>
         <QuestionPractice question={question} />
         {theoryNode ? (
-          <section className="question-context">
-            <Link className="knowledge-child-card" href={`/teorie/${theoryNode.id}/`}>
-              <div>
-                <span className="eyebrow eyebrow--plum">Lecție asociată</span>
-                <strong>{theoryNode.title}</strong>
+          <Link className="theory-callout-card" href={`/teorie/${theoryNode.id}/`}>
+            <div className="theory-callout-card__main">
+              <div className="theory-callout-card__icon">
+                <BookOpen size={20} aria-hidden="true" />
               </div>
+              <div className="theory-callout-card__content">
+                <span className="theory-callout-card__eyebrow">Lecție de teorie asociată</span>
+                <strong className="theory-callout-card__title">{theoryNode.title}</strong>
+              </div>
+            </div>
+            <div className="theory-callout-card__action">
+              <span>Citește teoria</span>
               <ArrowRight size={16} aria-hidden="true" />
-            </Link>
+            </div>
+          </Link>
+        ) : null}
+        {relatedDilemmas.length > 0 ? (
+          <section className="knowledge-related-questions" aria-label="Dileme rezolvate corelate">
+            <div className="knowledge-section-header">
+              <h2>Dileme de exprimare corelate</h2>
+              <Link href="/dileme/" className="knowledge-text-link">
+                Toate dilemele <ArrowRight size={14} aria-hidden="true" />
+              </Link>
+            </div>
+            <div className="knowledge-question-grid">
+              {relatedDilemmas.map((d) => (
+                <Link key={d.id} href={`/dileme/${d.id}/`} className="knowledge-question-card knowledge-question-card--compact">
+                  <div className="knowledge-question-card__topline">
+                    <span className="knowledge-question-card__category">{d.category}</span>
+                  </div>
+                  <h3>{d.questionTitle || d.prompt}</h3>
+                  <div className="knowledge-question-card__meta">
+                    <span className="knowledge-correct-highlight">{d.correct || d.answer}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </section>
         ) : null}
         <div className="knowledge-detail-footer">

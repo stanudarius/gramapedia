@@ -33,7 +33,7 @@ export function generateMetadata(): Metadata {
       type: "website",
       images: [
         {
-          url: `${siteConfig.url}/og-image.svg`,
+          url: `${siteConfig.url}/og-image.png`,
           width: 1200,
           height: 630,
           alt: "Toate Dilemele Gramaticale — Gramapedia",
@@ -44,7 +44,7 @@ export function generateMetadata(): Metadata {
       card: "summary_large_image",
       title,
       description,
-      images: [`${siteConfig.url}/og-image.svg`],
+      images: [`${siteConfig.url}/og-image.png`],
     },
   };
 }
@@ -143,9 +143,9 @@ export default function DilemmasHubPage() {
           const slug = categoryToSlug(category);
 
           return (
-            <section key={category} className="related-dilemmas-section" style={{ marginTop: "36px" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "20px" }}>
-                <h2 className="related-dilemmas-title" style={{ margin: 0 }}>
+            <section key={category} className="related-dilemmas-section">
+              <div className="knowledge-section-header">
+                <h2 className="related-dilemmas-title">
                   {category}
                 </h2>
                 <Link
@@ -178,7 +178,7 @@ export default function DilemmasHubPage() {
           );
         })}
 
-        <div className="knowledge-detail-footer" style={{ marginTop: "54px" }}>
+        <div className="knowledge-detail-footer">
           <Link className="knowledge-text-link" href="/">
             <ArrowLeft size={15} aria-hidden="true" /> Înapoi pe prima pagină
           </Link>

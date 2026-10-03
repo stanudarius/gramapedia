@@ -16,7 +16,9 @@ export function KnowledgeQuestionCard({ question, compact = false }: KnowledgeQu
         className="knowledge-question-card__overlay-link"
         href={`/grile/${question.id}/`}
         aria-label={`Deschide întrebarea ${question.number}`}
-      />
+      >
+        <span className="sr-only">{`Grila #${question.number}: ${cleanPrompt || question.categoryLabel}`}</span>
+      </Link>
       <div className="knowledge-question-card__topline">
         <span className="knowledge-question-card__category">{question.categoryLabel}</span>
         <span className="knowledge-question-card__number">#{question.number}</span>

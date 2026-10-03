@@ -11,7 +11,8 @@ type QuestionPracticeProps = {
 export function QuestionPractice({ question }: QuestionPracticeProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const isAnswered = selected !== null;
-  const isCorrect = selected === question.answerKey;
+  const normalizedKey = question.answerKey?.toLowerCase().trim();
+  const isCorrect = selected?.toLowerCase() === normalizedKey;
 
   return (
     <section className="question-practice" aria-labelledby="question-practice-title">
@@ -25,8 +26,9 @@ export function QuestionPractice({ question }: QuestionPracticeProps) {
       {question.options.length > 0 ? (
         <div className="question-practice__options" role="radiogroup" aria-label="Variante de răspuns">
           {question.options.map((option) => {
-            const isTargetCorrect = isAnswered && option.label === question.answerKey;
-            const isUserWrong = isAnswered && option.label === selected && !isCorrect;
+            const optLabel = option.label.toLowerCase().trim();
+            const isTargetCorrect = isAnswered && optLabel === normalizedKey;
+            const isUserWrong = isAnswered && selected?.toLowerCase().trim() === optLabel && !isCorrect;
             const state = isTargetCorrect ? " is-correct" : isUserWrong ? " is-incorrect" : "";
 
             return (

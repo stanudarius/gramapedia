@@ -1,79 +1,86 @@
 # Gramapedia
 
-Site-ul static al clubului de gramatică **Gramapedia** (Colegiul Național «Gheorghe Lazăr», București), disponibil la [gramapedia.ro](https://gramapedia.ro).
+> Platformă educațională de gramatică română pentru elevi, construită ca site static și optimizată pentru căutare.
 
-Proiectul este construit cu Next.js (App Router, export static complet) și găzduit pe Cloudflare Workers Static Assets.
+**Site:** https://gramapedia.ro
 
----
+## Despre proiect
 
-## Dezvoltare Locală
+Gramapedia este site-ul static al clubului de gramatică **Gramapedia** (Colegiul Național „Gheorghe Lazăr”, București). Proiectul pune accent pe explicații clare, pagini rapide și infrastructură SEO verificabilă.
 
-Necesită **Node.js 20.9+**.
+Aplicația este construită cu Next.js App Router, export static complet și este găzduită pe Cloudflare Workers Static Assets.
 
-```bash
-npm install          # instalare dependențe
-npm run dev          # pornește serverul local la http://localhost:3000
-```
+## Principii
 
----
+- **Conținut verificat** — propunerile noi sunt salvate în content/pending-review/ și verificate de un profesor sau membru al clubului înainte de publicare.
+- **SEO ca infrastructură** — meta taguri, URL-uri canonice, Open Graph și scheme JSON-LD sunt validate automat.
+- **Conținut structurat** — dilemele și relațiile dintre ele sunt păstrate ca date, nu hardcodate în pagini individuale.
+- **Reproductibilitate** — build-ul, verificările și publicarea sunt documentate și executabile din CLI.
 
-## Verificare și Construire
+## Dezvoltare locală
 
-```bash
-npm run typecheck    # verificare tipuri TypeScript (0 erori)
-npm run lint         # verificare reguli ESLint (0 avertismente)
-npm run build        # generare export static în directorul out/ (806 pagini)
-npm run seo:validate # validare structurală SEO, taguri meta și scheme JSON-LD
-```
+Necesită Node.js 20.9+.
 
----
+    npm install
+    npm run dev
 
-## Publicare (Deployment)
+## Verificare și build
 
-Proiectul este configurat pentru **Cloudflare Workers Static Assets** (`wrangler.jsonc`):
+    npm run typecheck
+    npm run lint
+    npm run build
+    npm run seo:validate
 
-1. **Variabile de mediu de producție**:
-   - `NEXT_PUBLIC_SITE_URL=https://gramapedia.ro` (obligatoriu la build)
-   - `NEXT_PUBLIC_CF_BEACON_TOKEN=token-tau-cloudflare` (opțional, pentru Cloudflare Web Analytics — GDPR-compliant, fără cookie-uri)
-   - `NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX` (opțional, pentru Google Analytics 4)
+## Publicare
 
-2. **Comandă de deploy**:
-   ```bash
-   npm run build
-   npx wrangler deploy --config wrangler.jsonc
-   ```
+Proiectul folosește Cloudflare Workers Static Assets prin wrangler.jsonc.
 
----
+Variabilele de producție:
 
-## Sinteza Comenzilor CLI
+    NEXT_PUBLIC_SITE_URL=https://gramapedia.ro
+    NEXT_PUBLIC_CF_BEACON_TOKEN=...
+    NEXT_PUBLIC_GA_ID=...
 
-Toate scripturile sunt scrise în Node.js nativ (ESM) și configurate în `package.json`.
+NEXT_PUBLIC_CF_BEACON_TOKEN și NEXT_PUBLIC_GA_ID sunt opționale; NEXT_PUBLIC_SITE_URL este necesară pentru build.
 
-### 🔍 Calitate și Validare SEO
+Deploy:
 
-| Comandă | Descriere | Utilizare |
-| :--- | :--- | :--- |
-| `npm run seo:validate` | Validează toate paginile statice din `out/`: verifică tagurile `<title>`, `<meta description>`, URL-urile canonice absolute, structura `<h1>`, tagurile OpenGraph și validitatea schemelor JSON-LD (`QAPage`, `FAQPage`, `BreadcrumbList`, `CollectionPage`). | `npm run seo:validate` |
-| `npm run typecheck` | Verifică integritatea tipurilor TypeScript pe întreg proiectul. | `npm run typecheck` |
-| `npm run lint` | Verifică standardele de cod conform ESLint. | `npm run lint` |
-| `npm run build` | Compilează aplicația în format static în `out/`. | `npm run build` |
+    npm run build
+    npx wrangler deploy --config wrangler.jsonc
 
-### ✍️ Aprobare conținut
+## CLI
 
-Pentru a asigura acuratețea explicațiilor gramaticale, nicio unealtă automată nu publică direct pe site. Orice propunere nouă este salvată mai întâi în `content/pending-review/` și este verificată de un profesor sau membru al clubului.
+### Calitate și SEO
 
-| Comandă | Descriere | Utilizare |
-| :--- | :--- | :--- |
-| `npm run dilemma:pending` | Afișează toate propunerile aflate în așteptare în `content/pending-review/`. | `npm run dilemma:pending` |
-| `npm run dilemma:add` | Creează o propunere nouă în `content/pending-review/` cu date structurate și diacritice românești corecte. | `npm run dilemma:add -- --category "Ortografie" --correct "așază" --wrong "așează" --prompt "«Așază» sau «așează»?" --rule "Conform DOOM3..." --examples "Ea așază cărțile."` |
-| `npm run dilemma:approve` | Aprobă o propunere și o publică pe site (o mută în `content/dilemmas/`). Necesită numele persoanei care a făcut verificarea (`--reviewer`) și actualizează automat indexul. | `npm run dilemma:approve -- --slug "asaza-vs-aseaza" --reviewer "Prof. Elena Radu"` |
-| `npm run data:migrate` | Actualizează legăturile dintre dileme (`related_ids`), verifică diacriticele și regenerează fișierul `content/dilemmas-index.json`. | `npm run data:migrate` |
+| Comandă | Scop |
+| --- | --- |
+| npm run seo:validate | Validează title, meta description, canonical, H1, Open Graph și JSON-LD |
+| npm run typecheck | Verifică tipurile TypeScript |
+| npm run lint | Verifică regulile ESLint |
+| npm run build | Generează exportul static |
+| npm run seo:report | Generează raportul de pagini aflate în striking distance |
 
-### 📊 Analiză și mentenanță
+### Aprobare conținut
 
-| Comandă | Descriere | Utilizare |
-| :--- | :--- | :--- |
-| `npm run data:gap` | Compară dilemele existente cu expresiile căutate frecvent (din ghidul dexonline și alte surse). Salvează rezultatul în `content/competitive-gap.json`. Cu parametrul `--draft-missing`, generează automat propuneri în `content/pending-review/`. | `npm run data:gap`<br>`npm run data:gap -- --draft-missing` |
-| `npm run data:diff` | Verifică ghidul dexonline pentru a găsi forme corecte/greșite care nu există încă pe site și salvează rezultatele în `reports/dexonline-diff-report.md`. Cu parametrul `--draft-new`, generează propuneri pentru acestea. | `npm run data:diff`<br>`npm run data:diff -- --draft-new` |
-| `npm run exam:review` | Verifică dilemele relevante pentru Evaluarea Națională și Bacalaureat, calculează timpul rămas până la examene și creează un raport în `reports/exam-season-review.md`. Cu parametrul `--tag-cards`, adaugă etichetele corespunzătoare în fișiere. | `npm run exam:review`<br>`npm run exam:review -- --tag-cards` |
-| `npm run seo:report` | Identifică paginile care se află aproape de prima pagină Google (pozițiile 6–15) și generează un raport în `reports/striking-distance-report.md`. | `npm run seo:report`<br>`npm run seo:report -- --data <cale_fisier.csv>` |
+Conținutul nou trece prin fluxul:
+
+pending-review → verificare umană → content/dilemmas/
+
+| Comandă | Scop |
+| --- | --- |
+| npm run dilemma:pending | Listează propunerile care așteaptă verificarea |
+| npm run dilemma:add | Creează o propunere nouă |
+| npm run dilemma:approve | Publică o propunere aprobată și actualizează indexul |
+| npm run data:migrate | Regenerare și migrare a datelor relaționale |
+
+### Analiză și mentenanță
+
+| Comandă | Scop |
+| --- | --- |
+| npm run data:gap | Identifică goluri de conținut și poate genera drafturi |
+| npm run data:diff | Compară formele din surse externe cu baza locală |
+| npm run exam:review | Verifică acoperirea pentru examene și poate eticheta cardurile |
+
+## Deployment
+
+Site-ul de producție este disponibil la https://gramapedia.ro.

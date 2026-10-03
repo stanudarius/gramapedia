@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, Info, X } from "lucide-react";
 import { LearningHeader } from "@/components/learning-header";
 import {
@@ -8,7 +9,9 @@ import {
   getDilemmas,
   getDilemmasByCategory,
   getRelatedDilemmas,
+  getTheoryNodeIdForDilemma,
 } from "@/lib/content";
+import { getTheoryNode } from "@/lib/knowledge";
 import { siteConfig } from "@/lib/site-config";
 
 export function generateStaticParams() {
@@ -25,20 +28,39 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
   }
 
-  const rawRule = dilemma.rule.replace(/\s+/g, " ").trim();
-  const descriptionSnippet = rawRule.length > 110 ? `${rawRule.slice(0, 110)}...` : rawRule;
-  const description = `Forma corectă este «${dilemma.correct}». ${descriptionSnippet} Află regula gramaticală și exemple complete.`;
+  let description = dilemma.seoDescription;
+  if (!description) {
+    const rawRule = dilemma.rule.replace(/\s+/g, " ").trim();
+    const lead = dilemma.wrong
+      ? `Află cum se scrie corect: «${dilemma.correct}» sau «${dilemma.wrong}»?`
+      : `Cum se scrie corect: «${dilemma.questionTitle}»?`;
+    const tail = "Regula și exemple explicate conform DOOM3 pe Gramapedia.";
+    const maxSnippetLen = 155 - lead.length - tail.length - 2;
+    const descriptionSnippet =
+      rawRule.length > maxSnippetLen ? `${rawRule.slice(0, Math.max(30, maxSnippetLen - 3)).trimEnd()}...` : rawRule;
+    description = `${lead} ${descriptionSnippet} ${tail}`;
+  }
   const canonicalUrl = `${siteConfig.url}/dileme/${slug}/`;
-  const pageTitle = dilemma.questionTitle;
+
+  let titleString = dilemma.seoTitle;
+  if (!titleString) {
+    const cleanTitle = dilemma.questionTitle
+      .replace(/\s*\|\s*Gramapedia.*$/i, "")
+      .replace(/\s*—\s*Gramapedia.*$/i, "")
+      .trim();
+    titleString = `${cleanTitle} | Gramapedia`;
+  }
+  const metaTitle = { absolute: titleString };
+  const shareTitle = titleString;
 
   return {
-    title: pageTitle,
+    title: metaTitle,
     description,
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: pageTitle,
+      title: shareTitle,
       description,
       url: canonicalUrl,
       siteName: "Gramapedia",
@@ -46,18 +68,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "article",
       images: [
         {
-          url: `${siteConfig.url}/og-image.svg`,
+          url: `${siteConfig.url}/og-image.png`,
           width: 1200,
           height: 630,
-          alt: dilemma.questionTitle,
+          alt: shareTitle,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: pageTitle,
+      title: shareTitle,
       description,
-      images: [`${siteConfig.url}/og-image.svg`],
+      images: [`${siteConfig.url}/og-image.png`],
     },
   };
 }
@@ -66,7 +88,7 @@ export default async function DilemmaPage({ params }: { params: Promise<{ slug: 
   const { slug } = await params;
   const dilemma = getDilemma(slug);
 
-  if (!dilemma) return null;
+  if (!dilemma) notFound();
 
   const allDilemmas = getDilemmas();
   const currentIndex = allDilemmas.findIndex((item) => item.id === dilemma.id);
@@ -77,40 +99,61 @@ export default async function DilemmaPage({ params }: { params: Promise<{ slug: 
   const canonicalUrl = `${siteConfig.url}/dileme/${slug}/`;
   const categoryUrl = `${siteConfig.url}/dileme/categorie/${categorySlug}/`;
 
-  // JSON-LD Structured Data
+  const theoryNodeId = getTheoryNodeIdForDilemma(dilemma);
+  const theoryNode = theoryNodeId ? getTheoryNode(theoryNodeId) : null;
+
+  const datePublished = dilemma.datePublished || "2024-01-01T00:00:00Z";
+  const authorEntity = dilemma.reviewedBy
+    ? {
+        "@type": "Person",
+        "name": dilemma.reviewedBy,
+        "url": `${siteConfig.url}/`,
+        "worksFor": {
+          "@type": "EducationalOrganization",
+          "@id": `${siteConfig.url}/#organization`,
+          "name": "Gramapedia",
+          "url": `${siteConfig.url}/`,
+        },
+      }
+    : {
+        "@type": "EducationalOrganization",
+        "@id": `${siteConfig.url}/#organization`,
+        "name": "Gramapedia",
+        "url": `${siteConfig.url}/`,
+      };
+
+  const description =
+    dilemma.seoDescription ||
+    `${dilemma.questionTitle} — Regula de scriere corectă conform DOOM3 explicată pe Gramapedia.`;
+
+  // JSON-LD Structured Data: Article + BreadcrumbList
   const jsonLdData = {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "QAPage",
-        "@id": `${canonicalUrl}#qapage`,
+        "@type": "Article",
+        "@id": `${canonicalUrl}#article`,
         "url": canonicalUrl,
-        "name": dilemma.questionTitle,
-        "mainEntity": {
-          "@type": "Question",
-          "name": dilemma.questionTitle,
-          "text": dilemma.prompt,
-          "answerCount": 1,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": `${dilemma.rule} Forma corectă recomandată este «${dilemma.correct}».${dilemma.examples.length > 0 ? ` Exemple: ${dilemma.examples.join("; ")}` : ""}`,
-            "url": canonicalUrl,
+        "headline": dilemma.seoTitle || dilemma.questionTitle,
+        "description": description,
+        "inLanguage": "ro",
+        "datePublished": datePublished,
+        "dateModified": dilemma.reviewedAt || datePublished,
+        "author": authorEntity,
+        "publisher": {
+          "@type": "EducationalOrganization",
+          "@id": `${siteConfig.url}/#organization`,
+          "name": "Gramapedia",
+          "url": `${siteConfig.url}/`,
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${siteConfig.url}/gramapedia-logo.jpg`,
           },
         },
-      },
-      {
-        "@type": "FAQPage",
-        "@id": `${canonicalUrl}#faq`,
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": dilemma.questionTitle,
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": `${dilemma.rule} Forma corectă recomandată este «${dilemma.correct}».`,
-            },
-          },
-        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": canonicalUrl,
+        },
       },
       {
         "@type": "BreadcrumbList",
@@ -155,15 +198,15 @@ export default async function DilemmaPage({ params }: { params: Promise<{ slug: 
       />
 
       <div className="knowledge-shell knowledge-shell--detail">
-        <div className="knowledge-breadcrumbs">
+        <nav className="knowledge-breadcrumbs" aria-label="Fir de navigare">
           <Link href="/dileme/"><ArrowLeft size={14} aria-hidden="true" /> Dileme</Link>
           <span>/</span>
           <Link href={`/dileme/categorie/${categorySlug}/`}>{dilemma.category}</Link>
-        </div>
+        </nav>
 
         <section className="knowledge-detail-header">
           <div>
-            <h1>{dilemma.prompt}</h1>
+            <h1>{dilemma.questionTitle || dilemma.prompt}</h1>
           </div>
           <Link
             className="knowledge-icon-action knowledge-icon-action--large"
@@ -178,49 +221,39 @@ export default async function DilemmaPage({ params }: { params: Promise<{ slug: 
         <section className="knowledge-reading">
           <div className="knowledge-content">
             <div className="knowledge-prose">
-              <div className="question-practice__options" style={{ marginBottom: "32px" }}>
-                <div className="question-practice__option is-correct" style={{ cursor: "default" }}>
-                  <span className="question-practice__option-label">
-                    <Check size={16} aria-hidden="true" />
+              <div className="dilemma-verdict">
+                <div className="dilemma-verdict-card dilemma-verdict-card--correct">
+                  <span className="dilemma-verdict-card__icon" aria-hidden="true">
+                    <Check size={18} />
                   </span>
-                  <div className="question-practice__option-text">
-                    <strong style={{ display: "block", fontSize: "1.18rem", fontFamily: "Georgia, serif", color: "#1b5e20", marginBottom: "2px" }}>
-                      {dilemma.correct}
-                    </strong>
-                    <span style={{ fontSize: "0.8rem", textTransform: "uppercase", letterSpacing: "0.06em", fontWeight: 700, opacity: 0.85 }}>
-                      Forma corectă recomandată
-                    </span>
+                  <div className="dilemma-verdict-card__content">
+                    <strong className="dilemma-verdict-card__title">{dilemma.correct}</strong>
+                    <span className="dilemma-verdict-card__label">Forma corectă recomandată</span>
                   </div>
-                  <Check size={20} className="question-practice__status-icon is-correct" aria-hidden="true" />
                 </div>
 
                 {dilemma.wrong ? (
-                  <div className="question-practice__option is-incorrect" style={{ cursor: "default" }}>
-                    <span className="question-practice__option-label">
-                      <X size={16} aria-hidden="true" />
+                  <div className="dilemma-verdict-card dilemma-verdict-card--wrong">
+                    <span className="dilemma-verdict-card__icon" aria-hidden="true">
+                      <X size={18} />
                     </span>
-                    <div className="question-practice__option-text">
-                      <s style={{ display: "block", fontSize: "1.18rem", fontFamily: "Georgia, serif", color: "#b71c1c", marginBottom: "2px" }}>
-                        {dilemma.wrong}
-                      </s>
-                      <span style={{ fontSize: "0.8rem", textTransform: "uppercase", letterSpacing: "0.06em", fontWeight: 700, opacity: 0.85 }}>
-                        Formă greșită (de evitat)
-                      </span>
+                    <div className="dilemma-verdict-card__content">
+                      <span className="dilemma-verdict-card__title">{dilemma.wrong}</span>
+                      <span className="dilemma-verdict-card__label">Formă greșită (de evitat)</span>
                     </div>
-                    <X size={20} className="question-practice__status-icon is-incorrect" aria-hidden="true" />
                   </div>
                 ) : null}
               </div>
 
               <h3>Regula explicată</h3>
-              <p>{dilemma.rule}</p>
+              <p className="whitespace-pre-line">{dilemma.rule}</p>
 
               {dilemma.examples && dilemma.examples.length > 0 ? (
                 <>
                   <h3>Exemple în context</h3>
                   <ul>
                     {dilemma.examples.map((example) => (
-                      <li key={example} style={{ fontSize: "1.02rem" }}>{example}</li>
+                      <li key={example}>{example}</li>
                     ))}
                   </ul>
                 </>
@@ -240,12 +273,28 @@ export default async function DilemmaPage({ params }: { params: Promise<{ slug: 
           </div>
         </section>
 
+        {theoryNode ? (
+          <Link className="theory-callout-card" href={`/teorie/${theoryNode.id}/`}>
+            <div className="theory-callout-card__main">
+              <div className="theory-callout-card__icon">
+                <BookOpen size={20} aria-hidden="true" />
+              </div>
+              <div className="theory-callout-card__content">
+                <span className="theory-callout-card__eyebrow">Lecție de teorie asociată</span>
+                <strong className="theory-callout-card__title">{theoryNode.title}</strong>
+              </div>
+            </div>
+            <div className="theory-callout-card__action">
+              <span>Citește teoria</span>
+              <ArrowRight size={16} aria-hidden="true" />
+            </div>
+          </Link>
+        ) : null}
+
         {relatedDilemmas.length > 0 ? (
           <section className="knowledge-related-questions">
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "16px" }}>
-              <h2 style={{ fontFamily: "Georgia, serif", fontSize: "1.5rem", fontWeight: 400, color: "var(--ink)", margin: 0 }}>
-                Dileme corelate din «{dilemma.category}»
-              </h2>
+            <div className="knowledge-section-header">
+              <h2>Dileme corelate din «{dilemma.category}»</h2>
               <Link href={`/dileme/categorie/${categorySlug}/`} className="knowledge-text-link">
                 Vezi categoria ({getDilemmasByCategory(dilemma.category).length}) <ArrowRight size={14} aria-hidden="true" />
               </Link>
@@ -256,18 +305,16 @@ export default async function DilemmaPage({ params }: { params: Promise<{ slug: 
                   key={item.id}
                   href={`/dileme/${item.id}/`}
                   className="knowledge-question-card knowledge-question-card--compact"
-                  style={{ textDecoration: "none" }}
                 >
                   <div className="knowledge-question-card__topline">
                     <span className="knowledge-question-card__category">{item.category}</span>
                     <span className="knowledge-question-card__number">
-                      <Check size={12} style={{ display: "inline", verticalAlign: "middle", marginRight: "3px" }} />
-                      Corect
+                      <Check size={12} aria-hidden="true" /> Corect
                     </span>
                   </div>
-                  <h3>{item.prompt}</h3>
+                  <h3>{item.questionTitle || item.prompt}</h3>
                   <div className="knowledge-question-card__meta">
-                    <span style={{ color: "var(--plum)", fontWeight: 700 }}>
+                    <span className="knowledge-correct-highlight">
                       {item.correct || item.answer}
                     </span>
                   </div>
