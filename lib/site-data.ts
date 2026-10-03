@@ -1,14 +1,19 @@
 export const navigation = [
   { label: "Despre noi", href: "#despre" },
-  { label: "Cum lucrăm", href: "#cum-lucram" },
-  { label: "De la dilemă la regulă", href: "#dilema" },
+  { label: "Dileme", href: "/dileme/" },
+  { label: "Teorie", href: "/teorie/" },
+  { label: "Grile", href: "/grile/" },
+  { label: "Conjugare", href: "/conjugare/" },
+  { label: "Dicționar", href: "/dictionar/" },
   { label: "Concurs", href: "#concurs" },
-  { label: "Înscrieri", href: "#inscrieri" },
 ];
 
 export const learningNavigation = [
+  { label: "Dileme", href: "/dileme/" },
   { label: "Teorie", href: "/teorie/" },
   { label: "Grile", href: "/grile/" },
+  { label: "Conjugare", href: "/conjugare/" },
+  { label: "Dicționar", href: "/dictionar/" },
 ];
 
 export const learningSteps = [
@@ -94,40 +99,11 @@ export type GrammarCase = {
   wrong: string;
   correct: string;
   questionTitle: string;
+  seoTitle?: string;
   relatedIds: string[];
+  datePublished?: string;
+  upvoteCount?: number;
+  reviewedBy?: string;
+  reviewedAt?: string;
 };
 
-
-export type GrammarTrail = {
-  id: string;
-  label: string;
-  title: string;
-  caseIds: string[];
-};
-
-export const grammarTrails: GrammarTrail[] = [
-  {
-    id: "scriere-corecta",
-    label: "Traseul 01",
-    title: "Scriere corectă",
-    caseIds: ["artificiu", "sa-fii", "niciun", "intr-adevar", "creeaza", "serviciu", "maximum"],
-  },
-  {
-    id: "claritate-in-exprimare",
-    label: "Traseul 02",
-    title: "Claritate în exprimare",
-    caseIds: ["pe-care", "decat-doar", "abuza-de", "pleonasm-coborat", "concentreaza", "vocativ"],
-  },
-  {
-    id: "acord-si-punctuatie",
-    label: "Traseul 03",
-    title: "Acord și punctuație",
-    caseIds: ["mass-media", "patru-sute", "cincizeci-si-una", "al-carui", "virgula-dar", "subiect-predicat"],
-  },
-  {
-    id: "seria-completa",
-    label: "Traseul complet",
-    title: "Toate dilemele",
-    caseIds: [], // Treated specially by the UI as 'all dilemmas'
-  },
-];

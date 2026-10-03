@@ -30,6 +30,8 @@ export function trackQuizStart(quizCategory?: string) {
 }
 
 export function trackQuizComplete(score: number, total: number) {
+  if (total <= 0) return;
+
   trackEvent("quiz_complete", {
     score,
     total,

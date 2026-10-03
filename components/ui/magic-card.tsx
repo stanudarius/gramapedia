@@ -44,21 +44,21 @@ export function MagicCard({
     [mouseX, mouseY],
   )
 
+  const background = useMotionTemplate`
+    linear-gradient(${gradientColor} 0 0) padding-box,
+    radial-gradient(${gradientSize}px circle at ${mouseX}px ${mouseY}px,
+      ${gradientFrom},
+      ${gradientTo},
+      transparent 100%
+    ) border-box
+  `
+
   return (
     <motion.div
       className={cn("group relative isolate overflow-hidden rounded-[inherit] border border-transparent", className)}
       onPointerMove={handlePointerMove}
       onPointerLeave={reset}
-      style={{
-        background: useMotionTemplate`
-          linear-gradient(${gradientColor} 0 0) padding-box,
-          radial-gradient(${gradientSize}px circle at ${mouseX}px ${mouseY}px,
-            ${gradientFrom},
-            ${gradientTo},
-            transparent 100%
-          ) border-box
-        `,
-      }}
+      style={{ background }}
     >
       <div className="absolute inset-px z-20 rounded-[inherit] bg-[var(--paper)]" />
       <div className="relative z-30">{children}</div>

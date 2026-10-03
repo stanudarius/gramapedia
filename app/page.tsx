@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import {
+  ArrowRight,
   ArrowUpRight,
   BookOpen,
   CalendarDays,
@@ -9,7 +11,6 @@ import {
   GraduationCap,
   Lightbulb,
   MessageCircle,
-  Instagram,
   Mail,
   Sparkles,
 } from "lucide-react";
@@ -20,9 +21,21 @@ import { SectionHeading } from "@/components/section-heading";
 import { SiteHeader } from "@/components/site-header";
 import { Highlighter } from "@/components/ui/highlighter";
 import { TextAnimate } from "@/components/ui/text-animate";
-import { audiences, learningSteps, reasons, grammarTrails } from "@/lib/site-data";
+import { audiences, learningSteps, reasons } from "@/lib/site-data";
+import Link from "next/link";
 import { siteConfig } from "@/lib/site-config";
 import { getDilemmas, getCompetitions } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Gramapedia — Clubul de Gramatică CNGL | Limbă, Logică, Claritate",
+  },
+  description:
+    "Gramapedia: platformă educațională de gramatică a limbii române (CN «Gheorghe Lazăr»). Teorie DOOM3, dileme frecvente explicate și teste grilă de antrenament.",
+  alternates: {
+    canonical: `${siteConfig.url}/`,
+  },
+};
 
 const processIcons = [CalendarDays, Sparkles, FileText];
 const reasonIcons = [BookOpen, Lightbulb, MessageCircle];
@@ -31,19 +44,30 @@ export default function HomePage() {
   const currentYear = new Date().getFullYear();
   const dilemmas = getDilemmas();
   const competitions = getCompetitions();
-  const hydratedTrails = grammarTrails.map((trail) =>
-    trail.id === "seria-completa" ? { ...trail, caseIds: dilemmas.map((d) => d.id) } : trail
-  );
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    name: "Gramapedia",
-    description: "Clubul de gramatică al Colegiului Național «Gheorghe Lazăr».",
-    url: siteConfig.url,
-    image: `${siteConfig.url}/gramapedia-logo.jpg`,
-    logo: `${siteConfig.url}/favicon.png`,
-    email: siteConfig.email,
-    sameAs: [siteConfig.instagramUrl],
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${siteConfig.url}/#website`,
+        "url": `${siteConfig.url}/`,
+        "name": "Gramapedia",
+        "alternateName": "Clubul de Gramatică Gramapedia",
+        "description": "Platformă educațională de gramatică a limbii române: teorie structurată, dileme frecvente rezolvate conform DOOM3 și teste grilă de antrenament.",
+        "inLanguage": "ro"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "@id": `${siteConfig.url}/#organization`,
+        "name": "Gramapedia",
+        "description": "Clubul de gramatică al Colegiului Național «Gheorghe Lazăr».",
+        "url": `${siteConfig.url}/`,
+        "image": `${siteConfig.url}/gramapedia-logo.jpg`,
+        "logo": `${siteConfig.url}/favicon.png`,
+        "email": siteConfig.email,
+        "sameAs": [siteConfig.instagramUrl]
+      }
+    ]
   };
 
   return (
@@ -52,6 +76,18 @@ export default function HomePage() {
       <a className="skip-link" href="#main-content">
         Saltă la conținut
       </a>
+      <aside className="announcement-bar" aria-label="Anunț important">
+        <div className="shell announcement-bar__inner">
+          <span className="announcement-bar__badge">
+            <Sparkles size={13} aria-hidden="true" />
+            <span>Ce e nou în Gramapedia?</span>
+          </span>
+          <p className="announcement-bar__text">
+            Echipa Clubului lucrează intens la dezvoltarea unei platforme de pregătire pentru examenele naționale și admiterile în universitățile de profil. Mai multe detalii vor fi comunicate curând. <em>Stay tuned!</em>
+          </p>
+        </div>
+      </aside>
+
       <SiteHeader />
 
       <main id="main-content">
@@ -80,12 +116,6 @@ export default function HomePage() {
                 <a className="text-link" href="#dilema">
                   Vezi cum lucrăm
                 </a>
-              </div>
-              <div className="hero__microcopy">
-                <span className="status-dot" aria-hidden="true" />
-                <span>Pentru gimnaziu și liceu</span>
-                <span className="microcopy-divider" aria-hidden="true" />
-                <span>CN «Gheorghe Lazăr»</span>
               </div>
             </div>
 
@@ -210,7 +240,7 @@ export default function HomePage() {
                 <span>alege un caz<br />și urmărește firul</span>
               </div>
             </div>
-            <DilemmaLab grammarCases={dilemmas} grammarTrails={hydratedTrails} />
+            <DilemmaLab grammarCases={dilemmas} />
           </div>
         </section>
 
@@ -258,9 +288,9 @@ export default function HomePage() {
                 <a className="button button--coral" href={`mailto:${siteConfig.email}`}>
                   Scrie-ne un e-mail <Mail size={16} aria-hidden="true" />
                 </a>
-                <a className="text-link text-link--light" href={siteConfig.instagramUrl} target="_blank" rel="noopener noreferrer">
-                  Urmărește Gramapedia <Instagram size={16} aria-hidden="true" />
-                </a>
+                <Link className="text-link text-link--light" href="/dileme/">
+                  Explorează dilemele <ArrowRight size={16} aria-hidden="true" />
+                </Link>
               </div>
             </div>
             <div className="enrollment__meta">
@@ -279,8 +309,10 @@ export default function HomePage() {
           </div>
           <div className="site-footer__links">
             <p className="eyebrow">Explorează</p>
-            <a href="#despre">Despre noi</a>
-            <a href="#dilema">De la dilemă la regulă</a>
+            <Link href="/dileme/">Dileme gramaticale</Link>
+            <Link href="/teorie/">Programa de teorie</Link>
+            <Link href="/grile/">Bancă de grile</Link>
+            <Link href="/conjugare/">Conjugare verbe</Link>
             <a href="#concurs">Concurs</a>
             <a href="#inscrieri">Înscrieri</a>
           </div>

@@ -14,6 +14,18 @@ type GrammarQuizProps = {
 
 const formatCounter = (value: number) => value.toString().padStart(2, "0");
 
+const normalizeChoice = (val: string) =>
+  (val || "")
+    .replace(/^[«"„”']+|[»"„”'.]+$/g, "")
+    .trim()
+    .toLowerCase();
+
+const isChoiceMatch = (a: string | null | undefined, b: string | null | undefined) => {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  return normalizeChoice(a) === normalizeChoice(b);
+};
+
 export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
@@ -33,8 +45,8 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
     return (
       <div className="grammar-quiz grammar-quiz--summary" aria-labelledby="quiz-empty-title">
         <span className="eyebrow eyebrow--coral">Mod de exersare</span>
-        <h3 id="quiz-empty-title">Nu există carduri pentru acest traseu.</h3>
-        <p>Alege un alt traseu sau revino la toate cardurile.</p>
+        <h3 id="quiz-empty-title">Nu există carduri pentru această selecție.</h3>
+        <p>Resetează filtrele sau revino la toate cardurile.</p>
         <button className="grammar-quiz__button grammar-quiz__button--primary" type="button" onClick={onExit}>
           Vezi cardurile
           <ArrowRight size={15} aria-hidden="true" />
@@ -47,7 +59,7 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
     if (selectedChoice) return;
 
     setSelectedChoice(choice);
-    if (choice === currentCase.correctChoice) {
+    if (isChoiceMatch(choice, currentCase.correctChoice)) {
       setScore((currentScore) => currentScore + 1);
     } else if (!isReviewMode) {
       setMistakeIds((currentIds) => currentIds.includes(currentCase.id) ? currentIds : [...currentIds, currentCase.id]);
@@ -62,11 +74,9 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
     if (!selectedChoice) return;
 
     if (currentIndex === activeCases.length - 1) {
-      const finalScore = score + (selectedChoice === currentCase.correctChoice ? 1 : 0);
-      setScore(finalScore);
       if (!isReviewMode) {
-        recordAttempt(finalScore, cases.length);
-        trackQuizComplete(finalScore, cases.length);
+        recordAttempt(score, cases.length);
+        trackQuizComplete(score, cases.length);
       }
       setIsComplete(true);
       return;
@@ -123,7 +133,7 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
     );
   }
 
-  const isCorrect = selectedChoice === currentCase.correctChoice;
+  const isCorrect = isChoiceMatch(selectedChoice, currentCase.correctChoice);
 
   return (
     <div className="grammar-quiz" aria-labelledby="quiz-question-title">
@@ -139,7 +149,7 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
       <div className="grammar-quiz__choices" role="radiogroup" aria-label="Alege răspunsul">
         {currentCase.choices.map((choice, index) => {
           const isSelected = selectedChoice === choice;
-          const isAnswer = choice === currentCase.correctChoice;
+          const isAnswer = isChoiceMatch(choice, currentCase.correctChoice);
           const choiceClass = [
             "grammar-quiz__choice",
             isSelected ? "is-selected" : "",

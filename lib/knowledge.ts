@@ -181,8 +181,11 @@ const collectSourceIds = (nodeId: string, nodes: TheoryNode[], visited = new Set
 };
 
 export function getTheoryNodes() {
-  theoryCache ??= parseTheoryNodes();
-  return theoryCache;
+  if (process.env.NODE_ENV === "production") {
+    theoryCache ??= parseTheoryNodes();
+    return theoryCache;
+  }
+  return parseTheoryNodes();
 }
 
 export function getTheoryNode(id: string) {
@@ -194,8 +197,11 @@ export function getTheoryUnits() {
 }
 
 export function getQuestions() {
-  questionCache ??= parseQuestions();
-  return questionCache;
+  if (process.env.NODE_ENV === "production") {
+    questionCache ??= parseQuestions();
+    return questionCache;
+  }
+  return parseQuestions();
 }
 
 export function getQuestion(id: string) {

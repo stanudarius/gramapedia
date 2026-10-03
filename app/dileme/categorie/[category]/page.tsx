@@ -214,7 +214,7 @@ export default async function CategoryHubPage({
           </div>
         </section>
 
-        <div className="knowledge-detail-footer" style={{ marginTop: "48px" }}>
+        <div className="knowledge-detail-footer">
           <Link className="knowledge-text-link" href="/dileme/">
             <ArrowLeft size={15} aria-hidden="true" /> Înapoi la toate dilemele
           </Link>

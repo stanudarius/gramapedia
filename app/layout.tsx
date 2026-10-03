@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Gramapedia — Limbă, logică, claritate",
     description:
       "Un club de gramatică pentru elevii care vor să înțeleagă limba română, nu doar să-i memoreze regulile.",
-    url: siteConfig.url,
+    url: `${siteConfig.url}/`,
     siteName: "Gramapedia",
     locale: "ro_RO",
     type: "website",
@@ -73,7 +73,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const cfBeaconToken = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
 
   return (
-    <html lang="ro">
+    <html lang="ro" data-scroll-behavior="smooth">
       <head>
         {gaId ? (
           <>

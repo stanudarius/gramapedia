@@ -3,9 +3,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent, type MouseEvent, type PointerEvent } from "react";
 import Link from "next/link";
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Bookmark, Check, ListChecks, MessageCircle, Search, Shuffle, X } from "lucide-react";
-import type { GrammarCase, GrammarTrail } from "@/lib/site-data";
+import type { GrammarCase } from "@/lib/site-data";
 import { GrammarQuiz } from "@/components/grammar-quiz";
-import { GrammarTrails } from "@/components/grammar-trails";
 import { GrammarTutor } from "@/components/grammar-tutor";
 import { useSavedGrammarCases } from "@/hooks/use-saved-grammar-cases";
 import { Marquee } from "@/components/ui/marquee";
@@ -14,10 +13,9 @@ import { trackDilemmaClick } from "@/lib/analytics";
 
 interface DilemmaLabProps {
   grammarCases: GrammarCase[];
-  grammarTrails: GrammarTrail[];
 }
 
-export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
+export function DilemmaLab({ grammarCases }: DilemmaLabProps) {
   const grammarCategories = useMemo(() => ["Toate", ...new Set(grammarCases.map((item) => item.category))], [grammarCases]);
   const scrollRef = useRef<HTMLDivElement>(null);
   const cardRefs = useRef<Array<HTMLElement | null>>([]);
@@ -27,26 +25,23 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
   const [isQuizMode, setIsQuizMode] = useState(false);
   const [isTutorMode, setIsTutorMode] = useState(false);
   const [showSavedOnly, setShowSavedOnly] = useState(false);
-  const [activeTrailId, setActiveTrailId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Toate");
   const { savedIds, savedIdSet, toggleSaved } = useSavedGrammarCases();
-  const activeTrail = grammarTrails.find((trail) => trail.id === activeTrailId);
-  const filteredTrailCases = useMemo(() => {
+  const filteredCases = useMemo(() => {
     const normalizedQuery = searchQuery.trim().toLocaleLowerCase("ro");
 
     return grammarCases.filter((item) => {
-      const belongsToTrail = !activeTrail || activeTrail.id === "seria-completa" || activeTrail.caseIds.includes(item.id);
       const belongsToCategory = selectedCategory === "Toate" || item.category === selectedCategory;
       const searchableText = [item.prompt, item.answer, item.rule, item.category, ...item.examples]
         .join(" ")
         .toLocaleLowerCase("ro");
       const matchesSearch = normalizedQuery.length === 0 || searchableText.includes(normalizedQuery);
 
-      return belongsToTrail && belongsToCategory && matchesSearch;
+      return belongsToCategory && matchesSearch;
     });
-  }, [activeTrail, searchQuery, selectedCategory, grammarCases]);
-  const visibleCases = showSavedOnly ? filteredTrailCases.filter((item) => savedIdSet.has(item.id)) : filteredTrailCases;
+  }, [searchQuery, selectedCategory, grammarCases]);
+  const visibleCases = showSavedOnly ? filteredCases.filter((item) => savedIdSet.has(item.id)) : filteredCases;
   const visibleCaseCount = visibleCases.length;
   const displayedActiveIndex = Math.min(activeIndex, Math.max(visibleCaseCount - 1, 0));
   const isFocusedMode = isQuizMode || isTutorMode;
@@ -138,15 +133,6 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
     resetScrollPosition();
   };
 
-  const selectTrail = (trailId: string | null) => {
-    setActiveTrailId(trailId);
-    setShowSavedOnly(false);
-    setSearchQuery("");
-    setSelectedCategory("Toate");
-    setIsQuizMode(false);
-    setIsTutorMode(false);
-    resetScrollPosition();
-  };
 
   const toggleSavedCard = (id: string) => {
     toggleSaved(id);
@@ -179,6 +165,7 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
   };
 
   const handleCardKeyDown = (event: KeyboardEvent<HTMLElement>, id: string) => {
+    if (event.target !== event.currentTarget) return;
     if (event.key !== "Enter" && event.key !== " ") return;
 
     event.preventDefault();
@@ -197,105 +184,6 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
 
   return (
     <div className="dilemma-lab">
-      <div className="grammar-scroll__controls">
-        {!isFocusedMode && visibleCaseCount > 0 ? (
-          <>
-            <span className="grammar-scroll__position" aria-live="polite">
-              {String(displayedActiveIndex + 1).padStart(2, "0")} / {String(visibleCaseCount).padStart(2, "0")}
-            </span>
-            <div
-              className="grammar-scroll__progress"
-              role="progressbar"
-              aria-label="Progresul în seria de dileme gramaticale"
-              aria-valuemin={1}
-              aria-valuemax={visibleCaseCount}
-              aria-valuenow={displayedActiveIndex + 1}
-            >
-              <span style={{ transform: `scaleX(${(displayedActiveIndex + 1) / visibleCaseCount})` }} />
-            </div>
-            <div className="grammar-scroll__buttons" aria-label="Navighează între dilemele gramaticale">
-              <button
-                className="grammar-scroll__button"
-                type="button"
-                aria-label="Dilema anterioară"
-                disabled={displayedActiveIndex === 0}
-                onClick={() => scrollToCard(displayedActiveIndex - 1)}
-              >
-                <ArrowUp size={15} aria-hidden="true" />
-              </button>
-              <button
-                className="grammar-scroll__button"
-                type="button"
-                aria-label="Dilema următoare"
-                disabled={displayedActiveIndex === visibleCaseCount - 1}
-                onClick={() => scrollToCard(displayedActiveIndex + 1)}
-              >
-                <ArrowDown size={15} aria-hidden="true" />
-              </button>
-            </div>
-          </>
-        ) : null}
-        {!isFocusedMode ? (
-          <>
-            {visibleCaseCount > 1 ? (
-              <button className="grammar-random-button" type="button" aria-label="Surprinde-mă" title="Surprinde-mă" onClick={showRandomCard}>
-                <Shuffle size={15} aria-hidden="true" />
-              </button>
-            ) : null}
-            <button
-              className={`grammar-saved-button${showSavedOnly ? " is-active" : ""}`}
-              type="button"
-              aria-pressed={showSavedOnly}
-              aria-label={showSavedOnly ? "Arată toate cardurile" : `Carduri salvate: ${savedIds.length}`}
-              title={showSavedOnly ? "Arată toate cardurile" : `Carduri salvate: ${savedIds.length}`}
-              disabled={savedIds.length === 0 && !showSavedOnly}
-              onClick={() => setSavedFilter(!showSavedOnly)}
-            >
-              <Bookmark size={15} aria-hidden="true" />
-            </button>
-          </>
-        ) : null}
-        {isFocusedMode ? (
-          <button
-            className="grammar-mode-button is-active"
-            type="button"
-            aria-label="Vezi cardurile"
-            title="Vezi cardurile"
-            onClick={() => {
-              setIsQuizMode(false);
-              setIsTutorMode(false);
-            }}
-          >
-            <ArrowLeft size={15} aria-hidden="true" />
-          </button>
-        ) : (
-          <>
-            <ShimmerButton
-              className="grammar-mode-button"
-              type="button"
-              aria-label="Testează-te"
-              title="Testează-te"
-              disabled={visibleCaseCount === 0}
-              onClick={() => setIsQuizMode(true)}
-              shimmerColor="#e4de78"
-              background="#513958"
-            >
-              <ListChecks size={15} aria-hidden="true" />
-            </ShimmerButton>
-            <button
-              className="grammar-mode-button"
-              type="button"
-              aria-label="Întreabă tutorul"
-              title="Întreabă tutorul"
-              disabled={visibleCaseCount === 0}
-              onClick={() => setIsTutorMode(true)}
-            >
-              <MessageCircle size={15} aria-hidden="true" />
-            </button>
-          </>
-        )}
-      </div>
-
       {!isFocusedMode ? (
         <div className="grammar-discovery">
           <label className="grammar-search">
@@ -329,10 +217,121 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
         </div>
       ) : null}
 
+      <div className="grammar-scroll__controls">
+        {!isFocusedMode && visibleCaseCount > 0 ? (
+          <div className="grammar-scroll__indicator">
+            <span className="grammar-scroll__position" aria-live="polite">
+              {String(displayedActiveIndex + 1).padStart(2, "0")} / {String(visibleCaseCount).padStart(2, "0")}
+            </span>
+            <div
+              className="grammar-scroll__progress"
+              role="progressbar"
+              aria-label="Progresul în seria de dileme gramaticale"
+              aria-valuemin={1}
+              aria-valuemax={visibleCaseCount}
+              aria-valuenow={displayedActiveIndex + 1}
+            >
+              <span style={{ transform: `scaleX(${(displayedActiveIndex + 1) / visibleCaseCount})` }} />
+            </div>
+          </div>
+        ) : null}
+
+        <div className="grammar-scroll__actions" aria-label="Comenzi dileme">
+          {!isFocusedMode && visibleCaseCount > 0 ? (
+            <div className="grammar-scroll__buttons" aria-label="Navighează între dilemele gramaticale">
+              <button
+                className="grammar-action-btn grammar-scroll__button"
+                type="button"
+                aria-label="Dilema anterioară"
+                disabled={displayedActiveIndex === 0}
+                onClick={() => scrollToCard(displayedActiveIndex - 1)}
+              >
+                <ArrowUp size={16} aria-hidden="true" />
+              </button>
+              <button
+                className="grammar-action-btn grammar-scroll__button"
+                type="button"
+                aria-label="Dilema următoare"
+                disabled={displayedActiveIndex === visibleCaseCount - 1}
+                onClick={() => scrollToCard(displayedActiveIndex + 1)}
+              >
+                <ArrowDown size={16} aria-hidden="true" />
+              </button>
+            </div>
+          ) : null}
+          {!isFocusedMode ? (
+            <>
+              {visibleCaseCount > 1 ? (
+                <button
+                  className="grammar-action-btn grammar-random-button"
+                  type="button"
+                  aria-label="Surprinde-mă"
+                  title="Surprinde-mă"
+                  onClick={showRandomCard}
+                >
+                  <Shuffle size={16} aria-hidden="true" />
+                </button>
+              ) : null}
+              <button
+                className={`grammar-action-btn grammar-saved-button${showSavedOnly ? " is-active" : ""}`}
+                type="button"
+                aria-pressed={showSavedOnly}
+                aria-label={showSavedOnly ? "Arată toate cardurile" : `Carduri salvate: ${savedIds.length}`}
+                title={showSavedOnly ? "Arată toate cardurile" : `Carduri salvate: ${savedIds.length}`}
+                disabled={savedIds.length === 0 && !showSavedOnly}
+                onClick={() => setSavedFilter(!showSavedOnly)}
+              >
+                <Bookmark size={16} aria-hidden="true" />
+              </button>
+            </>
+          ) : null}
+          {isFocusedMode ? (
+            <button
+              className="grammar-action-btn grammar-mode-button is-active"
+              type="button"
+              aria-label="Vezi cardurile"
+              title="Vezi cardurile"
+              onClick={() => {
+                setIsQuizMode(false);
+                setIsTutorMode(false);
+              }}
+            >
+              <ArrowLeft size={16} aria-hidden="true" />
+            </button>
+          ) : (
+            <>
+              <ShimmerButton
+                className="grammar-action-btn grammar-mode-button !p-0"
+                borderRadius="50%"
+                type="button"
+                aria-label="Testează-te"
+                title="Testează-te"
+                disabled={visibleCaseCount === 0}
+                onClick={() => setIsQuizMode(true)}
+                shimmerColor="#e4de78"
+                background="#513958"
+              >
+                <ListChecks size={16} aria-hidden="true" />
+              </ShimmerButton>
+              <button
+                className="grammar-action-btn grammar-mode-button"
+                type="button"
+                aria-label="Întreabă tutorul"
+                title="Întreabă tutorul"
+                disabled={visibleCaseCount === 0}
+                onClick={() => setIsTutorMode(true)}
+              >
+                <MessageCircle size={16} aria-hidden="true" />
+              </button>
+            </>
+          )}
+        </div>
+      </div>
+
       {isQuizMode ? (
         <GrammarQuiz
           cases={visibleCases}
-          progressKey={activeTrailId ?? (showSavedOnly ? "saved" : "all")}
+          progressKey={showSavedOnly ? "saved" : "all"}
           onExit={() => setIsQuizMode(false)}
         />
       ) : isTutorMode ? (
@@ -433,8 +432,6 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
           </div>
         </>
       )}
-
-      <GrammarTrails activeTrailId={activeTrailId} grammarTrails={grammarTrails} onSelect={selectTrail} />
     </div>
   );
 }
