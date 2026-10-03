@@ -1,12 +1,13 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { ArrowLeft, BookOpen, PenLine } from "lucide-react";
+import { ArrowLeft, BookOpen, PenLine, Sparkles } from "lucide-react";
 import { BrandMark } from "@/components/brand-mark";
 import Link from "next/link";
 
 export function LearningHeader() {
   const pathname = usePathname();
+  const isDileme = pathname?.startsWith("/dileme");
   const isTeorie = pathname?.startsWith("/teorie");
   const isGrile = pathname?.startsWith("/grile");
 
@@ -17,6 +18,14 @@ export function LearningHeader() {
           <BrandMark />
         </Link>
         <nav className="learning-header__nav" aria-label="Navigație de învățare">
+          <Link
+            className={`learning-header__tab${isDileme ? " is-active" : ""}`}
+            href="/dileme/"
+            aria-current={isDileme ? "page" : undefined}
+          >
+            <Sparkles size={16} aria-hidden="true" />
+            <span>Dileme</span>
+          </Link>
           <Link
             className={`learning-header__tab${isTeorie ? " is-active" : ""}`}
             href="/teorie/"

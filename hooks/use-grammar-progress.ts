@@ -42,11 +42,22 @@ const parseProgress = (storedValue: string): ProgressMap => {
   }
 };
 
-const subscribe = (onStoreChange: () => void) => {
-  if (typeof window === "undefined") return () => undefined;
+const listeners = new Set<() => void>();
+const notify = () => {
+  listeners.forEach((listener) => listener());
+};
 
-  window.addEventListener("storage", onStoreChange);
-  return () => window.removeEventListener("storage", onStoreChange);
+const subscribe = (onStoreChange: () => void) => {
+  listeners.add(onStoreChange);
+  if (typeof window !== "undefined") {
+    window.addEventListener("storage", onStoreChange);
+  }
+  return () => {
+    listeners.delete(onStoreChange);
+    if (typeof window !== "undefined") {
+      window.removeEventListener("storage", onStoreChange);
+    }
+  };
 };
 
 export function useGrammarProgressMap() {
@@ -75,6 +86,7 @@ export function useGrammarProgress(progressKey: string) {
         STORAGE_KEY,
         JSON.stringify({ ...currentProgress, [progressKey]: nextProgress }),
       );
+      notify();
       window.dispatchEvent(new Event("storage"));
     } catch {
       return;

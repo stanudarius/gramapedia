@@ -30,12 +30,14 @@
     "category": "Sintaxă",
     "wrong": "fata a cărui frate",
     "correct": "fata al cărei frate",
-    "question_title": "«Fata al cărei frate...» sau «fata a cărui frate...»? Care este forma corectă",
+    "question_title": "Al cărui sau a cărui? Regula de acord și exemple corecte",
     "prompt": "«Fata al cărei frate...» sau «fata a cărui frate...»?",
-    "rule": "Forma «al» se acordă cu substantivul posedat «frate», iar «cărei» cu persoana la care se referă.",
+    "rule": "Alegerea corectă dintre «al cărui», «a cărui», «al cărei», «a cărei» depinde de regula dublului acord: articolul posesiv-genitival («al / a / ai / ale») se acordă întotdeauna în gen și număr cu obiectul posedat (substantivul care urmează după el), iar pronumele («cărui / cărei / căror») se acordă în gen și număr cu posesorul (substantivul determinat dinainte). Prin urmare, spunem corect «fata al cărei frate» (frate = masc. sg. -> «al»; fata = fem. sg. -> «cărei»), și nu «fata a cărui frate».",
     "short_rule": "fata al cărei frate",
     "examples": [
-      "Fata al cărei frate studiază aici a venit la întâlnire.",
+      "Fata al cărei frate studiază aici a venit la întâlnire. (al = frate [masc. sg.], cărei = fata [fem. sg.])",
+      "Băiatul a cărui soră este olimpică a primit premiul. (a = sora [fem. sg.], cărui = băiatul [masc. sg.])",
+      "Copiii ai căror părinți au fost invitați au sosit devreme. (ai = părinți [masc. pl.], căror = copiii [masc. pl.])",
       "Am citit articolul al cărui autor este profesorul nostru."
     ],
     "choices": [
@@ -45,10 +47,36 @@
     ],
     "correct_choice": "fata al cărei frate",
     "related_ids": [
-      "cincizeci-si-una",
-      "dilema-conform-legii",
-      "dilema-contrar-asteptarilor",
-      "dilema-datorita-pregatirii"
+      "dilema-al-carui-avocat",
+      "dilema-al-carei-sot",
+      "dilema-a-carei-masina",
+      "dilema-ale-carui-declaratii"
+    ]
+  },
+  {
+    "id": "apropii-sau-apropi",
+    "category": "Morfologie",
+    "wrong": "eu mă apropi",
+    "correct": "eu mă apropii",
+    "question_title": "«Apropii» sau «apropi»? Care este forma corectă",
+    "prompt": "«Eu mă apropii» sau «eu mă apropi»?",
+    "rule": "La indicativ prezent, verbul «a apropia» (conjugarea I, cu tema terminată în «-ia») se scrie cu doi de «i» atât la persoana I singular («eu mă apropii»), cât și la persoana a II-a singular («tu te apropii»).\n\nExplicația morfologică conform DOOM3 și Gramaticii Academiei Române:\n1. Radicalul verbului este «apropi-» (se termină deja în vocala «-i-»);\n2. La persoana I singular indicativ prezent, desinența este «-i», rezultând forma «apropii» (scrisă cu doi «i»);\n3. La persoana a II-a singular indicativ prezent, desinența este de asemenea «-i», rezultând tot forma «apropii» («tu te apropii»).\n\nLa persoana a III-a singular și plural, forma literară este «se apropie» (cu desinența «-e», niciodată *«apropiie»*).\n\nConfuzia apare frecvent prin ezitarea ortografică legată de numărul de «i» la sfârșitul verbelor, însă regula este identică pentru verbele cu tema în «-ia» fără sufixul «-ez»: «eu sperii / tu sperii», «eu mânii / tu mânii».",
+    "short_rule": "eu mă apropii / tu te apropii",
+    "examples": [
+      "Eu mă apropii de finalul exercițiului.",
+      "Tu te apropii de colegul tău de bancă.",
+      "El se apropie cu pași repezi de scenă."
+    ],
+    "choices": [
+      "eu mă apropii",
+      "eu mă apropi",
+      "eu mă apropiu"
+    ],
+    "correct_choice": "eu mă apropii",
+    "related_ids": [
+      "sa-fii",
+      "creeaza",
+      "concentreaza"
     ]
   },
   {
@@ -82,13 +110,14 @@
     "category": "Sintaxă",
     "wrong": "cincizeci și unu de universități",
     "correct": "cincizeci și una de universități",
-    "question_title": "«Cincizeci și unu de universități» sau «cincizeci și una de universități»? Care este forma corectă",
+    "question_title": "Cincizeci și una sau cincizeci și unu de universități? Care este forma corectă",
     "prompt": "«Cincizeci și unu de universități» sau «cincizeci și una de universități»?",
-    "rule": "Numeralul se acordă cu substantivul feminin «universități»: «cincizeci și una».",
+    "rule": "Conform normelor academice actuale (DOOM3 și Gramatica Academiei Române), numeralele cardinale compuse care se termină cu componenta «unu» se acordă obligatoriu în gen cu substantivul feminin determinat, primind forma de feminin «una».\n\nPrin urmare, spunem și scriem corect:\n- «cincizeci și una de universități» (și nu *«cincizeci și unu de universități»*);\n- «douăzeci și una de fete»;\n- «treizeci și una de pagini»;\n- «o sută douăzeci și una de persoane».\n\nConfuzia apare frecvent din tendința de a prelua forma invariabilă de numărare generică («unu, doi, trei...»). Când numeralul însoțește însă un substantiv feminin, acordul este obligatoriu. Prin comparație, la substantive masculine sau neutre se folosește forma «unu»: «cincizeci și unu de studenți» (masculin) sau «cincizeci și unu de hoteluri» (neutru).",
     "short_rule": "cincizeci și una de universități",
     "examples": [
       "Cincizeci și una de universități au participat la proiect.",
-      "Treizeci și una de pagini sunt suficiente pentru introducere."
+      "Treizeci și una de pagini sunt suficiente pentru introducere.",
+      "Douăzeci și una de persoane au răspuns afirmativ la chestionar."
     ],
     "choices": [
       "cincizeci și unu de universități",
@@ -98,9 +127,9 @@
     "correct_choice": "cincizeci și una de universități",
     "related_ids": [
       "al-carui",
-      "dilema-conform-legii",
-      "dilema-contrar-asteptarilor",
-      "dilema-datorita-pregatirii"
+      "patru-sute",
+      "dilema-doi-suspecti",
+      "subiect-predicat"
     ]
   },
   {
@@ -1646,11 +1675,12 @@
     "category": "Punctuație",
     "wrong": "Am citit dar nu am memorat",
     "correct": "Am citit, dar nu am memorat",
-    "question_title": "Se pune virgulă înainte de «dar»? Care este regula corectă",
+    "question_title": "Se pune virgulă înainte de „dar”? Care este regula corectă",
     "prompt": "«Am citit, dar nu am memorat» sau «am citit dar nu am memorat»?",
-    "rule": "Conjuncția adversativă «dar» se desparte, de regulă, prin virgulă de propoziția pe care o introduce.",
+    "rule": "Da, înainte de conjuncția adversativă «dar» se pune întotdeauna virgulă atunci când leagă două propoziții sau două părți de propoziție aflate în raport de opoziție. Regula este valabilă pentru toate conjuncțiile coordonatoare adversative («dar», «iar», «însă», «ci»). De exemplu: «Am citit, dar nu am memorat.»",
     "short_rule": "Am citit, dar nu am memorat.",
     "examples": [
+      "Am citit, dar nu am memorat.",
       "Am înțeles regula, dar mai am nevoie de exercițiu.",
       "A venit la timp, însă nu a găsit sala."
     ],
@@ -1661,9 +1691,9 @@
     ],
     "correct_choice": "Am citit, dar nu am memorat.",
     "related_ids": [
-      "subiect-predicat",
+      "dilema-ci-nu-dar",
       "vocativ",
-      "abuza-de"
+      "subiect-predicat"
     ]
   },
   {

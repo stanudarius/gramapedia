@@ -179,6 +179,7 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
   };
 
   const handleCardKeyDown = (event: KeyboardEvent<HTMLElement>, id: string) => {
+    if (event.target !== event.currentTarget) return;
     if (event.key !== "Enter" && event.key !== " ") return;
 
     event.preventDefault();
@@ -197,6 +198,39 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
 
   return (
     <div className="dilemma-lab">
+      {!isFocusedMode ? (
+        <div className="grammar-discovery">
+          <label className="grammar-search">
+            <Search size={16} aria-hidden="true" />
+            <span className="sr-only">Caută în cardurile gramaticale</span>
+            <input
+              type="search"
+              value={searchQuery}
+              placeholder="Caută o dilemă, o regulă sau un exemplu"
+              onChange={(event) => updateSearchQuery(event.target.value)}
+            />
+            {searchQuery ? (
+              <button type="button" aria-label="Golește căutarea" onClick={() => updateSearchQuery("")}>
+                <X size={15} aria-hidden="true" />
+              </button>
+            ) : null}
+          </label>
+          <div className="grammar-category-filters" role="group" aria-label="Filtrează după categorie">
+            {grammarCategories.map((category) => (
+              <button
+                className={selectedCategory === category ? "is-active" : ""}
+                key={category}
+                type="button"
+                aria-pressed={selectedCategory === category}
+                onClick={() => updateCategory(category)}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
       <div className="grammar-scroll__controls">
         {!isFocusedMode && visibleCaseCount > 0 ? (
           <>
@@ -295,39 +329,6 @@ export function DilemmaLab({ grammarCases, grammarTrails }: DilemmaLabProps) {
           </>
         )}
       </div>
-
-      {!isFocusedMode ? (
-        <div className="grammar-discovery">
-          <label className="grammar-search">
-            <Search size={16} aria-hidden="true" />
-            <span className="sr-only">Caută în cardurile gramaticale</span>
-            <input
-              type="search"
-              value={searchQuery}
-              placeholder="Caută o dilemă, o regulă sau un exemplu"
-              onChange={(event) => updateSearchQuery(event.target.value)}
-            />
-            {searchQuery ? (
-              <button type="button" aria-label="Golește căutarea" onClick={() => updateSearchQuery("")}>
-                <X size={15} aria-hidden="true" />
-              </button>
-            ) : null}
-          </label>
-          <div className="grammar-category-filters" role="group" aria-label="Filtrează după categorie">
-            {grammarCategories.map((category) => (
-              <button
-                className={selectedCategory === category ? "is-active" : ""}
-                key={category}
-                type="button"
-                aria-pressed={selectedCategory === category}
-                onClick={() => updateCategory(category)}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-        </div>
-      ) : null}
 
       {isQuizMode ? (
         <GrammarQuiz

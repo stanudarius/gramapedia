@@ -3,27 +3,100 @@ import Link from "next/link";
 import { ArrowRight, BookOpen, PenLine } from "lucide-react";
 import { LearningHeader } from "@/components/learning-header";
 import { getTheoryNodes, getTheoryUnits } from "@/lib/knowledge";
+import { siteConfig } from "@/lib/site-config";
+import { getDilemmaCategories, categoryToSlug } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Teorie",
-  description: "Programa de gramatică Gramapedia: fonetică, ortografie, morfologie, sintaxă și vocabular, structurate în unități, sesiuni și lecții după normă DOOM2.",
-  alternates: { canonical: "/teorie/" },
+  title: {
+    absolute: "Teorie Gramatică Română — Programă, Lecții și Reguli | Gramapedia",
+  },
+  description:
+    "Programa completă de teorie la gramatica limbii române: fonetică, ortografie, morfologie, sintaxă și vocabular conform normelor academice actuale (DOOM3), explicate clar și cu exemple.",
+  alternates: { canonical: `${siteConfig.url}/teorie/` },
+  openGraph: {
+    title: "Teorie Gramatică Română — Programă, Lecții și Reguli | Gramapedia",
+    description:
+      "Programa completă de teorie la gramatica limbii române: fonetică, ortografie, morfologie, sintaxă și vocabular conform normelor actuale (DOOM3), explicate pas cu pas.",
+    url: `${siteConfig.url}/teorie/`,
+    siteName: "Gramapedia",
+    locale: "ro_RO",
+    type: "website",
+    images: [
+      {
+        url: `${siteConfig.url}/og-image.svg`,
+        width: 1200,
+        height: 630,
+        alt: "Teorie Gramatică Română — Gramapedia",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Teorie Gramatică Română — Programă, Lecții și Reguli | Gramapedia",
+    description:
+      "Programa completă de teorie la gramatica limbii române: fonetică, ortografie, morfologie, sintaxă și vocabular conform normelor actuale (DOOM3).",
+    images: [`${siteConfig.url}/og-image.svg`],
+  },
 };
 
 export default function TheoryPage() {
   const nodes = getTheoryNodes();
   const units = getTheoryUnits();
   const nodeMap = new Map(nodes.map((node) => [node.id, node]));
+  const categories = getDilemmaCategories();
+  const canonicalUrl = `${siteConfig.url}/teorie/`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${canonicalUrl}#collection`,
+        "url": canonicalUrl,
+        "name": "Teorie Gramatică Română — Programă și Lecții",
+        "description": "Programa completă de teorie la gramatica limbii române structurată pe unități, sesiuni și lecții conform DOOM3.",
+        "inLanguage": "ro",
+        "publisher": {
+          "@type": "EducationalOrganization",
+          "name": "Gramapedia",
+          "url": siteConfig.url,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${canonicalUrl}#breadcrumbs`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Acasă",
+            "item": `${siteConfig.url}/`,
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Teorie",
+            "item": canonicalUrl,
+          },
+        ],
+      },
+    ],
+  };
 
   return (
     <main className="knowledge-page">
       <LearningHeader />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <div className="knowledge-shell">
         <section className="knowledge-hero">
           <div>
-            <h1>Învață regula. Urmărește legătura.</h1>
+            <p className="knowledge-eyebrow">Programă educațională · DOOM3</p>
+            <h1>Teorie și lecții de gramatică română</h1>
             <p className="knowledge-lede">
-              Programa este așezată pe unități, sesiuni și lecții, iar fiecare lecție poate duce mai departe către concepte, exemple și grile.
+              Programa este așezată pe unități, sesiuni și lecții: citești explicația detaliată, înțelegi logica limbii române și exersezi direct prin grile și dileme asociate.
             </p>
           </div>
           <div className="knowledge-hero__actions">
@@ -54,6 +127,25 @@ export default function TheoryPage() {
               </article>
             );
           })}
+        </section>
+
+        <section className="knowledge-related-questions" aria-label="Dileme rezolvate pe categorii">
+          <div className="knowledge-section-header">
+            <h2>Dileme de exprimare și ortografie pe categorii</h2>
+            <Link href="/dileme/" className="knowledge-text-link">
+              Toate dilemele <ArrowRight size={14} aria-hidden="true" />
+            </Link>
+          </div>
+          <div className="category-filter-nav">
+            {categories.map((cat) => {
+              const slug = categoryToSlug(cat);
+              return (
+                <Link key={cat} href={`/dileme/categorie/${slug}/`} className="category-filter-chip">
+                  {cat}
+                </Link>
+              );
+            })}
+          </div>
         </section>
 
         <section className="knowledge-callout">

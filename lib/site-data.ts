@@ -7,6 +7,7 @@ export const navigation = [
 ];
 
 export const learningNavigation = [
+  { label: "Dileme", href: "/dileme/" },
   { label: "Teorie", href: "/teorie/" },
   { label: "Grile", href: "/grile/" },
 ];
@@ -94,7 +95,12 @@ export type GrammarCase = {
   wrong: string;
   correct: string;
   questionTitle: string;
+  seoTitle?: string;
   relatedIds: string[];
+  datePublished?: string;
+  upvoteCount?: number;
+  reviewedBy?: string;
+  reviewedAt?: string;
 };
 
 

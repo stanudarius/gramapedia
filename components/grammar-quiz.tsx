@@ -62,11 +62,9 @@ export function GrammarQuiz({ cases, progressKey, onExit }: GrammarQuizProps) {
     if (!selectedChoice) return;
 
     if (currentIndex === activeCases.length - 1) {
-      const finalScore = score + (selectedChoice === currentCase.correctChoice ? 1 : 0);
-      setScore(finalScore);
       if (!isReviewMode) {
-        recordAttempt(finalScore, cases.length);
-        trackQuizComplete(finalScore, cases.length);
+        recordAttempt(score, cases.length);
+        trackQuizComplete(score, cases.length);
       }
       setIsComplete(true);
       return;

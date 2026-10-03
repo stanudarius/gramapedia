@@ -12,7 +12,10 @@ function cleanTerm(str: string): string {
   return str.replace(/^[«"]|[»"]$/g, '').replace(/\.$/, '').trim();
 }
 
+let dilemmasCache: GrammarCase[] | null = null;
+
 export function getDilemmas(): GrammarCase[] {
+  if (dilemmasCache) return dilemmasCache;
   if (!fs.existsSync(dilemmasDirectory)) return [];
 
   const fileNames = fs.readdirSync(dilemmasDirectory);
@@ -28,6 +31,15 @@ export function getDilemmas(): GrammarCase[] {
       const wrongChoice = (data.choices || []).find((c: string) => cleanTerm(c).toLowerCase() !== correct.toLowerCase());
       const wrong = cleanTerm(data.wrong || wrongChoice || '');
 
+      const datePublished = (data.date_published || data.date || data.reviewed_at)
+        ? new Date(data.date_published || data.date || data.reviewed_at).toISOString()
+        : '2025-01-15T00:00:00Z';
+      const upvoteCount = typeof data.upvotes === 'number'
+        ? data.upvotes
+        : (typeof data.upvote_count === 'number' ? data.upvote_count : 12);
+      const reviewedBy = data.reviewed_by ? String(data.reviewed_by) : (data.author ? String(data.author) : 'Prof. Coordonator Gramapedia');
+      const reviewedAt = data.reviewed_at ? String(data.reviewed_at) : '2025-01-15';
+
       return {
         id,
         category: data.category || 'Morfologie',
@@ -40,37 +52,21 @@ export function getDilemmas(): GrammarCase[] {
         wrong,
         correct,
         questionTitle: data.question_title || data.prompt || '',
+        seoTitle: data.seo_title || data.meta_title || undefined,
         relatedIds: data.related_ids || [],
+        datePublished,
+        upvoteCount,
+        reviewedBy,
+        reviewedAt,
       };
     });
 
+  dilemmasCache = dilemmas;
   return dilemmas;
 }
 
 export function getDilemma(id: string): GrammarCase | undefined {
-  const fullPath = path.join(dilemmasDirectory, `${id}.md`);
-  if (!fs.existsSync(fullPath)) return undefined;
-
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
-  const { data, content } = matter(fileContents);
-  const correct = cleanTerm(data.correct || data.correct_choice || data.short_rule || '');
-  const wrongChoice = (data.choices || []).find((c: string) => cleanTerm(c).toLowerCase() !== correct.toLowerCase());
-  const wrong = cleanTerm(data.wrong || wrongChoice || '');
-
-  return {
-    id,
-    category: data.category || 'Morfologie',
-    prompt: data.prompt || '',
-    answer: data.short_rule || correct,
-    rule: content.trim(),
-    examples: data.examples || [],
-    choices: data.choices || [],
-    correctChoice: data.correct_choice || correct,
-    wrong,
-    correct,
-    questionTitle: data.question_title || data.prompt || '',
-    relatedIds: data.related_ids || [],
-  };
+  return getDilemmas().find(d => d.id === id);
 }
 
 export const CATEGORY_MAP: Record<string, string> = {
@@ -81,7 +77,7 @@ export const CATEGORY_MAP: Record<string, string> = {
   "punctuatie": "Punctuație",
 };
 
-export const REVERSE_CATEGORY_MAP: Record<string, string> = {
+const REVERSE_CATEGORY_MAP: Record<string, string> = {
   "Lexicosemantică": "lexicosemantica",
   "Sintaxă": "sintaxa",
   "Morfologie": "morfologie",
@@ -148,5 +144,120 @@ export function getCompetitions(): ContestEdition[] {
       };
     });
 
-  return competitions.sort((a, b) => parseInt(a.year, 10) - parseInt(b.year, 10));
+  return competitions.sort((a, b) => parseInt(String(a.year ?? "0"), 10) - parseInt(String(b.year ?? "0"), 10));
 }
+
+function getTheoryCategoryForNode(nodeId: string): string | null {
+  if (
+    nodeId.startsWith("FON-") ||
+    nodeId.startsWith("ORT-") ||
+    nodeId.startsWith("SIL-") ||
+    nodeId === "CUR-01" ||
+    nodeId === "CUR-02" ||
+    nodeId === "SES-S1" ||
+    nodeId === "SES-S2"
+  ) {
+    return "Ortografie";
+  }
+  if (
+    nodeId.startsWith("LEX-") ||
+    nodeId === "CUR-03" ||
+    nodeId === "SES-S3" ||
+    nodeId === "SES-S4" ||
+    nodeId.startsWith("LES-S3-") ||
+    nodeId.startsWith("LES-S4-")
+  ) {
+    return "Lexicosemantică";
+  }
+  if (
+    nodeId.startsWith("MOR-") ||
+    nodeId === "CUR-04" ||
+    nodeId === "CUR-05" ||
+    /^SES-S(5|6|7|8|9|10|11|12|13|14|15|16|17)/.test(nodeId)
+  ) {
+    return "Morfologie";
+  }
+  if (
+    nodeId.startsWith("SIN-") ||
+    nodeId === "CUR-06" ||
+    nodeId === "CUR-07" ||
+    /^SES-S(18|19|20|21|22|23|24)/.test(nodeId)
+  ) {
+    return "Sintaxă";
+  }
+  return null;
+}
+
+export function getDilemmasForTheoryNode(nodeId: string, limit = 4): GrammarCase[] {
+  const category = getTheoryCategoryForNode(nodeId);
+  if (!category) return [];
+  const allInCategory = getDilemmasByCategory(category);
+
+  const lowerNode = nodeId.toLowerCase();
+  if (lowerNode.includes("verb") || nodeId === "MOR-006") {
+    const verbDilemmas = allInCategory.filter((d) =>
+      ["sa-fii", "creeaza", "concentreaza", "dilema-s-a-bazat-pe"].includes(d.id)
+    );
+    if (verbDilemmas.length > 0) return verbDilemmas.slice(0, limit);
+  }
+  if (lowerNode.includes("num") || nodeId === "MOR-001") {
+    const numDilemmas = allInCategory.filter((d) =>
+      ["cincizeci-si-una", "patru-sute", "dilema-doi-suspecti"].includes(d.id)
+    );
+    if (numDilemmas.length > 0) return numDilemmas.slice(0, limit);
+  }
+  if (nodeId === "LES-S3-07" || nodeId === "LEX-001") {
+    const lexDilemmas = allInCategory.filter((d) =>
+      ["artificiu", "abuza-de", "dilema-adoptata", "dilema-monopol-exclusiv"].includes(d.id)
+    );
+    if (lexDilemmas.length > 0) return lexDilemmas.slice(0, limit);
+  }
+
+  return allInCategory.slice(0, limit);
+}
+
+export function getTheoryNodeIdForDilemma(dilemma: GrammarCase): string {
+  if (dilemma.id === "virgula-dar" || dilemma.id === "dilema-ci-nu-dar" || dilemma.id === "vocativ") {
+    return "LES-S4-01";
+  }
+  if (
+    dilemma.id === "al-carui" ||
+    dilemma.id.startsWith("dilema-al-carui") ||
+    dilemma.id.startsWith("dilema-a-carei") ||
+    dilemma.id.startsWith("dilema-ai-carui") ||
+    dilemma.id.startsWith("dilema-ale-carui")
+  ) {
+    return "MOR-002";
+  }
+  if (dilemma.id === "cincizeci-si-una" || dilemma.id === "patru-sute" || dilemma.id === "dilema-doi-suspecti") {
+    return "MOR-001";
+  }
+  if (dilemma.id === "sa-fii" || dilemma.id === "creeaza" || dilemma.id === "concentreaza") {
+    return "MOR-006";
+  }
+  if (dilemma.id === "artificiu" || dilemma.id === "serviciu") {
+    return "MOR-005";
+  }
+  if (dilemma.id === "pe-care" || dilemma.id === "subiect-predicat") {
+    return "SIN-001";
+  }
+  if (dilemma.id === "niciun" || dilemma.id === "intr-adevar" || dilemma.id === "maximum") {
+    return "ORT-001";
+  }
+
+  switch (dilemma.category) {
+    case "Punctuație":
+      return "LES-S4-01";
+    case "Ortografie":
+      return "ORT-001";
+    case "Morfologie":
+      return "MOR-005";
+    case "Sintaxă":
+      return "SIN-001";
+    case "Lexicosemantică":
+      return "LEX-001";
+    default:
+      return "CUR-01";
+  }
+}
+

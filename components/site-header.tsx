@@ -18,9 +18,9 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="shell site-header__inner">
-        <a className="site-header__brand" href="#top" aria-label="Gramapedia — începutul paginii">
+        <Link className="site-header__brand" href="/" aria-label="Gramapedia — începutul paginii">
           <BrandMark />
-        </a>
+        </Link>
 
         <nav className="desktop-nav" aria-label="Navigație principală">
           {navigation.map((item) => (

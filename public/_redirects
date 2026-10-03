@@ -1,7 +1,9 @@
-# Cloudflare Static Assets Redirects
-# Format: /source /target 301
+# Cloudflare Static Assets _redirects
+# Format: /source /target [status]
+# NOTE: Only relative paths allowed as source. HTTPS and www→apex handled by Cloudflare zone.
 
-# Canonical redirects for dilemmas
+# Canonical trailing-slash redirects for primary hubs
 /dileme /dileme/ 301
 /teorie /teorie/ 301
 /grile /grile/ 301
+/dileme/categorie /dileme/ 301

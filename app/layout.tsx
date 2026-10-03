@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Gramapedia — Limbă, logică, claritate",
     description:
       "Un club de gramatică pentru elevii care vor să înțeleagă limba română, nu doar să-i memoreze regulile.",
-    url: siteConfig.url,
+    url: `${siteConfig.url}/`,
     siteName: "Gramapedia",
     locale: "ro_RO",
     type: "website",

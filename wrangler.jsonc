@@ -33,6 +33,10 @@
     {
       "pattern": "gramapedia.ro",
       "custom_domain": true
+    },
+    {
+      "pattern": "www.gramapedia.ro",
+      "custom_domain": true
     }
   ]
 }

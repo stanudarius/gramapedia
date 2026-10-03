@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowDownRight, ArrowUpRight, CalendarDays, Check, FileText, MapPin } from "lucide-react";
 import type { ContestEdition } from "@/lib/site-data";
 import { MagicCard } from "@/components/ui/magic-card";
@@ -97,7 +98,12 @@ export function ContestSection({ contestEditions, totalDilemmas }: ContestSectio
 
           <div className="contest__stats" aria-label="Statistici Gramapedia">
             <div><NumberTicker value={contestEditions.length} /><span>ediții</span></div>
-            <div><NumberTicker value={totalDilemmas} /><span>dileme disponibile</span></div>
+            <div>
+              <Link href="/dileme/" className="contest-stat-link" aria-label={`Vezi toate cele ${totalDilemmas} de dileme`}>
+                <NumberTicker value={totalDilemmas} />
+                <span>dileme disponibile →</span>
+              </Link>
+            </div>
           </div>
 
           <div className="contest-edition-grid">
